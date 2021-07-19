@@ -190,7 +190,7 @@ survivors.push(selectDavid());
 function selectQuentin() {
     var quent = new selectSurvivor();
     quent.name = "Quentin Smith";
-    quent.portrait = S11_charPreview_portrait.png";
+    quent.portrait = "S11_charPreview_portrait.png";
     return quent;
 }
 
@@ -351,7 +351,7 @@ function selectLeonS() {
 	var leon = new selectSurvivor();
 	leon.name = "Leon S. Kennedy";
 	leon.portrait = "S27_charPreview_portrait.png";
-	return yun;
+	return leon;
 }
 
 //ADD
