@@ -567,7 +567,7 @@ function winterCracker() {
 survivorItems.push(winterCracker());
 
 function partyPopper() {
-    var sItem = survItems("Third Year Party Starter", ["item text", "item text"], "event", "item text", "iconItems_partyPopper.png", "Explosive distraction device.", ["extra", "extra"], 1, "explosive");
+    var sItem = survItems("Third Year Party Starter", ["item text", "item text"], "event", "item text", "iconItems_partyPopper1.png", "Explosive distraction device.", ["extra", "extra"], 1, "explosive");
     sItem.isRedacted = false;
     return sItem;
 }
@@ -732,7 +732,7 @@ function antiHemoragicSyringe() {
 medkitAddons.push(antiHemoragicSyringe());
 
 function refinedSerum() {
-    var addon = selectAddOn("Refined Serum", ["A refined version of the Putrid Serum that's mostly safe for human consumption. Mostly.", "Creates a Blight trail behind the Survivor.", "Moderately increases Movement speed for 16 seconds."], "Ultra Rare", "second use", "IconAddon_refinedSerum.png", "First Aid Kit", ["extra", "extra", "extra"]);
+    var addon = selectAddOn("Refined Serum", ["A refined version of the Putrid Serum that's mostly safe for human consumption. Mostly.", "Creates a Blight trail behind the Survivor.", "Moderately increases Movement speed for 16 seconds."], "event", "second use", "IconAddon_refinedSerum.png", "First Aid Kit", ["extra", "extra", "extra"]);
     return addon;
 }
 
@@ -4865,7 +4865,7 @@ function shatteredStarsBadge() {
 nemesisAddons.push(shatteredStarsBadge());
 
 function iridescentUmbrellaBadge() {
-    var addon = selectAddOn("Iridescent Umbrella Badge", ["addon text"], "Ultra Rare", "addon text", "iridescentUmbrellaBadge.png", "Nemesis", ["extra"]);
+    var addon = selectAddOn("Iridescent Umbrella Badge", ["addon text"], "Ultra Rare", "addon text", "iconAddon_iridescentUmbrellaBadge.png", "Nemesis", ["extra"]);
     return addon;
 }
 
@@ -4877,7 +4877,7 @@ nemesisAddons.push(iridescentUmbrellaBadge());
 
 
 function blightSerum() {
-    var addon = selectAddOn("Blight Serum", ["addon text"], "Ultra Rare", "addon text", "IconAddon_blightSerum.png", "All", ["extra"]);
+    var addon = selectAddOn("Blight Serum", ["addon text"], "event", "addon text", "IconAddon_blightSerum.png", "All", ["extra"]);
     return addon;
 }
 
@@ -7068,7 +7068,7 @@ function escapeCake() {
 survivorOfferings.push(escapeCake());
 
 function survivorPudding() {
-    var offering = selectOffering("Survivor Pudding", "Bonus 100% in all categories", "Uncommon", "Bonus 100% in all categories", "IconFavors_survivorPudding.png", "Killer");
+    var offering = selectOffering("Survivor Pudding", "Bonus 100% in all categories", "Uncommon", "Bonus 100% in all categories", "iconFavors_survivorPudding.png", "Killer");
     return offering;
 }
 
@@ -7131,7 +7131,7 @@ killerOfferings.push(jigsawPiece());
 survivorOfferings.push(jigsawPiece());
 
 function redEnvelope() {
-    var offering = selectOffering("Red Envelope", "x", "Common", "x", "IconFavors_redEnvelope.png", "All");
+    var offering = selectOffering("Red Envelope", "x", "event", "x", "IconFavors_redEnvelope.png", "All");
     offering.isRedacted = true;
     return offering;
 }
@@ -7233,7 +7233,7 @@ killerOfferings.push(marysLetter());
 survivorOfferings.push(marysLetter());
 
 function gruesomeGateau() {
-    var offering = selectOffering("Gruesome Gateau", "off text", "Rare", "off text", "iconFavors_gruesomeGateau.png", "all");
+    var offering = selectOffering("Gruesome Gateau", "off text", "event", "off text", "iconFavors_gruesomeGateau.png", "all");
     return offering;
 }
 
@@ -7242,7 +7242,7 @@ killerOfferings.push(gruesomeGateau());
 survivorOfferings.push(gruesomeGateau());
 
 function ghastlyGateau() {
-    var offering = selectOffering("Ghastly Gateau", "off text", "Rare", "off text", "iconFavors_4thAnniversary.png", "all");
+    var offering = selectOffering("Ghastly Gateau", "off text", "event", "off text", "IconFavors_ghastlyGateau", "all");
     return offering;
 }
 
@@ -7296,7 +7296,7 @@ killerOfferings.push(vigosBlueprint());
 survivorOfferings.push(vigosBlueprint());
 
 function rPDBadge() {
-    var offering = selectOffering("RPD-Badge", "Offering Text", "Ultra Rare", "Offering Text", "iconsFavors_RPDBadge.png", "All");
+    var offering = selectOffering("RPD-Badge", "Offering Text", "rare", "Offering Text", "iconsFavors_RPDBadge.png", "All");
     offering.isRedacted = false;
     return offering;
 }
@@ -7306,7 +7306,7 @@ killerOfferings.push(rPDBadge());
 survivorOfferings.push(rPDBadge());
 
 function anniversary5th() {
-    var offering = selectOffering("RPD-Badge", "", "Ultra Rare", "", "iconsFavors_5thAnniversary.png", "All");
+    var offering = selectOffering("Sacrificial Cake", "Offering Text", "event", "", "IconFavors_sacrificialCake.png", "All");
     offering.isRedacted = false;
     return offering;
 }
@@ -7316,7 +7316,7 @@ killerOfferings.push(anniversary5th());
 survivorOfferings.push(anniversary5th());
 
 function pustulaPetals() {
-    var offering = selectOffering("Pustula Petals", "", "Ultra Rare", "", "IconFavors_pustulaPetals.png", "All");
+    var offering = selectOffering("Pustula Petals", "Offering Text", "event", "Offering Text", "IconFavors_pustulaPetals.png", "All");
     offering.isRedacted = false;
     return offering;
 }
