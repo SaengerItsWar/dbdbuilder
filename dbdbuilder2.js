@@ -37,6 +37,7 @@ var blightAddons = [];
 var twinAddons = [];
 var tricksterAddons = [];
 var nemesisAddons = [];
+var cenobiteAddons= [];
 
 //item addon lists
 var flashlightAddons = [];
@@ -4711,7 +4712,7 @@ tricksterAddons.push(deathThroesCompilation());
 
 //end trickster Add-Ons
 
-//start trickster Add-Ons
+//start nemesis Add-Ons
 
 function visitorWristband() {
     var addon = selectAddOn("Visitor Wristband", ["addon text"], "Common", "addon text", "iconAddon_visitorWristband.png", "Nemesis", ["extra"]);
@@ -4873,7 +4874,171 @@ function iridescentUmbrellaBadge() {
 nemesisAddons.push(iridescentUmbrellaBadge());
 
 
-//end trickster Add-Ons
+//end nemesis Add-Ons
+
+//start cenobite Add-Ons
+
+function leatherStrip() {
+    var addon = selectAddOn("Leather Strip", ["addon text"], "Common", "addon text", "iconAddon_leatherStrip.png", "Cenobite", ["extra"]);
+    return addon;
+}
+
+//ADD
+cenobiteAddons.push(leatherStrip());
+
+function livelyCrickets() {
+    var addon = selectAddOn("Lively Crickets", ["addon text"], "Common", "addon text", "iconAddon_livelyCrickets.png", "Cenobite", ["extra"]);
+    return addon;
+}
+
+//ADD
+cenobiteAddons.push(livelyCrickets());
+
+function burningCandle() {
+    var addon = selectAddOn("Burning Candle", ["addon text"], "Common", "addon text", "iconAddon_burningCandle.png", "Cenobite", ["extra"]);
+    return addon;
+}
+
+//ADD
+cenobiteAddons.push(burningCandle());
+
+function bentNail() {
+    var addon = selectAddOn("Bent Nail", ["addon text"], "Common", "addon text", "iconAddon_briansIntestines.png", "Cenobite", ["extra"]);
+    return addon;
+}
+
+//ADD
+cenobiteAddons.push(bentNail());
+
+function wrigglingMaggots() {
+    var addon = selectAddOn("Wriggling Maggots", ["addon text"], "Uncommon", "addon text", "iconAddon_wrigglingMaggots.png", "Cenobite", ["extra"]);
+    return addon;
+}
+
+//ADD
+cenobiteAddons.push(wrigglingMaggots());
+
+function spoiledMeal() {
+    var addon = selectAddOn("Spoiled Meal", ["addon text"], "Uncommon", "addon text", "iconAddon_spoiledMeal.png", "Cenobite", ["extra"]);
+    return addon;
+}
+
+//ADD
+cenobiteAddons.push(spoiledMeal());
+
+function skeweredRat() {
+    var addon = selectAddOn("Skewered Rat", ["addon text"], "Uncommon", "addon text", "iconAddon_skeweredRat.png", "Cenobite", ["extra"]);
+    return addon;
+}
+
+//ADD
+cenobiteAddons.push(skeweredRat());
+
+function liquifiedGore() {
+    var addon = selectAddOn("Liquified Gore", ["addon text"], "Uncommon", "addon text", "iconAddon_liquifiedGore.png", "Cenobite", ["extra"]);
+    return addon;
+}
+
+//ADD
+cenobiteAddons.push(liquifiedGore());
+
+function flickeringTelevision() {
+    var addon = selectAddOn("Flickering Television", ["addon text"], "Uncommon", "addon text", "iconAddon_flickeringTelevision.png", "Cenobite", ["extra"]);
+    return addon;
+}
+
+//ADD
+cenobiteAddons.push(flickeringTelevision());
+
+function torturePillar() {
+    var addon = selectAddOn("Torture Pillar", ["addon text"], "Rare", "addon text", "iconAddon_torturePillar.png", "Cenobite", ["extra"]);
+    return addon;
+}
+
+//ADD
+cenobiteAddons.push(torturePillar());
+
+function sliceofFrank() {
+    var addon = selectAddOn("Slice of Frank", ["addon text"], "Rare", "addon text", "iconAddon_sliceofFrank.png", "Cenobite", ["extra"]);
+    return addon;
+}
+
+//ADD
+cenobiteAddons.push(sliceofFrank());
+
+function larrysRemains() {
+    var addon = selectAddOn("Larry's Remains", ["addon text"], "Rare", "addon text", "iconAddon_larrysRemains.png", "Cenobite", ["extra"]);
+    return addon;
+}
+
+//ADD
+cenobiteAddons.push(larrysRemains());
+
+function larrysBlood() {
+    var addon = selectAddOn("Larry's Blood", ["addon text"], "Rare", "addon text", "iconAddon_larrysBlood.png", "Cenobite", ["extra"]);
+    return addon;
+}
+//ADD
+cenobiteAddons.push(larrysBlood());
+
+function franksHeart() {
+    var addon = selectAddOn("Frank's Heart", ["addon text"], "Rare", "addon text", "iconAddon_franksHeart.png", "Cenobite", ["extra"]);
+    return addon;
+}
+
+//ADD
+cenobiteAddons.push(franksHeart());
+
+function originalPain() {
+    var addon = selectAddOn("Original Pain", ["addon text"], "Very Rare", "addon text", "iconAddon_originalPain.png", "Cenobite", ["extra"]);
+    return addon;
+}
+
+//ADD
+cenobiteAddons.push(originalPain());
+
+function impalingWire() {
+    var addon = selectAddOn("Impaling Wire", ["addon text"], "Very Rare", "addon text", "iconAddon_impalingWire.png", "Cenobite", ["extra"]);
+    return addon;
+}
+
+//ADD
+cenobiteAddons.push(impalingWire());
+
+function greasyBlackLens() {
+    var addon = selectAddOn("Greasy Black Lens", ["addon text"], "Very Rare", "addon text", "iconAddon_greasyBlackLens.png", "Cenobite", ["extra"]);
+    return addon;
+}
+
+//ADD
+cenobiteAddons.push(greasyBlackLens());
+
+function chatterersTooth() {
+    var addon = selectAddOn("Chatterer's Tooth", ["addon text"], "Very Rare", "addon text", "iconAddon_chatterersTooth.png", "Cenobite", ["extra"]);
+    return addon;
+}
+
+//ADD
+cenobiteAddons.push(chatterersTooth());
+
+function iridescentLamentConfiguration() {
+    var addon = selectAddOn("Iridescent Lament Configuration", ["addon text"], "Ultra Rare", "addon text", "iconAddon_iridescentLamentConfiguration.png", "Cenobite", ["extra"]);
+    return addon;
+}
+
+//ADD
+cenobiteAddons.push(iridescentLamentConfiguration());
+
+function engineersFang() {
+    var addon = selectAddOn("Engineer's Fang", ["addon text"], "Ultra Rare", "addon text", "iconAddon_engineersFang.png", "Cenobite", ["extra"]);
+    return addon;
+}
+
+//ADD
+cenobiteAddons.push(engineersFang());
+
+
+//end cenobite Add-Ons
 
 
 function blightSerum() {
@@ -4904,6 +5069,7 @@ pyramidHeadAddons.push(blightSerum());
 blightAddons.push(blightSerum());
 twinAddons.push(blightSerum());
 nemesisAddons.push(blightSerum());
+cenobiteAddons.push(blightSerum());
 //end specific add on Section
 
 //base perk Section (native to lets us know if it is teachable)
@@ -6333,7 +6499,7 @@ function lethalPursuer() {
 killerPerks.push(lethalPursuer());
 
 function hysteria() {
-    var perk = selectPerk("Hysteria", ["perk text"], ["extra"], "Very Rare", "perk text", "iconPerks_hysteria.png", "killer", "Twickster");
+    var perk = selectPerk("Hysteria", ["perk text"], ["extra"], "Very Rare", "perk text", "iconPerks_hysteria.png", "killer", "Nemesis");
     return perk;
 }
 
@@ -6341,12 +6507,36 @@ function hysteria() {
 killerPerks.push(hysteria());
 
 function eruption() {
-    var perk = selectPerk("Eruption", ["perk text"], ["extra"], "Very Rare", "perk text", "iconPerks_eruption.png", "killer", "Twickster");
+    var perk = selectPerk("Eruption", ["perk text"], ["extra"], "Very Rare", "perk text", "iconPerks_eruption.png", "killer", "Nemesis");
     return perk;
 }
 
 //ADD
 killerPerks.push(eruption());
+
+function deadlock() {
+    var perk = selectPerk("Deadlock", ["perk text"], ["extra"], "Very Rare", "perk text", "iconPerks_Deadlock.png", "killer", "Cenobite");
+    return perk;
+}
+
+//ADD
+killerPerks.push(deadlock());
+
+function hexPlaything() {
+    var perk = selectPerk("Hex: Plaything", ["perk text"], ["extra"], "Very Rare", "perk text", "iconPerks_HexPlaything.png", "killer", "Cenobite");
+    return perk;
+}
+
+//ADD
+killerPerks.push(hexPlaything());
+
+function scourgeHookGiftOfPain() {
+    var perk = selectPerk("Scourge Hook: Gift of Pain", ["perk text"], ["extra"], "Very Rare", "perk text", "iconPerks_ScourgeHookGiftOfPain.png", "killer", "Cenobite");
+    return perk;
+}
+
+//ADD
+killerPerks.push(scourgeHookGiftOfPain());
 
 
 //end specific killer perk section
@@ -7613,6 +7803,17 @@ function selectNemesis() {
 }
 //ADD
 killers.push(selectNemesis());
+
+function selectCenobite() {
+    var cenobite = selectKiller();
+    cenobite.name = "The Cenobite";
+    cenobite.itemOrAbility = selectAddOn("Elliot Spencer", ["Summons of Pain"], "Common", "Summons of Pain", "iconPowers_summonsOfPain.png", "killer", ["extra"]);
+    cenobite.addonLink = cenobiteAddons;
+    cenobite.portrait = "K25_charPreview_portrait.png";
+    return cenobite;
+}
+//ADD
+killers.push(selectCenobite());
 
 
 //end basic killer section - add new killers above here, plox
