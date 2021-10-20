@@ -358,6 +358,16 @@ function selectLeonS() {
 //ADD
 survivors.push(selectLeonS());
 
+function selectMikaela() {
+	var mikaela = new selectSurvivor();
+	mikaela.name = "Mikaela Reid";
+	mikaela.portrait = "S28_charPreview_portrait.png";
+	return mikaela;
+}
+
+//ADD
+survivors.push(selectMikaela());
+
 //ADD ANY NEW SURVIVORS ABOVE HERE  AND THEN PUSH TO LIST -- P L O X
 //end base survivor section
 //begin loadout item section
@@ -2232,6 +2242,14 @@ function iridescentKing() {
 doctorAddons.push(iridescentKing());
 
 //BEGIN HUNTRESS ADDONS
+function yellowedCloth() {
+    var addon = selectAddOn("Yellowed Cloth", ["Addon Text", "Addon Text", "Addon Text"], "Common", "Addon Text", "iconAddon_yellowedCloth.png", "Huntress", ["extra", "extra"]);
+    return addon;
+}
+
+//ADD
+huntressAddons.push(yellowedCloth());
+
 function coarseStone() {
     var addon = selectAddOn("Coarse Stone", ["Addon Text", "Addon Text", "Addon Text"], "Common", "Addon Text", "iconAddon_coarseStone.png", "Huntress", ["extra", "extra"]);
     return addon;
@@ -2239,14 +2257,6 @@ function coarseStone() {
 
 //ADD
 huntressAddons.push(coarseStone());
-
-function berusToxin() {
-    var addon = selectAddOn("Berus Toxin", ["Addon Text", "Addon Text", "Addon Text"], "Common", "Addon Text", "iconAddon_berusToxin.png", "Huntress", ["extra", "extra"]);
-    return addon;
-}
-
-//ADD
-huntressAddons.push(berusToxin());
 
 function bandagedHaft() {
     var addon = selectAddOn("Bandaged Haft", ["Addon Text", "Addon Text", "Addon Text"], "Common", "Addon Text", "iconAddon_bandagedHaft.png", "Huntress", ["extra", "extra"]);
@@ -2264,13 +2274,13 @@ function amanitaToxin() {
 //ADD
 huntressAddons.push(amanitaToxin());
 
-function yewSeedBrew() {
-    var addon = selectAddOn("Yew Seed Brew", ["Addon Text", "Addon Text", "Addon Text"], "Uncommon", "Addon Text", "iconAddon_yewSeedBrew.png", "Huntress", ["extra", "extra"]);
+function weightedHead() {
+    var addon = selectAddOn("Weighted Head", ["Addon Text", "Addon Text", "Addon Text"], "Uncommon", "Addon Text", "iconAddon_weightedHead.png", "Huntress", ["extra", "extra"]);
     return addon;
 }
 
 //ADD
-huntressAddons.push(yewSeedBrew());
+huntressAddons.push(weightedHead());
 
 function shinyPin() {
     var addon = selectAddOn("Shiny Pin", ["Addon Text", "Addon Text", "Addon Text"], "Uncommon", "Addon Text", "iconAddon_shinyPin.png", "Huntress", ["extra", "extra"]);
@@ -2304,30 +2314,6 @@ function leatherLoop() {
 //ADD
 huntressAddons.push(leatherLoop());
 
-function fineStone() {
-    var addon = selectAddOn("Fine Stone", ["Addon Text", "Addon Text", "Addon Text"], "Uncommon", "Addon Text", "iconAddon_fineStone.png", "Huntress", ["extra", "extra"]);
-    return addon;
-}
-
-//ADD
-huntressAddons.push(fineStone());
-
-function deerskinGloves() {
-    var addon = selectAddOn("Deerskin Gloves", ["Addon Text", "Addon Text", "Addon Text"], "Uncommon", "Addon Text", "iconAddon_deerskinGloves.png", "Huntress", ["extra", "extra"]);
-    return addon;
-}
-
-//ADD
-huntressAddons.push(deerskinGloves());
-
-function yewSeedConcoction() {
-    var addon = selectAddOn("Yew Seed Concoction", ["Addon Text", "Addon Text", "Addon Text"], "Rare", "Addon Text", "iconAddon_yewSeedConcoction.png", "Huntress", ["extra", "extra"]);
-    return addon;
-}
-
-//ADD
-huntressAddons.push(yewSeedConcoction());
-
 function venomousConcoction() {
     var addon = selectAddOn("Venomous Concoction", ["Addon Text", "Addon Text", "Addon Text"], "Rare", "Addon Text", "iconAddon_venomousConcoction.png", "Huntress", ["extra", "extra"]);
     return addon;
@@ -2344,13 +2330,13 @@ function rustyHead() {
 //ADD
 huntressAddons.push(rustyHead());
 
-function pungentFiale() {
-    var addon = selectAddOn("Pungent Fiale", ["Addon Text", "Addon Text", "Addon Text"], "Rare", "Addon Text", "iconAddon_pungentFiale.png", "Huntress", ["extra", "extra"]);
+function roseRoot() {
+    var addon = selectAddOn("Rose Root", ["Addon Text", "Addon Text", "Addon Text"], "Rare", "Addon Text", "iconAddon_roseRoot.png", "Huntress", ["extra", "extra"]);
     return addon;
 }
 
 //ADD
-huntressAddons.push(pungentFiale());
+huntressAddons.push(roseRoot());
 
 function flowerBabushka() {
     var addon = selectAddOn("Flower Babushka", ["Addon Text", "Addon Text", "Addon Text"], "Rare", "Addon Text", "iconAddon_flowerBabushka.png", "Huntress", ["extra", "extra"]);
@@ -2359,6 +2345,22 @@ function flowerBabushka() {
 
 //ADD
 huntressAddons.push(flowerBabushka());
+
+function deerskinGloves() {
+    var addon = selectAddOn("Deerskin Gloves", ["Addon Text", "Addon Text", "Addon Text"], "Rare", "Addon Text", "iconAddon_deerskinGloves.png", "Huntress", ["extra", "extra"]);
+    return addon;
+}
+
+//ADD
+huntressAddons.push(deerskinGloves());
+
+function woodenFox() {
+    var addon = selectAddOn("Wooden Fox", ["Addon Text", "Addon Text", "Addon Text"], "Very Rare", "Addon Text", "iconAddon_woodenFox.png", "Huntress", ["extra", "extra"]);
+    return addon;
+}
+
+//ADD
+huntressAddons.push(woodenFox());
 
 function infantryBelt() {
     var addon = selectAddOn("Infantry Belt", ["Addon Text", "Addon Text", "Addon Text"], "Very Rare", "Addon Text", "iconAddon_infantryBelt.png", "Huntress", ["extra", "extra"]);
@@ -2383,6 +2385,14 @@ function begrimedHead() {
 
 //ADD
 huntressAddons.push(begrimedHead());
+
+function soldiersPuttee() {
+    var addon = selectAddOn("Soldier's Puttee", ["Addon Text", "Addon Text", "Addon Text"], "Ultra Rare", "Addon Text", "iconAddon_soldiersPuttee.png", "Huntress", ["extra", "extra"]);
+    return addon;
+}
+
+//ADD
+huntressAddons.push(soldiersPuttee());
 
 function iridescentHead() {
     var addon = selectAddOn("Iridescent Head", ["Addon Text", "Addon Text", "Addon Text"], "Ultra Rare", "Addon Text", "iconAddon_iridescentHead.png", "Huntress", ["extra", "extra"]);
@@ -5846,6 +5856,29 @@ function rookieSpirit() {
 //ADD
 survivorPerks.push(rookieSpirit());
 
+function clairvoyance() {
+    var perk = selectPerk("Clairvoyance", ["perk text"], ["extra"], "Very Rare", "perk text", "iconPerks_clairvoyance.png", "survivor", "Yun-Jin Lee");
+    return perk;
+}
+
+//ADD
+survivorPerks.push(clairvoyance());
+
+function boonCircleOfHealing() {
+    var perk = selectPerk("Boon: Circle of Healing", ["perk text"], ["extra"], "Very Rare", "perk text", "iconPerks_BoonCircleOfHealing.png", "survivor", "Yun-Jin Lee");
+    return perk;
+}
+
+//ADD
+survivorPerks.push(boonCircleOfHealing());
+
+function boonShadowStep() {
+    var perk = selectPerk("Boon: Shadow Step", ["perk text"], ["extra"], "Very Rare", "perk text", "iconPerks_BoonShadowStep.png", "survivor", "Yun-Jin Lee");
+    return perk;
+}
+
+//ADD
+survivorPerks.push(boonShadowStep());
 
 //end specific survivor perk section
 
