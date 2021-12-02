@@ -37,7 +37,8 @@ var blightAddons = [];
 var twinAddons = [];
 var tricksterAddons = [];
 var nemesisAddons = [];
-var cenobiteAddons= [];
+var cenobiteAddons = [];
+var artistAddons = [];
 
 //item addon lists
 var flashlightAddons = [];
@@ -367,6 +368,16 @@ function selectMikaela() {
 
 //ADD
 survivors.push(selectMikaela());
+
+function selectJonah() {
+	var mikaela = new selectSurvivor();
+	mikaela.name = "Jonah Vasquez";
+	mikaela.portrait = "S29_charPreview_portrait.png";
+	return mikaela;
+}
+
+//ADD
+survivors.push(selectJonah());
 
 //ADD ANY NEW SURVIVORS ABOVE HERE  AND THEN PUSH TO LIST -- P L O X
 //end base survivor section
@@ -5050,6 +5061,171 @@ cenobiteAddons.push(engineersFang());
 
 //end cenobite Add-Ons
 
+//start artist Add-Ons
+
+function vibrantObituary() {
+    var addon = selectAddOn("Vibrant Obituary", ["addon text"], "Common", "addon text", "iconAddon_vibrantObituary.png", "Artist", ["extra"]);
+    return addon;
+}
+
+//ADD
+artistAddons.push(vibrantObituary());
+
+function thickTar() {
+    var addon = selectAddOn("Thick Tar", ["addon text"], "Common", "addon text", "iconAddon_thickTar.png", "Artist", ["extra"]);
+    return addon;
+}
+
+//ADD
+artistAddons.push(thickTar());
+
+function oilPaints() {
+    var addon = selectAddOn("Oil Paints", ["addon text"], "Common", "addon text", "iconAddon_oilPaints.png", "Artist", ["extra"]);
+    return addon;
+}
+
+//ADD
+artistAddons.push(oilPaints());
+
+function chocloCorn() {
+    var addon = selectAddOn("Choclo Corn", ["addon text"], "Common", "addon text", "iconAddon_chocloCorn.png", "Artist", ["extra"]);
+    return addon;
+}
+
+//ADD
+artistAddons.push(chocloCorn());
+
+function velvetFabric() {
+    var addon = selectAddOn("Velvet Fabric", ["addon text"], "Uncommon", "addon text", "iconAddon_velvetFabric.png", "Artist", ["extra"]);
+    return addon;
+}
+
+//ADD
+artistAddons.push(velvetFabric());
+
+function untitledAgony() {
+    var addon = selectAddOn("Untitled Agony", ["addon text"], "Uncommon", "addon text", "iconAddon_untitledAgony.png", "Artist", ["extra"]);
+    return addon;
+}
+
+//ADD
+artistAddons.push(untitledAgony());
+
+function stillLifeCrow() {
+    var addon = selectAddOn("Still Life Crow", ["addon text"], "Uncommon", "addon text", "iconAddon_stillLifeCrow.png", "Artist", ["extra"]);
+    return addon;
+}
+
+//ADD
+artistAddons.push(stillLifeCrow());
+
+function festeringCarrion() {
+    var addon = selectAddOn("Festering Carrion", ["addon text"], "Uncommon", "addon text", "iconAddon_festeringCarrion.png", "Artist", ["extra"]);
+    return addon;
+}
+
+//ADD
+artistAddons.push(festeringCarrion());
+
+function automaticDrawing() {
+    var addon = selectAddOn("Automatic Drawing", ["addon text"], "Uncommon", "addon text", "iconAddon_automaticDrawing.png", "Artist", ["extra"]);
+    return addon;
+}
+
+//ADD
+artistAddons.push(automaticDrawing());
+
+function thornyNest() {
+    var addon = selectAddOn("Thorny Nest", ["addon text"], "Rare", "addon text", "iconAddon_thornyNest.png", "Artist", ["extra"]);
+    return addon;
+}
+
+//ADD
+artistAddons.push(thornyNest());
+
+function silverBell() {
+    var addon = selectAddOn("Silver Bell", ["addon text"], "Rare", "addon text", "iconAddon_silverBell.png", "Artist", ["extra"]);
+    return addon;
+}
+
+//ADD
+artistAddons.push(silverBell());
+
+function oGriefOLover() {
+    var addon = selectAddOn("O Grief, O Lover", ["addon text"], "Rare", "addon text", "iconAddon_oGriefOLover.png", "Artist", ["extra"]);
+    return addon;
+}
+
+//ADD
+artistAddons.push(oGriefOLover());
+
+function darkestInk() {
+    var addon = selectAddOn("Darkest Ink", ["addon text"], "Rare", "addon text", "iconAddon_darkestInk.png", "Artist", ["extra"]);
+    return addon;
+}
+
+//ADD
+artistAddons.push(darkestInk());
+
+function charcoalStick() {
+    var addon = selectAddOn("Charcoal Stick", ["addon text"], "Rare", "addon text", "iconAddon_charcoalStick.png", "Artist", ["extra"]);
+    return addon;
+}
+
+//ADD
+artistAddons.push(charcoalStick());
+
+function severedTongue() {
+    var addon = selectAddOn("Severed Tongue", ["addon text"], "Very Rare", "addon text", "iconAddon_severedTongue.png", "Artist", ["extra"]);
+    return addon;
+}
+
+//ADD
+artistAddons.push(severedTongue());
+
+function severedHands() {
+    var addon = selectAddOn("Severed Hands", ["addon text"], "Very Rare", "addon text", "iconAddon_severedHands.png", "Artist", ["extra"]);
+    return addon;
+}
+
+//ADD
+artistAddons.push(severedHands());
+
+function matiasBabyShoes() {
+    var addon = selectAddOn("Matias' Baby Shoes", ["addon text"], "Very Rare", "addon text", "iconAddon_JacobsBabyShoes.png", "Artist", ["extra"]);
+    return addon;
+}
+
+//ADD
+artistAddons.push(matiasBabyShoes());
+
+function inkEgg() {
+    var addon = selectAddOn("Ink Egg", ["addon text"], "Very Rare", "addon text", "iconAddon_inkEgg.png", "Artist", ["extra"]);
+    return addon;
+}
+
+//ADD
+artistAddons.push(inkEgg());
+
+function iridescentFeather() {
+    var addon = selectAddOn("Iridescent Feather", ["addon text"], "Ultra Rare", "addon text", "iconAddon_iridescentFeather.png", "Artist", ["extra"]);
+    return addon;
+}
+
+//ADD
+artistAddons.push(iridescentFeather());
+
+function gardenOfRot() {
+    var addon = selectAddOn("Garden of Rot", ["addon text"], "Ultra Rare", "addon text", "iconAddon_gardenOfRot.png", "Artist", ["extra"]);
+    return addon;
+}
+
+//ADD
+artistAddons.push(gardenOfRot());
+
+
+//end artist Add-Ons
+
 
 function blightSerum() {
     var addon = selectAddOn("Blight Serum", ["addon text"], "event", "addon text", "IconAddon_blightSerum.png", "All", ["extra"]);
@@ -5080,6 +5256,7 @@ blightAddons.push(blightSerum());
 twinAddons.push(blightSerum());
 nemesisAddons.push(blightSerum());
 cenobiteAddons.push(blightSerum());
+artistAddons.push(blightSerum());
 //end specific add on Section
 
 //base perk Section (native to lets us know if it is teachable)
@@ -5880,6 +6057,30 @@ function boonShadowStep() {
 //ADD
 survivorPerks.push(boonShadowStep());
 
+function overcome() {
+    var perk = selectPerk("Overcome", ["perk text"], ["extra"], "Very Rare", "perk text", "iconPerks_overcome.png", "survivor", "Jonah Vasquez");
+    return perk;
+}
+
+//ADD
+survivorPerks.push(overcome());
+
+function correctiveAction() {
+    var perk = selectPerk("Corrective Action", ["perk text"], ["extra"], "Very Rare", "perk text", "iconPerks_correctiveAction.png", "survivor", "Jonah Vasquez");
+    return perk;
+}
+
+//ADD
+survivorPerks.push(correctiveAction());
+
+function boonExponential() {
+    var perk = selectPerk("Boon: Exponential", ["perk text"], ["extra"], "Very Rare", "perk text", "iconPerks_correctiveAction.png", "survivor", "Jonah Vasquez");
+    return perk;
+}
+
+//ADD
+survivorPerks.push(boonExponential());
+
 //end specific survivor perk section
 
 //begin specific killer perk section
@@ -6570,6 +6771,30 @@ function scourgeHookGiftOfPain() {
 
 //ADD
 killerPerks.push(scourgeHookGiftOfPain());
+
+function grimEmbrace() {
+    var perk = selectPerk("Grim Embrace", ["perk text"], ["extra"], "Very Rare", "perk text", "iconPerks_grimEmbrace.png", "killer", "Artist");
+    return perk;
+}
+
+//ADD
+killerPerks.push(grimEmbrace());
+
+function scourgeHookPainResonance() {
+    var perk = selectPerk("Scourge Hook: Pain Resonance", ["perk text"], ["extra"], "Very Rare", "perk text", "iconPerks_painResonance.png", "killer", "Artist");
+    return perk;
+}
+
+//ADD
+killerPerks.push(scourgeHookPainResonance());
+
+function hexPentimento() {
+    var perk = selectPerk("Hex: Pentimento", ["perk text"], ["extra"], "Very Rare", "perk text", "iconPerks_hexPentimento.png", "killer", "Artist");
+    return perk;
+}
+
+//ADD
+killerPerks.push(hexPentimento());
 
 
 //end specific killer perk section
@@ -7847,6 +8072,17 @@ function selectCenobite() {
 }
 //ADD
 killers.push(selectCenobite());
+
+function selectArtist() {
+    var artist = selectKiller();
+    artist.name = "The Artist";
+    artist.itemOrAbility = selectAddOn("Carmina Mora", ["Birds of Torment"], "Common", "Birds of Torment", "iconPowers_birdsofTorment.png", "killer", ["extra"]);
+    artist.addonLink = artistAddons;
+    artist.portrait = "K26_charPreview_portrait.png";
+    return artist;
+}
+//ADD
+killers.push(selectArtist());
 
 
 //end basic killer section - add new killers above here, plox
