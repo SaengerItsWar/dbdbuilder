@@ -7690,7 +7690,7 @@ killerOfferings.push(gruesomeGateau());
 survivorOfferings.push(gruesomeGateau());
 
 function ghastlyGateau() {
-    var offering = selectOffering("Ghastly Gateau", "off text", "event", "off text", "IconFavors_ghastlyGateau", "all");
+    var offering = selectOffering("Ghastly Gateau", "off text", "event", "off text", "IconFavors_ghastlyGateau.png", "all");
     return offering;
 }
 

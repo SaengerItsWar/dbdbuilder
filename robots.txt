@@ -1,8 +1,0 @@
-User-agent: *
-
-# Directories
-Disallow: /sounds/
-Disallow: /graphics/
-Disallow: /Dead_By_Daylight_Character_Builder_files/
-
-Sitemap: https://dbdbuilder.de/sitemap.xml
