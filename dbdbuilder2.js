@@ -39,6 +39,7 @@ var tricksterAddons = [];
 var nemesisAddons = [];
 var cenobiteAddons = [];
 var artistAddons = [];
+var onryoAddons = [];
 
 //item addon lists
 var flashlightAddons = [];
@@ -370,14 +371,24 @@ function selectMikaela() {
 survivors.push(selectMikaela());
 
 function selectJonah() {
-	var mikaela = new selectSurvivor();
-	mikaela.name = "Jonah Vasquez";
-	mikaela.portrait = "S29_charPreview_portrait.png";
-	return mikaela;
+	var jonah = new selectSurvivor();
+	jonah.name = "Jonah Vasquez";
+	jonah.portrait = "S29_charPreview_portrait.png";
+	return jonah;
 }
 
 //ADD
 survivors.push(selectJonah());
+
+function selectYoichi() {
+	var yoichi = new selectSurvivor();
+	yoichi.name = "Yoichi Asakawa";
+	yoichi.portrait = "S30_charPreview_portrait.png";
+	return yoichi;
+}
+
+//ADD
+survivors.push(selectYoichi());
 
 //ADD ANY NEW SURVIVORS ABOVE HERE  AND THEN PUSH TO LIST -- P L O X
 //end base survivor section
@@ -5226,6 +5237,170 @@ artistAddons.push(gardenOfRot());
 
 //end artist Add-Ons
 
+//start onryo Add-Ons
+
+function vhsCopy() {
+    var addon = selectAddOn("Videotape Copy", ["addon text"], "Common", "addon text", "iconAddon_VhsCopy.png", "Onry&#333;", ["extra"]);
+    return addon;
+}
+
+//ADD
+onryoAddons.push(vhsCopy());
+
+function oldNewspaper() {
+    var addon = selectAddOn("Old Newspaper", ["addon text"], "Common", "addon text", "iconAddon_OldNewspaper.png", "Onry&#333;", ["extra"]);
+    return addon;
+}
+
+//ADD
+onryoAddons.push(oldNewspaper());
+
+function mothersMirror() {
+    var addon = selectAddOn("Mother's Mirror", ["addon text"], "Common", "addon text", "iconAddon_MothersMirror.png", "Onry&#333;", ["extra"]);
+    return addon;
+}
+
+//ADD
+onryoAddons.push(mothersMirror());
+
+function cabinSign() {
+    var addon = selectAddOn("Cabin Sign", ["addon text"], "Common", "addon text", "iconAddon_CabinSign.png", "Onry&#333;", ["extra"]);
+    return addon;
+}
+
+//ADD
+onryoAddons.push(cabinSign());
+
+function yoichisFishingNet() {
+    var addon = selectAddOn("Yoichi's Fishing Net", ["addon text"], "Uncommon", "addon text", "iconAddon_YoichisFishingNet.png", "Onry&#333;", ["extra"]);
+    return addon;
+}
+
+//ADD
+onryoAddons.push(yoichisFishingNet());
+
+function wellStone() {
+    var addon = selectAddOn("Well Stone", ["addon text"], "Uncommon", "addon text", "iconAddon_WellStone.png", "Onry&#333;", ["extra"]);
+    return addon;
+}
+
+//ADD
+onryoAddons.push(wellStone());
+
+function seaSoakedCloth() {
+    var addon = selectAddOn("Sea Soaked Cloth", ["addon text"], "Uncommon", "addon text", "iconAddon_SeaSoakedCloth.png", "Onry&#333;", ["extra"]);
+    return addon;
+}
+
+//ADD
+onryoAddons.push(seaSoakedCloth());
+
+function reikosWatch() {
+    var addon = selectAddOn("Reiko's Watch", ["addon text"], "Uncommon", "addon text", "iconAddon_ReikosWatch.png", "Onry&#333;", ["extra"]);
+    return addon;
+}
+
+//ADD
+onryoAddons.push(reikosWatch());
+
+function clumpOfHair() {
+    var addon = selectAddOn("Clump of Hair", ["addon text"], "Uncommon", "addon text", "iconAddon_ClumpOfHair.png", "Onry&#333;", ["extra"]);
+    return addon;
+}
+
+//ADD
+onryoAddons.push(clumpOfHair());
+
+function wellWater() {
+    var addon = selectAddOn("Well Water", ["addon text"], "Rare", "addon text", "iconAddon_WellWater.png", "Onry&#333;", ["extra"]);
+    return addon;
+}
+
+//ADD
+onryoAddons.push(wellWater());
+
+function ringDrawing() {
+    var addon = selectAddOn("Ring Drawing", ["addon text"], "Rare", "addon text", "iconAddon_RingDrawing.png", "Onry&#333;", ["extra"]);
+    return addon;
+}
+
+//ADD
+onryoAddons.push(ringDrawing());
+
+function ricketyPinwheel() {
+    var addon = selectAddOn("Rickety Pinwheel", ["addon text"], "Rare", "addon text", "iconAddon_RicketyPinwheel.png", "Onry&#333;", ["extra"]);
+    return addon;
+}
+
+//ADD
+onryoAddons.push(ricketyPinwheel());
+
+function mothersComb() {
+    var addon = selectAddOn("Mother's Comb", ["addon text"], "Rare", "addon text", "iconAddon_MothersComb.png", "Onry&#333;", ["extra"]);
+    return addon;
+}
+
+//ADD
+onryoAddons.push(mothersComb());
+
+function bloodyFingernail() {
+    var addon = selectAddOn("Bloody Fingernail", ["addon text"], "Rare", "addon text", "iconAddon_BloodyFingernail.png", "Onry&#333;", ["extra"]);
+    return addon;
+}
+
+//ADD
+onryoAddons.push(bloodyFingernail());
+
+function vcr() {
+    var addon = selectAddOn("VCR", ["addon text"], "Very Rare", "addon text", "iconAddon_VCR.png", "Onry&#333;", ["extra"]);
+    return addon;
+}
+
+//ADD
+onryoAddons.push(vcr());
+
+function telephone() {
+    var addon = selectAddOn("Telephone", ["addon text"], "Very Rare", "addon text", "iconAddon_Telephone.png", "Onry&#333;", ["extra"]);
+    return addon;
+}
+
+//ADD
+onryoAddons.push(telephone());
+
+function tapeEditingDeck() {
+    var addon = selectAddOn("Tape Editing Deck", ["addon text"], "Very Rare", "addon text", "iconAddon_TapeEditingDeck.png", "Onry&#333;", ["extra"]);
+    return addon;
+}
+
+//ADD
+onryoAddons.push(tapeEditingDeck());
+
+function disortedPhoto() {
+    var addon = selectAddOn("Disorted Photo", ["addon text"], "Very Rare", "addon text", "iconAddon_DisortedPhoto.png", "Onry&#333;", ["extra"]);
+    return addon;
+}
+
+//ADD
+onryoAddons.push(disortedPhoto());
+
+function remoteControl() {
+    var addon = selectAddOn("Remote Control", ["addon text"], "Ultra Rare", "addon text", "iconAddon_RemoteControl.png", "Onry&#333;", ["extra"]);
+    return addon;
+}
+
+//ADD
+onryoAddons.push(remoteControl());
+
+function iridescentVHSTape() {
+    var addon = selectAddOn("Iridescent Videotape", ["addon text"], "Ultra Rare", "addon text", "iconAddon_IridescentVHStape.png", "Onry&#333;", ["extra"]);
+    return addon;
+}
+
+//ADD
+onryoAddons.push(iridescentVHSTape());
+
+
+//end onryo Add-Ons
 
 function blightSerum() {
     var addon = selectAddOn("Blight Serum", ["addon text"], "event", "addon text", "IconAddon_blightSerum.png", "All", ["extra"]);
@@ -5257,6 +5432,7 @@ twinAddons.push(blightSerum());
 nemesisAddons.push(blightSerum());
 cenobiteAddons.push(blightSerum());
 artistAddons.push(blightSerum());
+onryoAddons.push(blightSerum());
 //end specific add on Section
 
 //base perk Section (native to lets us know if it is teachable)
@@ -6081,6 +6257,30 @@ function boonExponential() {
 //ADD
 survivorPerks.push(boonExponential());
 
+function parentalGuidance() {
+    var perk = selectPerk("Parental Guidance", ["perk text"], ["extra"], "Very Rare", "perk text", "iconPerks_parentalGuidance.png", "survivor", "Yoichi Asakawa");
+    return perk;
+}
+
+//ADD
+survivorPerks.push(parentalGuidance());
+
+function empathicConnection() {
+    var perk = selectPerk("Empathic Connection", ["perk text"], ["extra"], "Very Rare", "perk text", "iconPerks_empathicConnection.png", "survivor", "Yoichi Asakawa");
+    return perk;
+}
+
+//ADD
+survivorPerks.push(empathicConnection());
+
+function darkTheory() {
+    var perk = selectPerk("Boon: Dark Theory", ["perk text"], ["extra"], "Very Rare", "perk text", "iconPerks_darkTheory.png", "survivor", "Yoichi Asakawa");
+    return perk;
+}
+
+//ADD
+survivorPerks.push(darkTheory());
+
 //end specific survivor perk section
 
 //begin specific killer perk section
@@ -6795,6 +6995,30 @@ function hexPentimento() {
 
 //ADD
 killerPerks.push(hexPentimento());
+
+function floodOfRage() {
+    var perk = selectPerk("Scourge Hook: Floods of Rage", ["perk text"], ["extra"], "Very Rare", "perk text", "iconPerks_floodOfRage.png", "killer", "Onry&#333;");
+    return perk;
+}
+
+//ADD
+killerPerks.push(floodOfRage());
+
+function callOfBrine() {
+    var perk = selectPerk("Call of Brine", ["perk text"], ["extra"], "Very Rare", "perk text", "iconPerks_callOfBrine.png", "killer", "Onry&#333;");
+    return perk;
+}
+
+//ADD
+killerPerks.push(callOfBrine());
+
+function mercilessStorm() {
+    var perk = selectPerk("Merciless Storm", ["perk text"], ["extra"], "Very Rare", "perk text", "iconPerks_mercilessStorm.png", "killer", "Onry&#333;");
+    return perk;
+}
+
+//ADD
+killerPerks.push(mercilessStorm());
 
 
 //end specific killer perk section
@@ -8083,6 +8307,17 @@ function selectArtist() {
 }
 //ADD
 killers.push(selectArtist());
+
+function selectOnryo() {
+    var onryo = selectKiller();
+    onryo.name = "The Onry&#333;";
+    onryo.itemOrAbility = selectAddOn("Sadako Yamamura", ["Deluge of Fear"], "Common", "Deluge of Fear", "iconPowers_delugeOfFear.png", "killer", ["extra"]);
+    onryo.addonLink = onryoAddons;
+    onryo.portrait = "K27_charPreview_portrait.png";
+    return onryo;
+}
+//ADD
+killers.push(selectOnryo());
 
 
 //end basic killer section - add new killers above here, plox
