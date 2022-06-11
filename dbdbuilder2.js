@@ -1,9 +1,9 @@
 //DATA SECTION
 /*Code for DbD Character Buider
  Author: "Vykaris"
- Current Version: 0.97
- Game Version: 4.4.1
- Date of current version: 8.12.2020*/
+ Current Version: 0.99
+ Game Version: 6.0.0
+ Date of current version: 11.06.2022*/
 //var currentCharacter;
 //declare lists for all game elements
 //characters
@@ -5488,7 +5488,7 @@ function airFreshener() {
 dredgeAddons.push(airFreshener());
 
 function worryStone() {
-    var addon = selectAddOn("Worry Stone", ["addon text"], "Rare", "addon text", "iconAddon_WorryStone.png", "Dredge", ["extra"]);
+    var addon = selectAddOn("Worry Stone", ["addon text"], "Rare", "addon text", "iconAddon_WorryStones.png", "Dredge", ["extra"]);
     return addon;
 }
 
@@ -5528,7 +5528,7 @@ function brokenDoll() {
 dredgeAddons.push(brokenDoll());
 
 function tillingBlade() {
-    var addon = selectAddOn("Tilling Blade", ["addon text"], "Very Rare", "addon text", "iconAddon_TillingBlade.png", "Dredge", ["extra"]);
+    var addon = selectAddOn("Tilling Blade", ["addon text"], "Very Rare", "addon text", "iconAddon_TilingBlade.png", "Dredge", ["extra"]);
     return addon;
 }
 
@@ -8558,7 +8558,7 @@ killers.push(selectOnryo());
 function selectDredge() {
     var dredge = selectKiller();
     dredge.name = "The Dredge";
-    dredge.itemOrAbility = selectAddOn("The Dredge", ["Reign of Darkness"], "Common", "Reign of Darkness", "iconPowers_ReignOfDarkness.png", "killer", ["extra"]);
+    dredge.itemOrAbility = selectAddOn("The Dredge", ["Reign of Darkness"], "Common", "Reign of Darkness", "iconPowers_ReignofDarkness.png", "killer", ["extra"]);
     dredge.addonLink = dredgeAddons;
     dredge.portrait = "K28_charPreview_portrait.png";
     return dredge;
