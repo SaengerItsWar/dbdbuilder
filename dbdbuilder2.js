@@ -40,6 +40,7 @@ var nemesisAddons = [];
 var cenobiteAddons = [];
 var artistAddons = [];
 var onryoAddons = [];
+var dredgeAddons= [];
 
 //item addon lists
 var flashlightAddons = [];
@@ -389,6 +390,16 @@ function selectYoichi() {
 
 //ADD
 survivors.push(selectYoichi());
+
+function selectHaddie() {
+	var haddie = new selectSurvivor();
+	haddie.name = "Haddie Kaur";
+	haddie.portrait = "S31_charPreview_portrait.png";
+	return haddie;
+}
+
+//ADD
+survivors.push(selectHaddie());
 
 //ADD ANY NEW SURVIVORS ABOVE HERE  AND THEN PUSH TO LIST -- P L O X
 //end base survivor section
@@ -5402,6 +5413,171 @@ onryoAddons.push(iridescentVHSTape());
 
 //end onryo Add-Ons
 
+//start Dredge Add-Ons
+
+function woodenPlank() {
+    var addon = selectAddOn("Wooden Plank", ["addon text"], "Common", "addon text", "iconAddon_WoodenPlank.png", "Dredge", ["extra"]);
+    return addon;
+}
+
+//ADD
+dredgeAddons.push(woodenPlank());
+
+function mortarAndPestle() {
+    var addon = selectAddOn("Mortar and Pestle", ["addon text"], "Common", "addon text", "iconAddon_MortarAndPestle.png", "Dredge", ["extra"]);
+    return addon;
+}
+
+//ADD
+dredgeAddons.push(mortarAndPestle());
+
+function followersCowl() {
+    var addon = selectAddOn("Follower's Cowl", ["addon text"], "Common", "addon text", "iconAddon_FollowersCowl.png", "Dredge", ["extra"]);
+    return addon;
+}
+
+//ADD
+dredgeAddons.push(followersCowl());
+
+function caffeineTablets() {
+    var addon = selectAddOn("Caffeine Tablets", ["addon text"], "Common", "addon text", "iconAddon_CaffeineTablets.png", "Dredge", ["extra"]);
+    return addon;
+}
+
+//ADD
+dredgeAddons.push(caffeineTablets());
+
+function malthinkersSkull() {
+    var addon = selectAddOn("Malthinker's Skull", ["addon text"], "Uncommon", "addon text", "iconAddon_MalthinkersSkull.png", "Dredge", ["extra"]);
+    return addon;
+}
+
+//ADD
+dredgeAddons.push(malthinkersSkull());
+
+function haddiesCalendar() {
+    var addon = selectAddOn("Haddie's Calendar", ["addon text"], "Uncommon", "addon text", "iconAddon_HaddiesCalendar.png", "Dredge", ["extra"]);
+    return addon;
+}
+
+//ADD
+dredgeAddons.push(haddiesCalendar());
+
+function fallenShingle() {
+    var addon = selectAddOn("Fallen Shingle", ["addon text"], "Uncommon", "addon text", "iconAddon_FallenShingle.png", "Dredge", ["extra"]);
+    return addon;
+}
+
+//ADD
+dredgeAddons.push(fallenShingle());
+
+function burntLetters() {
+    var addon = selectAddOn("Burnt Letters", ["addon text"], "Uncommon", "addon text", "iconAddon_BurntLetters.png", "Dredge", ["extra"]);
+    return addon;
+}
+
+//ADD
+dredgeAddons.push(burntLetters());
+
+function airFreshener() {
+    var addon = selectAddOn("Air Freshener", ["addon text"], "Uncommon", "addon text", "iconAddon_AirFreshener.png", "Dredge", ["extra"]);
+    return addon;
+}
+
+//ADD
+dredgeAddons.push(airFreshener());
+
+function worryStone() {
+    var addon = selectAddOn("Worry Stone", ["addon text"], "Rare", "addon text", "iconAddon_WorryStone.png", "Dredge", ["extra"]);
+    return addon;
+}
+
+//ADD
+dredgeAddons.push(worryStone());
+
+function warHelmet() {
+    var addon = selectAddOn("War Helmet", ["addon text"], "Rare", "addon text", "iconAddon_WarHelmet.png", "Dredge", ["extra"]);
+    return addon;
+}
+
+//ADD
+dredgeAddons.push(warHelmet());
+
+function ottomarianWriting() {
+    var addon = selectAddOn("Ottomarian Writing", ["addon text"], "Rare", "addon text", "iconAddon_OttomarianWriting.png", "Dredge", ["extra"]);
+    return addon;
+}
+
+//ADD
+dredgeAddons.push(ottomarianWriting());
+
+function destroyedPillow() {
+    var addon = selectAddOn("Destroyed Pillow", ["addon text"], "Rare", "addon text", "iconAddon_DestroyedPillow.png", "Dredge", ["extra"]);
+    return addon;
+}
+
+//ADD
+dredgeAddons.push(destroyedPillow());
+
+function brokenDoll() {
+    var addon = selectAddOn("Broken Doll", ["addon text"], "Rare", "addon text", "iconAddon_BrokenDoll.png", "Dredge", ["extra"]);
+    return addon;
+}
+
+//ADD
+dredgeAddons.push(brokenDoll());
+
+function tillingBlade() {
+    var addon = selectAddOn("Tilling Blade", ["addon text"], "Very Rare", "addon text", "iconAddon_TillingBlade.png", "Dredge", ["extra"]);
+    return addon;
+}
+
+//ADD
+dredgeAddons.push(tillingBlade());
+
+function lavalierMicrophone() {
+    var addon = selectAddOn("Lavalier Microphone", ["addon text"], "Very Rare", "addon text", "iconAddon_LavalierMicrophone.png", "Dredge", ["extra"]);
+    return addon;
+}
+
+//ADD
+dredgeAddons.push(lavalierMicrophone());
+
+function fieldRecorder() {
+    var addon = selectAddOn("Field Recorder", ["addon text"], "Very Rare", "addon text", "iconAddon_FieldRecorder.png", "Dredge", ["extra"]);
+    return addon;
+}
+
+//ADD
+dredgeAddons.push(fieldRecorder());
+
+function boatKey() {
+    var addon = selectAddOn("Boat Key", ["addon text"], "Very Rare", "addon text", "iconAddon_BoatKey.png", "Dredge", ["extra"]);
+    return addon;
+}
+
+//ADD
+dredgeAddons.push(boatKey());
+
+function sacrificialKnife() {
+    var addon = selectAddOn("Sacrificial Knife", ["addon text"], "Ultra Rare", "addon text", "iconAddon_SacrificialKnife.png", "Dredge", ["extra"]);
+    return addon;
+}
+
+//ADD
+dredgeAddons.push(sacrificialKnife());
+
+function iridescentWoodenPlank() {
+    var addon = selectAddOn("Iridescent Wooden Plank", ["addon text"], "Ultra Rare", "addon text", "iconAddon_IridescentWoodenPlank.png", "Dredge", ["extra"]);
+    return addon;
+}
+
+//ADD
+dredgeAddons.push(iridescentWoodenPlank());
+
+
+//end Dredge Add-Ons
+
 function blightSerum() {
     var addon = selectAddOn("Blight Serum", ["addon text"], "event", "addon text", "IconAddon_blightSerum.png", "All", ["extra"]);
     return addon;
@@ -5433,6 +5609,8 @@ nemesisAddons.push(blightSerum());
 cenobiteAddons.push(blightSerum());
 artistAddons.push(blightSerum());
 onryoAddons.push(blightSerum());
+dredgeAddons.push(blightSerum());
+
 //end specific add on Section
 
 //base perk Section (native to lets us know if it is teachable)
@@ -6281,6 +6459,30 @@ function darkTheory() {
 //ADD
 survivorPerks.push(darkTheory());
 
+function innerFocus() {
+    var perk = selectPerk("Inner Focus", ["perk text"], ["extra"], "Very Rare", "perk text", "iconPerks_InnerFocus.png", "survivor", "Haddie Kaur");
+    return perk;
+}
+
+//ADD
+survivorPerks.push(innerFocus());
+
+function residualManifest() {
+    var perk = selectPerk("Residual Manifest", ["perk text"], ["extra"], "Very Rare", "perk text", "iconPerks_ResidualManifest.png", "survivor", "Haddie Kaur");
+    return perk;
+}
+
+//ADD
+survivorPerks.push(residualManifest());
+
+function overzealous() {
+    var perk = selectPerk("Overzealous", ["perk text"], ["extra"], "Very Rare", "perk text", "iconPerks_Overzealous.png", "survivor", "Haddie Kaur");
+    return perk;
+}
+
+//ADD
+survivorPerks.push(overzealous());
+
 //end specific survivor perk section
 
 //begin specific killer perk section
@@ -7019,6 +7221,30 @@ function mercilessStorm() {
 
 //ADD
 killerPerks.push(mercilessStorm());
+
+function dissolution() {
+    var perk = selectPerk("Dissolution", ["perk text"], ["extra"], "Very Rare", "perk text", "iconPerks_Dissolution.png", "killer", "Dredge");
+    return perk;
+}
+
+//ADD
+killerPerks.push(dissolution());
+
+function darknessRevealed() {
+    var perk = selectPerk("Darkness Revealed", ["perk text"], ["extra"], "Very Rare", "perk text", "iconPerks_DarknessRevealed.png", "killer", "Dredge");
+    return perk;
+}
+
+//ADD
+killerPerks.push(darknessRevealed());
+
+function septicTouch() {
+    var perk = selectPerk("Septic Touch", ["perk text"], ["extra"], "Very Rare", "perk text", "iconPerks_SepticTouch.png", "killer", "Dredge");
+    return perk;
+}
+
+//ADD
+killerPerks.push(septicTouch());
 
 
 //end specific killer perk section
@@ -7977,6 +8203,16 @@ function rPDBadge() {
 killerOfferings.push(rPDBadge());
 survivorOfferings.push(rPDBadge());
 
+function crowsEye() {
+    var offering = selectOffering("Crow's Eye", "Offering Text", "rare", "Offering Text", "iconsFavors_CrowsEye.png", "All");
+    offering.isRedacted = false;
+    return offering;
+}
+
+//ADD x 2
+killerOfferings.push(crowsEye());
+survivorOfferings.push(crowsEye());
+
 function anniversary5th() {
     var offering = selectOffering("Sacrificial Cake", "Offering Text", "event", "", "IconFavors_sacrificialCake.png", "All");
     offering.isRedacted = false;
@@ -8318,6 +8554,17 @@ function selectOnryo() {
 }
 //ADD
 killers.push(selectOnryo());
+
+function selectDredge() {
+    var dredge = selectKiller();
+    dredge.name = "The Dredge";
+    dredge.itemOrAbility = selectAddOn("The Dredge", ["Reign of Darkness"], "Common", "Reign of Darkness", "iconPowers_ReignOfDarkness.png", "killer", ["extra"]);
+    dredge.addonLink = dredgeAddons;
+    dredge.portrait = "K28_charPreview_portrait.png";
+    return dredge;
+}
+//ADD
+killers.push(selectDredge());
 
 
 //end basic killer section - add new killers above here, plox
