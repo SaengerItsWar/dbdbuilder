@@ -2,8 +2,8 @@
 /*Code for DbD Character Buider
  Author: "Vykaris"
  Current Version: 0.99
- Game Version: 6.0.0
- Date of current version: 11.06.2022*/
+ Game Version: 6.2.0
+ Date of current version: 30.08.2022*/
 //var currentCharacter;
 //declare lists for all game elements
 //characters
@@ -41,6 +41,7 @@ var cenobiteAddons = [];
 var artistAddons = [];
 var onryoAddons = [];
 var dredgeAddons= [];
+var mastermindAddons = [];
 
 //item addon lists
 var flashlightAddons = [];
@@ -400,6 +401,26 @@ function selectHaddie() {
 
 //ADD
 survivors.push(selectHaddie());
+
+function selectAda() {
+	var ada = new selectSurvivor();
+	ada.name = "Ada Wong";
+	ada.portrait = "S32_charPreview_portrait.png";
+	return ada;
+}
+
+//ADD
+survivors.push(selectAda());
+
+function selectRebecca() {
+	var rebecca = new selectSurvivor();
+	rebecca.name = "Rebecca Chambers";
+	rebecca.portrait = "S33_charPreview_portrait.png";
+	return rebecca;
+}
+
+//ADD
+survivors.push(selectRebecca());
 
 //ADD ANY NEW SURVIVORS ABOVE HERE  AND THEN PUSH TO LIST -- P L O X
 //end base survivor section
@@ -5578,6 +5599,171 @@ dredgeAddons.push(iridescentWoodenPlank());
 
 //end Dredge Add-Ons
 
+//start Mastermind Add-Ons
+
+function jewelBeetle() {
+    var addon = selectAddOn("Jewel Beetle", ["addon text"], "Common", "addon text", "iconAddon_jewelBeetle.png", "Mastermind", ["extra"]);
+    return addon;
+}
+
+//ADD
+mastermindAddons.push(jewelBeetle());
+
+function unicornMedallion() {
+    var addon = selectAddOn("Unicorn Medallion", ["addon text"], "Common", "addon text", "iconAddon_unicornMedallion.png", "Mastermind", ["extra"]);
+    return addon;
+}
+
+//ADD
+mastermindAddons.push(unicornMedallion());
+
+function rpdShoulderWalkie() {
+    var addon = selectAddOn("R.P.D. Shoulder Walkie", ["addon text"], "Common", "addon text", "iconAddon_RPDShoulderWalkie.png", "Mastermind", ["extra"]);
+    return addon;
+}
+
+//ADD
+mastermindAddons.push(rpdShoulderWalkie());
+
+function uroborosTendril() {
+    var addon = selectAddOn("Uroboros Tendril", ["addon text"], "Common", "addon text", "iconAddon_uroborosTendril.png", "Mastermind", ["extra"]);
+    return addon;
+}
+
+//ADD
+mastermindAddons.push(uroborosTendril());
+
+function looseCrank() {
+    var addon = selectAddOn("Loose Crank", ["addon text"], "Uncommon", "addon text", "iconAddon_looseCrank.png", "Mastermind", ["extra"]);
+    return addon;
+}
+
+//ADD
+mastermindAddons.push(looseCrank());
+
+function leatherGloves() {
+    var addon = selectAddOn("Leather Gloves", ["addon text"], "Uncommon", "addon text", "iconAddon_leatherGloves.png", "Mastermind", ["extra"]);
+    return addon;
+}
+
+//ADD
+mastermindAddons.push(leatherGloves());
+
+function lionMedallion() {
+    var addon = selectAddOn("Lion Medallion", ["addon text"], "Uncommon", "addon text", "iconAddon_lionMedallion.png", "Mastermind", ["extra"]);
+    return addon;
+}
+
+//ADD
+mastermindAddons.push(lionMedallion());
+
+function goldChalice() {
+    var addon = selectAddOn("Chalice (Gold)", ["addon text"], "Uncommon", "addon text", "iconAddon_goldChalice.png", "Mastermind", ["extra"]);
+    return addon;
+}
+
+//ADD
+mastermindAddons.push(goldChalice());
+
+function bullhorn() {
+    var addon = selectAddOn("Bullhorn", ["addon text"], "Uncommon", "addon text", "iconAddon_bullhorn.png", "Mastermind", ["extra"]);
+    return addon;
+}
+
+//ADD
+mastermindAddons.push(bullhorn());
+
+function portableSafe() {
+    var addon = selectAddOn("Portable Safe", ["addon text"], "Rare", "addon text", "iconAddon_portableSafe.png", "Mastermind", ["extra"]);
+    return addon;
+}
+
+//ADD
+mastermindAddons.push(portableSafe());
+
+function redHerb() {
+    var addon = selectAddOn("Red Herb", ["addon text"], "Rare", "addon text", "iconAddon_redHerb.png", "Mastermind", ["extra"]);
+    return addon;
+}
+
+//ADD
+mastermindAddons.push(redHerb());
+
+function maidenMedalliom() {
+    var addon = selectAddOn("Maiden Medallion", ["addon text"], "Rare", "addon text", "iconAddon_maidenMedalliom.png", "Mastermind", ["extra"]);
+    return addon;
+}
+
+//ADD
+mastermindAddons.push(maidenMedalliom());
+
+function videoConferenceDevice() {
+    var addon = selectAddOn("Video Conference Device", ["addon text"], "Rare", "addon text", "iconAddon_videoConferenceDevice.png", "Mastermind", ["extra"]);
+    return addon;
+}
+
+//ADD
+mastermindAddons.push(videoConferenceDevice());
+
+function goldenEgg() {
+    var addon = selectAddOn("Egg (Gold)", ["addon text"], "Rare", "addon text", "iconAddon_goldenEgg.png", "Mastermind", ["extra"]);
+    return addon;
+}
+
+//ADD
+mastermindAddons.push(goldenEgg());
+
+function darkSunglasses() {
+    var addon = selectAddOn("Dark Sunglasses", ["addon text"], "Very Rare", "addon text", "iconAddon_darkSunglasses.png", "Mastermind", ["extra"]);
+    return addon;
+}
+
+//ADD
+mastermindAddons.push(darkSunglasses());
+
+function greenHerb() {
+    var addon = selectAddOn("Green Herb", ["addon text"], "Very Rare", "addon text", "iconAddon_greenHerb.png", "Mastermind", ["extra"]);
+    return addon;
+}
+
+//ADD
+mastermindAddons.push(greenHerb());
+
+function helicopterStick() {
+    var addon = selectAddOn("Helicopter Stick", ["addon text"], "Very Rare", "addon text", "iconAddon_helicopterStick.png", "Mastermind", ["extra"]);
+    return addon;
+}
+
+//ADD
+mastermindAddons.push(helicopterStick());
+
+function uroborosVirus() {
+    var addon = selectAddOn("Uroboros Virus", ["addon text"], "Very Rare", "addon text", "iconAddon_lasPlagasVariant.png", "Mastermind", ["extra"]);
+    return addon;
+}
+
+//ADD
+mastermindAddons.push(uroborosVirus());
+
+function labPhoto() {
+    var addon = selectAddOn("Lab Photo", ["addon text"], "Ultra Rare", "addon text", "iconAddon_labPhoto.png", "Mastermind", ["extra"]);
+    return addon;
+}
+
+//ADD
+mastermindAddons.push(labPhoto());
+
+function iridescentUroborosVial() {
+    var addon = selectAddOn("Iridescent Uroboros Vial", ["addon text"], "Ultra Rare", "addon text", "iconAddon_iridescentUroborosVial.png", "Mastermind", ["extra"]);
+    return addon;
+}
+
+//ADD
+mastermindAddons.push(iridescentUroborosVial());
+
+
+//end Mastermind Add-Ons
+
 function blightSerum() {
     var addon = selectAddOn("Blight Serum", ["addon text"], "event", "addon text", "IconAddon_blightSerum.png", "All", ["extra"]);
     return addon;
@@ -5610,6 +5796,7 @@ cenobiteAddons.push(blightSerum());
 artistAddons.push(blightSerum());
 onryoAddons.push(blightSerum());
 dredgeAddons.push(blightSerum());
+mastermindAddons.push(blightSerum());
 
 //end specific add on Section
 
@@ -6483,6 +6670,54 @@ function overzealous() {
 //ADD
 survivorPerks.push(overzealous());
 
+function wiretap() {
+    var perk = selectPerk("Wiretap", ["perk text"], ["extra"], "Very Rare", "perk text", "iconPerks_Wiretap.png", "survivor", "Ada Wong");
+    return perk;
+}
+
+//ADD
+survivorPerks.push(wiretap());
+
+function reactiveHealing() {
+    var perk = selectPerk("Reactive Healing", ["perk text"], ["extra"], "Very Rare", "perk text", "iconPerks_ReactiveHealing.png", "survivor", "Ada Wong");
+    return perk;
+}
+
+//ADD
+survivorPerks.push(reactiveHealing());
+
+function lowProfile() {
+    var perk = selectPerk("Low Profile", ["perk text"], ["extra"], "Very Rare", "perk text", "iconPerks_LowProfile.png", "survivor", "Ada Wong");
+    return perk;
+}
+
+//ADD
+survivorPerks.push(lowProfile());
+
+function betterThanNew() {
+    var perk = selectPerk("Better than New", ["perk text"], ["extra"], "Very Rare", "perk text", "iconPerks_BetterThanNew.png", "survivor", "Rebecca Chambers");
+    return perk;
+}
+
+//ADD
+survivorPerks.push(betterThanNew());
+
+function reassurance() {
+    var perk = selectPerk("Reassurance", ["perk text"], ["extra"], "Very Rare", "perk text", "iconPerks_Reassurance.png", "survivor", "Rebecca Chambers");
+    return perk;
+}
+
+//ADD
+survivorPerks.push(reassurance());
+
+function hyperfocus() {
+    var perk = selectPerk("Hyperfocus", ["perk text"], ["extra"], "Very Rare", "perk text", "iconPerks_Hyperfocus.png", "survivor", "Rebecca Chambers");
+    return perk;
+}
+
+//ADD
+survivorPerks.push(hyperfocus());
+
 //end specific survivor perk section
 
 //begin specific killer perk section
@@ -7245,6 +7480,30 @@ function septicTouch() {
 
 //ADD
 killerPerks.push(septicTouch());
+
+function superiorAnatomy() {
+    var perk = selectPerk("Superior Anatomy", ["perk text"], ["extra"], "Very Rare", "perk text", "iconPerks_SuperiorAnatomy.png", "killer", "Mastermind");
+    return perk;
+}
+
+//ADD
+killerPerks.push(superiorAnatomy());
+
+function awakenedAwarenesss() {
+    var perk = selectPerk("Awakened Awareness", ["perk text"], ["extra"], "Very Rare", "perk text", "iconPerks_AwakenedAwarenesss.png", "killer", "Mastermind");
+    return perk;
+}
+
+//ADD
+killerPerks.push(awakenedAwarenesss());
+
+function terminus() {
+    var perk = selectPerk("Terminus", ["perk text"], ["extra"], "Very Rare", "perk text", "iconPerks_Terminus.png", "killer", "Mastermind");
+    return perk;
+}
+
+//ADD
+killerPerks.push(terminus());
 
 
 //end specific killer perk section
@@ -8565,6 +8824,17 @@ function selectDredge() {
 }
 //ADD
 killers.push(selectDredge());
+
+function selectMastermind() {
+    var mastermind = selectKiller();
+    mastermind.name = "The Mastermind";
+    mastermind.itemOrAbility = selectAddOn("The Mastermind", ["Virulent Bound"], "Common", "Virulent Bound", "iconPowers_virulentBound.png", "killer", ["extra"]);
+    mastermind.addonLink = mastermindAddons;
+    mastermind.portrait = "K29_charPreview_portrait.png";
+    return mastermind;
+}
+//ADD
+killers.push(selectMastermind());
 
 
 //end basic killer section - add new killers above here, plox
