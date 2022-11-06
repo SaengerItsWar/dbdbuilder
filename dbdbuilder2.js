@@ -1484,78 +1484,31 @@ wraithAddons.push(blinkWhite());
 
 //Billy Add-ons
 function chainsawFile() {
-    var addon = selectAddOn("Chainsaw File", ["Slightly decreased chainsaw noise."], "Common", "Slightly decreased chainsaw noise.", "IconAddon_chainsawFile.png", "Hillbilly", ["extra"]);
+    var addon = selectAddOn("Steel Toe Boots", ["text"], "Common", "text", "IconAddon_steelToeBoots.png", "Hillbilly", ["extra"]);
     return addon;
 }
 
 //ADD
 billyAddons.push(chainsawFile());
-cannibalAddons.push(chainsawFile());
 
-function sparkPlug() {
-    var addon = selectAddOn("Spark Plug", ["Slightly decreased chainsaw charge time."], "Common", "Slightly decreased chainsaw charge time.", "IconAddon_sparkPlug.png", "Hillbilly", ["extra"]);
-    return addon;
-}
-
-//ADD x 2
-billyAddons.push(sparkPlug());
-cannibalAddons.push(sparkPlug());
-
-function vegetableOil() {
-    var addon = selectAddOn("Vegetable Oil", ["Slightly decreased chainsaw cooldown."], "Common", "Slightly decreased chainsaw cooldown.", "IconAddon_vegetableOil.png", "Hillbilly", ["extra"]);
+function junkyardAirFilter() {
+    var addon = selectAddOn("Junkyard Air Filter", ["text"], "Common", "text", "IconAddon_junkyardAirFilter.png", "Hillbilly", ["extra"]);
     return addon;
 }
 
 //ADD
-billyAddons.push(vegetableOil());
-cannibalAddons.push(vegetableOil());
+billyAddons.push(junkyardAirFilter());
 
-function longGuideBar() {
-    var addon = selectAddOn("Long Guide Bar", ["Slightly increased chainsaw reach."], "Uncommon", "Slightly increased chainsaw reach.", "IconAddon_longGuideBar.png", "Hillbilly", ["extra"]);
+function heavyClutch() {
+    var addon = selectAddOn("Heavy Clutch", ["text"], "Common", "text", "IconAddon_heavyClutch.png", "Hillbilly", ["extra"]);
     return addon;
 }
 
 //ADD
-billyAddons.push(longGuideBar());
-cannibalAddons.push(longGuideBar());
-
-function depthGuageRake() {
-    var addon = selectAddOn("Depth Gauge Rake", ["Moderately reduced time penalty when contacting objects."], "Uncommon", "Moderately reduced time penalty when contacting objects.", "IconAddon_depthGaugeRake.png", "Hillbilly", ["extra"]);
-    return addon;
-}
-
-//ADD
-billyAddons.push(depthGuageRake());
-cannibalAddons.push(depthGuageRake());
-
-function primerBulb() {
-    var addon = selectAddOn("Primer Bulb", ["Moderately decreased chainsaw charge time."], "Uncommon", "Moderately decreased chainsaw charge time.", "IconAddon_primerBulb.png", "Hillbilly", ["extra"]);
-    return addon;
-}
-
-//ADD
-billyAddons.push(primerBulb());
-cannibalAddons.push(primerBulb());
-
-function shopLubricant() {
-    var addon = selectAddOn("Shop Lubricant", ["Moderately decreased chainsaw cooldown."], "Uncommon", "Moderately decreased chainsaw cooldown.", "IconAddon_shopLubricant.png", "Hillbilly", ["extra"]);
-    return addon;
-}
-
-//ADD
-billyAddons.push(shopLubricant());
-cannibalAddons.push(shopLubricant());
-
-function spikedBoots() {
-    var addon = selectAddOn("Spiked Boots", ["Moderately increases chainsaw sprint steering."], "Uncommon", "Moderately increases chainsaw sprint steering.", "IconAddon_spikedBoots.png", "Hillbilly", ["extra"]);
-    return addon;
-}
-
-//ADD
-billyAddons.push(spikedBoots());
+billyAddons.push(heavyClutch());
 
 function speedLimiter() {
-    var addon = selectAddOn("Speed Limiter", ["Chainsaw does not trigger dying state.", "50% more points for chainsaw events."], "Uncommon", "Bonus points; chainsaw not as effective.", "IconAddon_speedLimiter.png", "Hillbilly", ["extra", "extra"]);
+    var addon = selectAddOn("Speed Limiter", ["text"], "Common", "text", "IconAddon_speedLimiter.png", "Hillbilly", ["extra"]);
     return addon;
 }
 
@@ -1563,91 +1516,134 @@ function speedLimiter() {
 billyAddons.push(speedLimiter());
 cannibalAddons.push(speedLimiter());
 
-function homemadeMuffler() {
-    var addon = selectAddOn("Homemade Muffler", ["Moderately decreased chainsaw noise."], "Uncommon", "Moderately decreased chainsaw noise.", "IconAddon_homemadeMuffler.png", "Hillbilly", ["extra"]);
+function dadsBoots() {
+    var addon = selectAddOn("Dad's Boots", ["text"], "Uncommon", "text", "IconAddon_dadsBoots.png", "Hillbilly", ["extra"]);
     return addon;
 }
 
 //ADD
-billyAddons.push(homemadeMuffler());
-cannibalAddons.push(homemadeMuffler());
+billyAddons.push(dadsBoots());
+
+
+function puncturedMuffler() {
+    var addon = selectAddOn("Punctured Muffler", ["text"], "Uncommon", "text", "IconAddon_puncturedMuffler.png", "Hillbilly", ["extra"]);
+    return addon;
+}
+
+//ADD
+billyAddons.push(puncturedMuffler());
+
+function offBrandMotorOil() {
+    var addon = selectAddOn("Off-Brand Motor Oil", ["text"], "Uncommon", "text", "IconAddon_offBrandMotorOil.png", "Hillbilly", ["extra"]);
+    return addon;
+}
+
+//ADD
+billyAddons.push(offBrandMotorOil());
 
 function deathEngravings() {
-    var addon = selectAddOn("Death Engravings", ["Slightly increased chainsaw movement speed.", "Slightly increased chainsaw charge time."], "Uncommon", "Increased charge time; increased sprint speed.", "IconAddon_deathEngravings.png", "Hillbilly", ["extra", "extra"]);
+    var addon = selectAddOn("Death Engravings", ["text"], "Uncommon", "text", "IconAddon_deathEngravings.png", "Hillbilly", ["extra"]);
     return addon;
 }
 
 //ADD
 billyAddons.push(deathEngravings());
 
-function grislyChains() {
-    var addon = selectAddOn("Grisly Chain", ["Moderately decreased repair speed to survivors hit by the chainsaw."], "Uncommon", "Moderately decreased repair speed to survivors hit by the chainsaw.", "IconAddon_chainsGrisly.png", "Hillbilly", ["extra"]);
+function bigBuckle() {
+    var addon = selectAddOn("Big Buckle", ["text"], "Uncommon", "text", "IconAddon_bigBuckle.png", "Hillbilly", ["extra"]);
     return addon;
 }
 
 //ADD
-billyAddons.push(grislyChains());
-cannibalAddons.push(grislyChains());
+billyAddons.push(bigBuckle());
 
-function rustedChains() {
-    var addon = selectAddOn("Rusted Chain", ["Considerably decreased healing speed to survivors hit by the chainsaw."], "Rare", "Considerably decreased healing speed to survivors hit by the chainsaw.", "IconAddon_chainsRusted.png", "Hillbilly", ["extra"]);
+function mothersHelpers() {
+    var addon = selectAddOn("Mother's Helpers", ["text", "text"], "Rare", "text", "IconAddon_mothersHelpers.png", "Hillbilly", ["extra", "extra"]);
     return addon;
 }
 
 //ADD
-billyAddons.push(rustedChains());
-cannibalAddons.push(rustedChains());
+billyAddons.push(mothersHelpers());
+
+function lowKickbackChains() {
+    var addon = selectAddOn("Low Kickback Chains", ["text"], "Rare", "text", "IconAddon_lowKickbackChains.png", "Hillbilly", ["extra"]);
+    return addon;
+}
+
+//ADD
+billyAddons.push(lowKickbackChains());
+
+function leafyMash() {
+    var addon = selectAddOn("Leafy Mash", ["text", "text"], "Rare", "text", "IconAddon_leafyMash.png", "Hillbilly", ["extra", "extra"]);
+    return addon;
+}
+
+//ADD
+billyAddons.push(leafyMash());
 
 function doomEngravings() {
-    var addon = selectAddOn("Doom Engravings", ["Moderately increases chainsaw sprint speed.", "Slightly increased chainsaw charge time."], "Rare", "Considerably decreased healing speed to survivors hit by the chainsaw.", "IconAddon_doomEngravings.png", "Hillbilly", ["extra", "extra"]);
+    var addon = selectAddOn("Grisly Chain", ["text"], "Rare", "text", "IconAddon_doomEngravings.png", "Hillbilly", ["extra"]);
     return addon;
 }
 
 //ADD
 billyAddons.push(doomEngravings());
 
-function ctg() {
-    var addon = selectAddOn("Carburetor Tuning Guide", ["Moderately decreased chainsaw charge time.", "Slightly decreased chainsaw cooldown.", "Slightly reduced object contact time penalty.", "Slightly reduced chainsaw noise."], "Rare", "Improves most aspects of chainsaw.", "IconAddon_carburetorTuningGuide.png", "Hillbilly", ["extra", "extra", "extra", "extra"]);
+function blackGrease() {
+    var addon = selectAddOn("Black Grease", ["Text"], "Rare", "Text", "IconAddon_blackGrease.png", "Hillbilly", ["extra"]);
     return addon;
 }
 
 //ADD
-billyAddons.push(ctg());
-cannibalAddons.push(ctg());
+billyAddons.push(blackGrease());
 
-function lightChassis() {
-    var addon = selectAddOn("Light Chassis", ["Slightly reduced chainsaw reach.", "Considerably reduced object contact time penalty."], "Rare", "Faster contact recovery; reduced reach.", "IconAddon_lightChassis.png", "Hillbilly", ["extra", "extra"]);
+function tunedCarburetor() {
+    var addon = selectAddOn("Tuned Carburettor", ["Text", "Text"], "Very Rare", "Text", "IconAddon_tunedCarburetor.png", "Hillbilly", ["extra", "extra"]);
     return addon;
 }
 
 //ADD
-billyAddons.push(lightChassis());
-cannibalAddons.push(lightChassis());
+billyAddons.push(tunedCarburetor());
 
-function thompsonMix() {
-    var addon = selectAddOn("The Thompson's Mix", ["Considerably reduced chainsaw cooldown.", "Slightly decreased chainsaw charge time."], "Rare", "Faster cooldowns; reduced charge time.", "IconAddon_theThompsonsMix.png", "Hillbilly", ["extra", "extra"]);
+function spikedBoots() {
+    var addon = selectAddOn("Spiked Boots", ["Text", "Text", "Text", "Text"], "Very Rare", "Text", "IconAddon_spikedBoots.png", "Hillbilly", ["extra", "extra", "extra", "extra"]);
     return addon;
 }
 
 //ADD
-billyAddons.push(thompsonMix());
+billyAddons.push(spikedBoots());
 
-function begrimedChains() {
-    var addon = selectAddOn("Begrimed Chain", ["Considerably increased healing time of chainsawed survivors.", "Slightly reduced repair speed of chainsawed survivors."], "Very Rare", "Reduction in heal and repair speed of chainsaw victims.", "IconAddon_chainsBloody.png", "Hillbilly", ["extra", "extra"]);
+function pighouseGloves() {
+    var addon = selectAddOn("Pighouse Gloves", ["Text", "Text"], "Very Rare", "Text", "IconAddon_pighouseGlovess.png", "Hillbilly", ["extra", "extra"]);
     return addon;
 }
 
 //ADD
-billyAddons.push(begrimedChains());
-cannibalAddons.push(begrimedChains());
+billyAddons.push(pighouseGloves());
 
-function thompsonMoonshine() {
-    var addon = selectAddOn("Thompson's Moonshine", ["Tremendously increased chainsaw sprint steering.", "Considerably increased object contact penalty."], "Very Rare", "Increased chainsaw sprint control.", "IconAddon_thompsonsMoonshine.png", "Hillbilly", ["extra", "extra"]);
+function lowProChains() {
+    var addon = selectAddOn("LoPro Chains", ["Text", "Text"], "Very Rare", "Text", "IconAddon_lowProChains.png", "Hillbilly", ["extra", "extra"]);
     return addon;
 }
 
 //ADD
-billyAddons.push(thompsonMoonshine());
+billyAddons.push(lowProChains());
+
+function apexMuffler() {
+    var addon = selectAddOn("Apex Muffler", ["Text", "text"], "Ultra Rare", "Text", "IconAddon_apexMuffler.png", "Hillbilly", ["extra", "extra"]);
+    return addon;
+}
+
+//ADD
+billyAddons.push(apexMuffler());
+
+function iridescentBrick() {
+    var addon = selectAddOn("Iridescent Brick", ["Text", "Text"], "Ultra Rare", "Text", "IconAddon_iridescentBrick.png", "Hillbilly", ["extra", "extra"]);
+    return addon;
+}
+
+//ADD
+billyAddons.push(iridescentBrick());
 //killers[3].addonLink = billyAddons;
 
 //Nurse Add-ons
@@ -2456,17 +2452,65 @@ function iridescentHead() {
 //ADD
 huntressAddons.push(iridescentHead());
 
-//Leatherface addons (only the ones that differ from hillbilly's)
+//Leatherface addons
+function vegetableOil() {
+    var addon = selectAddOn("Vegetable Oil", ["addon text"], "Common", "addon text", "iconAddon_vegetableOil.png", "Leatherface", ["extra"]);
+    return addon;
+}
+
+//ADD
+cannibalAddons.push(vegetableOil());
+
+function sparkPlug() {
+    var addon = selectAddOn("Spark Plug", ["addon text"], "Common", "addon text", "iconAddon_sparkPlug.png", "Leatherface", ["extra"]);
+    return addon;
+}
+
+//ADD
+cannibalAddons.push(sparkPlug());
+
+function chainsawFile() {
+    var addon = selectAddOn("Chainsaw File", ["addon text"], "Common", "addon text", "iconAddon_chainsawFile.png", "Leatherface", ["extra"]);
+    return addon;
+}
+
+//ADD
+cannibalAddons.push(chainsawFile());
+
+function longGuideBar() {
+    var addon = selectAddOn("Long Guide Bar", ["addon text"], "Uncommon", "addon text", "iconAddon_longGuideBar.png", "Leatherface", ["extra"]);
+    return addon;
+}
+
+//ADD
+cannibalAddons.push(longGuideBar());
+
+function primerBulb() {
+    var addon = selectAddOn("Primer Bulb", ["addon text"], "Uncommon", "addon text", "iconAddon_primerBulb.png", "Leatherface", ["extra"]);
+    return addon;
+}
+
+//ADD
+cannibalAddons.push(primerBulb());
+
 function knifeScratches() {
-    var addon = selectAddOn("Knife Scratches", ["Addon Text", "Addon Text", "Addon Text"], "Uncommon", "Addon Text", "iconAddon_knifeScratches.png", "Leatherface", ["extra", "extra"]);
+    var addon = selectAddOn("Knife Scratches", ["addon text"], "Uncommon", "addon text", "iconAddon_knifeScratches.png", "Leatherface", ["extra"]);
     return addon;
 }
 
 //ADD
 cannibalAddons.push(knifeScratches());
 
+function homemadeMuffler() {
+    var addon = selectAddOn("Homemade Muffler", ["addon text"], "Uncommon", "addon text", "iconAddon_homemadeMuffler.png", "Leatherface", ["extra"]);
+    return addon;
+}
+
+//ADD
+cannibalAddons.push(homemadeMuffler());
+
 function chilli() {
-    var addon = selectAddOn("Chili", ["Addon Text", "Addon Text", "Addon Text"], "Uncommon", "Addon Text", "iconAddon_chili.png", "Leatherface", ["extra", "extra"]);
+    var addon = selectAddOn("Chilli", ["addon text"], "Uncommon", "addon text", "iconAddon_chilli.png", "Leatherface", ["extra"]);
     return addon;
 }
 
@@ -2474,28 +2518,92 @@ function chilli() {
 cannibalAddons.push(chilli());
 
 function theGrease() {
-    var addon = selectAddOn("The Grease", ["Addon Text", "Addon Text", "Addon Text"], "Rare", "Addon Text", "iconAddon_theGrease.png", "Leatherface", ["extra", "extra"]);
+    var addon = selectAddOn("The Grease", ["addon text"], "Rare", "addon text", "iconAddon_theGrease.png", "Leatherface", ["extra"]);
     return addon;
 }
 
 //ADD
 cannibalAddons.push(theGrease());
 
-function beastsMarks() {
-    var addon = selectAddOn("The Beast's Marks", ["Addon Text", "Addon Text", "Addon Text"], "Rare", "Addon Text", "iconAddon_theBeastsMark.png", "Leatherface", ["extra", "extra"]);
+function theBeastsMark() {
+    var addon = selectAddOn("The Beast's Marks", ["addon text"], "Rare", "addon text", "iconAddon_theBeastsMark.png", "Leatherface", ["extra"]);
     return addon;
 }
 
 //ADD
-cannibalAddons.push(beastsMarks());
+cannibalAddons.push(theBeastsMark());
 
-function awardChilli() {
-    var addon = selectAddOn("Award-winning Chili", ["Addon Text", "Addon Text", "Addon Text"], "Very Rare", "Addon Text", "iconAddon_awardwinningChili.png", "Leatherface", ["extra", "extra"]);
+function shopLubricant() {
+    var addon = selectAddOn("Shop Lubricant", ["addon text"], "Rare", "addon text", "iconAddon_shopLubricant.png", "Leatherface", ["extra"]);
     return addon;
 }
 
 //ADD
-cannibalAddons.push(awardChilli());
+cannibalAddons.push(shopLubricant());
+
+function grislyChains() {
+    var addon = selectAddOn("Grisly Chains", ["addon text"], "Rare", "addon text", "iconAddon_chainsGrisly.png", "Leatherface", ["extra"]);
+    return addon;
+}
+
+//ADD
+cannibalAddons.push(grislyChains());
+
+function begrimedChains() {
+    var addon = selectAddOn("Begrimed Chains", ["addon text"], "Rare", "addon text", "iconAddon_chainsBegrimed.png", "Leatherface", ["extra"]);
+    return addon;
+}
+
+//ADD
+cannibalAddons.push(begrimedChains());
+
+function rustedChains() {
+    var addon = selectAddOn("Rusted Chains", ["addon text"], "Very Rare", "addon text", "iconAddon_chainsRusted.png", "Leatherface", ["extra"]);
+    return addon;
+}
+
+//ADD
+cannibalAddons.push(rustedChains());
+
+function lightChassis() {
+    var addon = selectAddOn("Light Chassis", ["addon text"], "Very Rare", "addon text", "iconAddon_lightChassis.png", "Leatherface", ["extra"]);
+    return addon;
+}
+
+//ADD
+cannibalAddons.push(lightChassis());
+
+function depthGaugeRake() {
+    var addon = selectAddOn("Depth Gauge Rake", ["addon text"], "Very Rare", "addon text", "iconAddon_depthGaugeRake.png", "Leatherface", ["extra"]);
+    return addon;
+}
+
+//ADD
+cannibalAddons.push(depthGaugeRake());
+
+function awardwinningChili() {
+    var addon = selectAddOn("Award-winning Chilli", ["addon text"], "Very Rare", "addon text", "iconAddon_awardwinningChili.png", "Leatherface", ["extra"]);
+    return addon;
+}
+
+//ADD
+cannibalAddons.push(awardwinningChili());
+
+function iridescentFlesh() {
+    var addon = selectAddOn("Iridescent Flesh", ["addon text"], "Ultra Rare", "addon text", "iconAddon_iridescentFlesh.png", "Leatherface", ["extra"]);
+    return addon;
+}
+
+//ADD
+cannibalAddons.push(iridescentFlesh());
+
+function carburetorTuningGuide() {
+    var addon = selectAddOn("Carburettor Tuning Guide", ["addon text"], "Ultra Rare", "addon text", "iconAddon_carburetorTuningGuide.png", "Leatherface", ["extra"]);
+    return addon;
+}
+
+//ADD
+cannibalAddons.push(carburetorTuningGuide());
 
 //Freddy Addons
 function woolShirt() {
@@ -2660,14 +2768,6 @@ freddyAddons.push(blackBox());
 //end freddy addon section
 
 //begin pig addon section
-function workshopGrease() {
-    var addon = selectAddOn("Workshop Grease", ["addon text"], "Common", "addon text", "iconAddon_workshopGrease.png", "Pig", ["extra"]);
-    return addon;
-}
-
-//ADD
-pigAddons.push(workshopGrease());
-
 function sSyringe() {
     var addon = selectAddOn("Shattered Syringe", ["addon text"], "Common", "addon text", "iconAddon_shatteredSyringe.png", "Pig", ["extra"]);
     return addon;
@@ -2684,6 +2784,14 @@ function jMedFile() {
 //ADD
 pigAddons.push(jMedFile());
 
+function intRazor() {
+    var addon = selectAddOn("Interlocking Razor", ["addon text"], "Common", "addon text", "iconAddon_interlockingRazor.png", "Pig", ["extra"]);
+    return addon;
+}
+
+//ADD
+pigAddons.push(intRazor());
+
 function combatStraps() {
     var addon = selectAddOn("Combat Straps", ["addon text"], "Common", "addon text", "iconAddon_combatStraps.png", "Pig", ["extra"]);
     return addon;
@@ -2692,13 +2800,13 @@ function combatStraps() {
 //ADD
 pigAddons.push(combatStraps());
 
-function videoTape() {
-    var addon = selectAddOn("Video Tape", ["addon text"], "Uncommon", "addon text", "iconAddon_videoTape.png", "Pig", ["extra"]);
+function workshopGrease() {
+    var addon = selectAddOn("Workshop Grease", ["addon text"], "Uncommon", "addon text", "iconAddon_workshopGrease.png", "Pig", ["extra"]);
     return addon;
 }
 
 //ADD
-pigAddons.push(videoTape());
+pigAddons.push(workshopGrease());
 
 function utilityBlades() {
     var addon = selectAddOn("Utility Blades", ["addon text"], "Uncommon", "addon text", "iconAddon_utilityBlades.png", "Pig", ["extra"]);
@@ -2748,21 +2856,21 @@ function rustyAtt() {
 //ADD
 pigAddons.push(rustyAtt());
 
-function jigsawSketch() {
-    var addon = selectAddOn("Jigsaw's Sketch", ["addon text"], "Rare", "addon text", "iconAddon_jigsawsAnnotatedPlan.png", "Pig", ["extra"]);
+function ruleSet2() {
+    var addon = selectAddOn("Rules Set No.2", ["addon text"], "Rare", "addon text", "iconAddon_rulesSetN2.png", "Pig", ["extra"]);
     return addon;
 }
 
 //ADD
-pigAddons.push(jigsawSketch());
+pigAddons.push(ruleSet2());
 
-function intRazor() {
-    var addon = selectAddOn("Interlocking Razor", ["addon text"], "Rare", "addon text", "iconAddon_interlockingRazor.png", "Pig", ["extra"]);
+function jigsAnPlan() {
+    var addon = selectAddOn("Jigsaw's Annotated Plan", ["addon text"], "Rare", "addon text", "iconAddon_jigsawsSketch.png", "Pig", ["extra"]);
     return addon;
 }
 
 //ADD
-pigAddons.push(intRazor());
+pigAddons.push(jigsAnPlan());
 
 function bagOfGears() {
     var addon = selectAddOn("Bag Of Gears", ["addon text"], "Rare", "addon text", "iconAddon_bagOfGears.png", "Pig", ["extra"]);
@@ -2780,13 +2888,13 @@ function tamperedTimer() {
 //ADD
 pigAddons.push(tamperedTimer());
 
-function jigsAnPlan() {
-    var addon = selectAddOn("Jigsaw's Annotated Plan", ["addon text"], "Very Rare", "addon text", "iconAddon_jigsawsSketch.png", "Pig", ["extra"]);
+function jigsawSketch() {
+    var addon = selectAddOn("Jigsaw's Sketch", ["addon text"], "Very Rare", "addon text", "iconAddon_jigsawsAnnotatedPlan.png", "Pig", ["extra"]);
     return addon;
 }
 
 //ADD
-pigAddons.push(jigsAnPlan());
+pigAddons.push(jigsawSketch());
 
 function crateOfGears() {
     var addon = selectAddOn("Crate Of Gears", ["addon text"], "Very Rare", "addon text", "iconAddon_crateOfGears.png", "Pig", ["extra"]);
@@ -2804,14 +2912,6 @@ function amandaSecret() {
 //ADD
 pigAddons.push(amandaSecret());
 
-function ruleSet2() {
-    var addon = selectAddOn("Rules Set No.2", ["addon text"], "Ultra Rare", "addon text", "iconAddon_rulesSetN2.png", "Pig", ["extra"]);
-    return addon;
-}
-
-//ADD
-pigAddons.push(ruleSet2());
-
 function amandaLetter() {
     var addon = selectAddOn("Amanda's Letter", ["addon text"], "Ultra Rare", "addon text", "iconAddon_amandasLetter.png", "Pig", ["extra"]);
     return addon;
@@ -2819,6 +2919,14 @@ function amandaLetter() {
 
 //ADD
 pigAddons.push(amandaLetter());
+
+function videoTape() {
+    var addon = selectAddOn("Video Tape", ["addon text"], "Ultra Rare", "addon text", "iconAddon_videoTape.png", "Pig", ["extra"]);
+    return addon;
+}
+
+//ADD
+pigAddons.push(videoTape());
 
 //Clown adds section
 function smellySoles() {
@@ -7504,6 +7612,14 @@ function terminus() {
 
 //ADD
 killerPerks.push(terminus());
+
+function shatteredHope() {
+    var perk = selectPerk("Shattered Hope", ["perk text"], ["extra"], "Very Rare", "perk text", "iconPerks_BoonDestroyer.png", "killer", "All");
+    return perk;
+}
+
+//ADD
+killerPerks.push(shatteredHope());
 
 
 //end specific killer perk section
