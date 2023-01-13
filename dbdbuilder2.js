@@ -6707,7 +6707,7 @@ function boonShadowStep() {
 survivorPerks.push(boonShadowStep());
 
 function overcome() {
-    var perk = selectPerk("Overcome", ["perk text"], ["extra"], "Very Rare", "perk text", "iconPerks_overcome.png", "survivor", "Jonah Vasquez");
+    var perk = selectPerk("Overcome", ["perk text"], ["extra"], "Very Rare", "perk text", "iconPerks_Overcome.png", "survivor", "Jonah Vasquez");
     return perk;
 }
 
