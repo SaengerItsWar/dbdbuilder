@@ -44,6 +44,7 @@ var dredgeAddons= [];
 var mastermindAddons = [];
 var knightAddons = [];
 var merchantAddons = [];
+var singularityAddons = [];
 
 //item addon lists
 var flashlightAddons = [];
@@ -454,6 +455,16 @@ function selectRenato() {
 //ADD
 survivors.push(selectRenato());
 
+function selectGabriel() {
+	var gabriel = new selectSurvivor();
+	gabriel.name = "Gabriel Soma";
+	gabriel.portrait = "S37_charPreview_portrait.png";
+	return gabriel;
+}
+
+//ADD
+survivors.push(selectGabriel());
+
 //ADD ANY NEW SURVIVORS ABOVE HERE  AND THEN PUSH TO LIST -- P L O X
 //end base survivor section
 //begin loadout item section
@@ -629,7 +640,7 @@ function rainbowMap() {
 survivorItems.push(rainbowMap());
 //Chinese Firecracker
 function chineseFirecracker() {
-    var sItem = survItems("Chinese Firecracker", ["Distracts the Killer.", "Can blind and deafen the killer temporarily."], "event", "Explosive distraction device.", "iconItems_chineseFirecracker.png", "Chinese Firecracker", ["extra", "extra"], 1, "explosive");
+    var sItem = survItems("Chinese Firecracker", ["Distracts the Killer.", "Can blind and deafen the killer temporarily."], "event", "Explosive distraction device.", "IconItems_chineseFirecracker.png", "Chinese Firecracker", ["extra", "extra"], 1, "explosive");
     sItem.isRedacted = false;
     return sItem;
 }
@@ -6259,6 +6270,171 @@ merchantAddons.push(iridescentUnpublishedManuscript());
 
 //end Merchant Add-Ons
 
+//start Singularity Add-Ons
+
+function nutritionalSlurry() {
+    var addon = selectAddOn("Nutritional Slurry", ["addon text"], "Common", "addon text", "iconAddon_nutritionalSlurry.png", "Singularity", ["extra"]);
+    return addon;
+}
+
+//ADD
+singularityAddons.push(nutritionalSlurry());
+
+function kidsBallGlove() {
+    var addon = selectAddOn("Kid's Ball Glove", ["addon text"], "Common", "addon text", "iconAddon_kidsBallGlove.png", "Singularity", ["extra"]);
+    return addon;
+}
+
+//ADD
+singularityAddons.push(kidsBallGlove());
+
+function heavyWater() {
+    var addon = selectAddOn("Heavy Water", ["addon text"], "Common", "addon text", "iconAddon_heavyWater.png", "Singularity", ["extra"]);
+    return addon;
+}
+
+//ADD
+singularityAddons.push(heavyWater());
+
+function brokenSecurityKey() {
+    var addon = selectAddOn("Broken Security Key", ["addon text"], "Common", "addon text", "iconAddon_brokenSecurityKey.png", "Singularity", ["extra"]);
+    return addon;
+}
+
+//ADD
+singularityAddons.push(brokenSecurityKey());
+
+function ultrasonicSensor() {
+    var addon = selectAddOn("Ultrasonic Sensor", ["addon text"], "Uncommon", "addon text", "iconAddon_ultrasonicSensor.png", "Singularity", ["extra"]);
+    return addon;
+}
+
+//ADD
+singularityAddons.push(ultrasonicSensor());
+
+function diagnosticToolRepair() {
+    var addon = selectAddOn("Diagnostic Tool (Repair)", ["addon text"], "Uncommon", "addon text", "iconAddon_diagnosticToolRepair.png", "Singularity", ["extra"]);
+    return addon;
+}
+
+//ADD
+singularityAddons.push(diagnosticToolRepair());
+
+function cryoGel() {
+    var addon = selectAddOn("Cryo Gel", ["addon text"], "Uncommon", "addon text", "iconAddon_cryoGel.png", "Singularity", ["extra"]);
+    return addon;
+}
+
+//ADD
+singularityAddons.push(cryoGel());
+
+function crematedRemains() {
+    var addon = selectAddOn("Cremated Remains", ["addon text"], "Uncommon", "addon text", "iconAddon_crematedRemains.png", "Singularity", ["extra"]);
+    return addon;
+}
+
+//ADD
+singularityAddons.push(crematedRemains());
+
+function androidArm() {
+    var addon = selectAddOn("Android Arm", ["addon text"], "Uncommon", "addon text", "iconAddon_androidArm.png", "Singularity", ["extra"]);
+    return addon;
+}
+
+//ADD
+singularityAddons.push(androidArm());
+
+function spentOxygenTank() {
+    var addon = selectAddOn("Spent Oxygen Tank", ["addon text"], "Rare", "addon text", "iconAddon_spentOxygenTank.png", "Singularity", ["extra"]);
+    return addon;
+}
+
+//ADD
+singularityAddons.push(spentOxygenTank());
+
+function liveWires() {
+    var addon = selectAddOn("Live Wires", ["addon text"], "Rare", "addon text", "iconAddon_liveWires.png", "Singularity", ["extra"]);
+    return addon;
+}
+
+//ADD
+singularityAddons.push(liveWires());
+
+function hyperawarenessSpray() {
+    var addon = selectAddOn("Hyperawareness Spray", ["addon text"], "Rare", "addon text", "iconAddon_hyperawarenessSpray.png", "Singularity", ["extra"]);
+    return addon;
+}
+
+//ADD
+singularityAddons.push(hyperawarenessSpray());
+
+function hologramGenerator() {
+    var addon = selectAddOn("Hologram Generator", ["addon text"], "Rare", "addon text", "iconAddon_hologramGenerator.png", "Singularity", ["extra"]);
+    return addon;
+}
+
+//ADD
+singularityAddons.push(hologramGenerator());
+
+function foreignPlantFibers() {
+    var addon = selectAddOn("Foreign Plant Fibres", ["addon text"], "Rare", "addon text", "iconAddon_foreignPlantFibers.png", "Singularity", ["extra"]);
+    return addon;
+}
+
+//ADD
+singularityAddons.push(foreignPlantFibers());
+
+function nanomachineGel() {
+    var addon = selectAddOn("Nanomachine Gel", ["addon text"], "Very Rare", "addon text", "iconAddon_nanomachineGel.png", "Singularity", ["extra"]);
+    return addon;
+}
+
+//ADD
+singularityAddons.push(nanomachineGel());
+
+function diagnosticToolConstruction() {
+    var addon = selectAddOn("Diagnostic Tool (Construction)", ["addon text"], "Very Rare", "addon text", "iconAddon_diagnosticToolConstruction.png", "Singularity", ["extra"]);
+    return addon;
+}
+
+//ADD
+singularityAddons.push(diagnosticToolConstruction());
+
+function deniedRequisitionForm() {
+    var addon = selectAddOn("Denied Requisition Form", ["addon text"], "Very Rare", "addon text", "iconAddon_deniedRequisitionForm.png", "Singularity", ["extra"]);
+    return addon;
+}
+
+//ADD
+singularityAddons.push(deniedRequisitionForm());
+
+function crewManifest() {
+    var addon = selectAddOn("Crew Manifest", ["addon text"], "Very Rare", "addon text", "iconAddon_crewManifest.png", "Singularity", ["extra"]);
+    return addon;
+}
+
+//ADD
+singularityAddons.push(crewManifest());
+
+function somaFamilyPhoto() {
+    var addon = selectAddOn("Soma Family Photo", ["addon text"], "Ultra Rare", "addon text", "iconAddon_somaFamilyPhoto.png", "Singularity", ["extra"]);
+    return addon;
+}
+
+//ADD
+singularityAddons.push(somaFamilyPhoto());
+
+function iridiscentCrystalShard() {
+    var addon = selectAddOn("Iridescent Crystal Shard", ["addon text"], "Ultra Rare", "addon text", "iconAddon_iridiscentCrystalShard.png", "Singularity", ["extra"]);
+    return addon;
+}
+
+//ADD
+singularityAddons.push(iridiscentCrystalShard());
+
+
+//end Singularity Add-Ons
+
 function blightSerum() {
     var addon = selectAddOn("Blight Serum", ["addon text"], "event", "addon text", "iconAddon_blightedSerum.png", "All", ["extra"]);
     return addon;
@@ -6294,6 +6470,7 @@ dredgeAddons.push(blightSerum());
 mastermindAddons.push(blightSerum());
 knightAddons.push(blightSerum());
 merchantAddons.push(blightSerum());
+singularityAddons.push(blightSerum());
 //end specific add on Section
 
 //base perk Section (native to lets us know if it is teachable)
@@ -7286,6 +7463,30 @@ function backgroundPlayer() {
 //ADD
 survivorPerks.push(backgroundPlayer());
 
+function troubleshooter() {
+    var perk = selectPerk("Troubleshooter", ["perk text"], ["extra"], "Very Rare", "perk text", "IconPerks_troubleshooter.png", "survivor", "Gabriel Soma");
+    return perk;
+}
+
+//ADD
+survivorPerks.push(troubleshooter());
+
+function madeForThis() {
+    var perk = selectPerk("Made for This", ["perk text"], ["extra"], "Very Rare", "perk text", "IconPerks_madeForThis.png", "survivor", "Gabriel Soma");
+    return perk;
+}
+
+//ADD
+survivorPerks.push(madeForThis());
+
+function scavenger() {
+    var perk = selectPerk("Scavenger", ["perk text"], ["extra"], "Very Rare", "perk text", "IconPerks_scavenger.png", "survivor", "Gabriel Soma");
+    return perk;
+}
+
+//ADD
+survivorPerks.push(scavenger());
+
 //end specific survivor perk section
 
 //begin specific killer perk section
@@ -7505,6 +7706,7 @@ function ruin() {
 //ADD
 killerPerks.push(ruin());
 
+//Hag
 function devourHope() {
     var perk = selectPerk("Hex: Devour Hope", ["While totem is active: grants abilities based on tokens. 2: 5% speed bonus for 10s after hooking a survivor 3: NOED 5: Mori."], ["extra"], "Very Rare", "While totem is active: grants abilities based on tokens.", "IconPerks_devourHope.png", "killer", "Hag");
     return perk;
@@ -7529,6 +7731,7 @@ function toth() {
 //ADD
 killerPerks.push(toth());
 
+//Doctor
 function overwhelmingPresence() {
     var perk = selectPerk("Overwhelming Presence", ["Survivor item consumption rates are increased by 50% while in your terror radius."], ["extra"], "Very Rare", "Survivor item consumption rates are increased by 50% while in your terror radius.", "IconPerks_overwhelmingPresence.png", "killer", "Doctor");
     return perk;
@@ -7551,6 +7754,7 @@ function overcharge() {
 //ADD
 killerPerks.push(overcharge());
 
+//Huntress
 function beastOfPrey() {
     var perk = selectPerk("Beast Of Prey", ["Perk Text", "Perk Text"], ["extra"], "Very Rare", "Perk Text", "IconPerks_beastOfPrey.png", "killer", "Huntress");
     return perk;
@@ -7572,6 +7776,7 @@ function huntressLullaby() {
 //ADD
 killerPerks.push(huntressLullaby());
 
+//Leatherface
 function knockOut() {
     var perk = selectPerk("Knock Out", ["Perk Text", "Perk Text"], ["extra"], "Very Rare", "Perk Text", "IconPerks_knockOut.png", "killer", "Leatherface");
     return perk;
@@ -7593,6 +7798,7 @@ function franklinDemise() {
 //ADD
 killerPerks.push(franklinDemise());
 
+//Freddy
 function fireUp() {
     var perk = selectPerk("Fire Up", ["perk text"], ["extra"], "Very Rare", "perk text", "iconPerks_fireUp.png", "killer", "Freddy");
     return perk;
@@ -7617,6 +7823,7 @@ function bloodWarden() {
 //ADD
 killerPerks.push(bloodWarden());
 
+//Pig
 function hangmanTrick() {
     var perk = selectPerk("Hangman's Trick", ["perk text"], ["extra"], "Very Rare", "perk text", "iconPerks_hangmansTrick.png", "killer", "Pig");
     return perk;
@@ -7641,6 +7848,7 @@ function makeYourChoice() {
 //ADD
 killerPerks.push(makeYourChoice());
 
+//Clown
 function bamboozle() {
     var perk = selectPerk("Bamboozle", ["perk text"], ["extra"], "Very Rare", "perk text", "iconPerks_bamboozle.png", "killer", "Clown");
     return perk;
@@ -7665,6 +7873,7 @@ function pGTWeasel() {
 //ADD
 killerPerks.push(pGTWeasel());
 
+//Spirit
 function spiritFury() {
     var perk = selectPerk("Spirit Fury", ["perk text"], ["extra"], "Very Rare", "perk text", "iconPerks_spiritFury.png", "killer", "Spirit");
     return perk;
@@ -7689,6 +7898,7 @@ function rancor() {
 //ADD
 killerPerks.push(rancor());
 
+//Legion
 function discordance() {
     var perk = selectPerk("Discordance", ["perk text"], ["extra"], "Very Rare", "perk text", "iconPerks_discordance.png", "killer", "Legion");
     return perk;
@@ -7713,6 +7923,7 @@ function irMaiden() {
 //ADD
 killerPerks.push(irMaiden());
 
+//Plague
 function corInt() {
     var perk = selectPerk("Corrupt Intervention", ["perk text"], ["extra"], "Very Rare", "perk text", "iconPerks_corruptIntervention.png", "killer", "Plague");
     return perk;
@@ -7737,6 +7948,7 @@ function drkDevotion() {
 //ADD
 killerPerks.push(drkDevotion());
 
+//Ghost Face
 function allEars() {
     var perk = selectPerk("I'm All Ears", ["perk text"], ["extra"], "Very Rare", "perk text", "iconPerks_imAllEars.png", "killer", "Ghost Face");
     return perk;
@@ -7761,6 +7973,7 @@ function fChase() {
 //ADD
 killerPerks.push(fChase());
 
+//Demogorgon
 function surge() {
     var perk = selectPerk("Surge", ["perk text"], ["extra"], "Very Rare", "perk text", "iconPerks_surge.png", "killer", "Demogorgon");
     return perk;
@@ -7785,6 +7998,7 @@ function mindbreaker() {
 //ADD
 killerPerks.push(mindbreaker());
 
+//Oni
 function zanshintactics() {
     var perk = selectPerk("Zanshin Tactics", ["perk text"], ["extra"], "Very Rare", "perk text", "IconPerks_zanshinTactics.png", "killer", "Oni");
     return perk;
@@ -7809,6 +8023,7 @@ function nemesis() {
 //ADD
 killerPerks.push(nemesis());
 
+//Deathslinger
 function gearhead() {
     var perk = selectPerk("Gearhead", ["perk text"], ["extra"], "Very Rare", "perk text", "iconPerks_gearHead.png", "killer", "Deathslinger");
     return perk;
@@ -7833,6 +8048,7 @@ function hexRetribution() {
 //ADD
 killerPerks.push(hexRetribution());
 
+//Executioner
 function forcedPenance() {
     var perk = selectPerk("Forced Penance", ["perk text"], ["extra"], "Very Rare", "perk text", "iconPerks_forcedPenance.png", "killer", "Executioner");
     return perk;
@@ -7857,6 +8073,7 @@ function deathbound() {
 //ADD
 killerPerks.push(deathbound());
 
+//Blight
 function dragonsGrip() {
     var perk = selectPerk("Dragon's Grip", ["perk text"], ["extra"], "Very Rare", "perk text", "iconPerks_dragonsGrip.png", "killer", "Blight");
     return perk;
@@ -7881,6 +8098,7 @@ function hexUndying() {
 //ADD
 killerPerks.push(hexUndying());
 
+//Twin
 function hoarder() {
     var perk = selectPerk("Hoarder", ["perk text"], ["extra"], "Very Rare", "perk text", "iconPerks_Hoarder.png", "killer", "Twin");
     return perk;
@@ -7905,8 +8123,9 @@ function coupDeGrace() {
 //ADD
 killerPerks.push(coupDeGrace());
 
+//Trickster
 function starstruck() {
-    var perk = selectPerk("Starstruck", ["perk text"], ["extra"], "Very Rare", "perk text", "iconPerks_Starstruck.png", "killer", "Twickster");
+    var perk = selectPerk("Starstruck", ["perk text"], ["extra"], "Very Rare", "perk text", "iconPerks_Starstruck.png", "killer", "Trickster");
     return perk;
 }
 
@@ -7914,7 +8133,7 @@ function starstruck() {
 killerPerks.push(starstruck());
 
 function hexCrowdControl() {
-    var perk = selectPerk("Hex: Crowd Control", ["perk text"], ["extra"], "Very Rare", "perk text", "iconPerks_HexCrowdControl.png", "killer", "Twickster");
+    var perk = selectPerk("Hex: Crowd Control", ["perk text"], ["extra"], "Very Rare", "perk text", "iconPerks_HexCrowdControl.png", "killer", "Trickster");
     return perk;
 }
 
@@ -7922,13 +8141,14 @@ function hexCrowdControl() {
 killerPerks.push(hexCrowdControl());
 
 function noWayOut() {
-    var perk = selectPerk("No Way Out", ["perk text"], ["extra"], "Very Rare", "perk text", "iconPerks_NoWayOut.png", "killer", "Twickster");
+    var perk = selectPerk("No Way Out", ["perk text"], ["extra"], "Very Rare", "perk text", "iconPerks_NoWayOut.png", "killer", "Trickster");
     return perk;
 }
 
 //ADD
 killerPerks.push(noWayOut());
 
+//Nemesis
 function lethalPursuer() {
     var perk = selectPerk("Lethal Pursuer", ["perk text"], ["extra"], "Very Rare", "perk text", "iconPerks_lethalPursuer.png", "killer", "Nemesis");
     return perk;
@@ -7953,6 +8173,7 @@ function eruption() {
 //ADD
 killerPerks.push(eruption());
 
+//Cenobite
 function deadlock() {
     var perk = selectPerk("Deadlock", ["perk text"], ["extra"], "Very Rare", "perk text", "iconPerks_Deadlock.png", "killer", "Cenobite");
     return perk;
@@ -7977,6 +8198,7 @@ function scourgeHookGiftOfPain() {
 //ADD
 killerPerks.push(scourgeHookGiftOfPain());
 
+//Artist
 function grimEmbrace() {
     var perk = selectPerk("Grim Embrace", ["perk text"], ["extra"], "Very Rare", "perk text", "iconPerks_grimEmbrace.png", "killer", "Artist");
     return perk;
@@ -8001,6 +8223,7 @@ function hexPentimento() {
 //ADD
 killerPerks.push(hexPentimento());
 
+//Onryo
 function floodOfRage() {
     var perk = selectPerk("Scourge Hook: Floods of Rage", ["perk text"], ["extra"], "Very Rare", "perk text", "iconPerks_floodOfRage.png", "killer", "Onry&#333;");
     return perk;
@@ -8025,6 +8248,7 @@ function mercilessStorm() {
 //ADD
 killerPerks.push(mercilessStorm());
 
+//Dredge
 function dissolution() {
     var perk = selectPerk("Dissolution", ["perk text"], ["extra"], "Very Rare", "perk text", "iconPerks_Dissolution.png", "killer", "Dredge");
     return perk;
@@ -8049,6 +8273,7 @@ function septicTouch() {
 //ADD
 killerPerks.push(septicTouch());
 
+//Mastermind
 function superiorAnatomy() {
     var perk = selectPerk("Superior Anatomy", ["perk text"], ["extra"], "Very Rare", "perk text", "iconPerks_SuperiorAnatomy.png", "killer", "Mastermind");
     return perk;
@@ -8073,6 +8298,7 @@ function terminus() {
 //ADD
 killerPerks.push(terminus());
 
+//Knight
 function nowhereToHide() {
     var perk = selectPerk("Nowhere to Hide", ["perk text"], ["extra"], "Very Rare", "perk text", "iconPerks_NowhereToHide.png", "killer", "Knight");
     return perk;
@@ -8097,6 +8323,7 @@ function hubris() {
 //ADD
 killerPerks.push(hubris());
 
+//Merchant
 function thwack() {
     var perk = selectPerk("THWACK!", ["perk text"], ["extra"], "Very Rare", "perk text", "iconPerks_Thwack.png", "killer", "Merchant");
     return perk;
@@ -8121,6 +8348,32 @@ function gameAfoot() {
 //ADD
 killerPerks.push(gameAfoot());
 
+//Singularity
+function geneticLimits() {
+    var perk = selectPerk("Genetic Limits", ["perk text"], ["extra"], "Very Rare", "perk text", "IconPerks_GeneticLimits.png", "killer", "Singularity");
+    return perk;
+}
+
+//ADD
+killerPerks.push(geneticLimits());
+
+function forcedHesitation() {
+    var perk = selectPerk("Forced Hesitation", ["perk text"], ["extra"], "Very Rare", "perk text", "IconPerks_ForcedHesitation.png", "killer", "Singularity");
+    return perk;
+}
+
+//ADD
+killerPerks.push(forcedHesitation());
+
+function machineLearning() {
+    var perk = selectPerk("Machine Learning", ["perk text"], ["extra"], "Very Rare", "perk text", "IconPerks_SelfAware.png", "killer", "Singularity");
+    return perk;
+}
+
+//ADD
+killerPerks.push(machineLearning());
+
+//All
 function shatteredHope() {
     var perk = selectPerk("Shattered Hope", ["perk text"], ["extra"], "Very Rare", "perk text", "iconPerks_BoonDestroyer.png", "killer", "All");
     return perk;
@@ -9087,7 +9340,7 @@ killerOfferings.push(rPDBadge());
 survivorOfferings.push(rPDBadge());
 
 function crowsEye() {
-    var offering = selectOffering("Crow's Eye", "Offering Text", "rare", "Offering Text", "IconFavors_CrowsEye.png", "All");
+    var offering = selectOffering("Crow's Eye", "Offering Text", "rare", "Offering Text", "iconFavors_CrowsEye.png", "All");
     offering.isRedacted = false;
     return offering;
 }
@@ -9126,6 +9379,15 @@ function pustulaPetals() {
 killerOfferings.push(pustulaPetals());
 survivorOfferings.push(pustulaPetals());
 
+function alienFlora() {
+    var offering = selectOffering("Alien Flora", "Offering Text", "rare", "Offering Text", "iconFavors_alienFlora.png", "All");
+    offering.isRedacted = false;
+    return offering;
+}
+
+//ADD x 2
+killerOfferings.push(alienFlora());
+survivorOfferings.push(alienFlora());
 
 //end specific offering section
 
@@ -9491,6 +9753,17 @@ function selectMerchant() {
 }
 //ADD
 killers.push(selectMerchant());
+
+function selectSingularity() {
+    var singularity = selectKiller();
+    singularity.name = "The Singularity";
+    singularity.itemOrAbility = selectAddOn("The Skull Merchant", ["Quantum Instantiation"], "Common", "Quantum Instantiation", "iconPowers_quantumInstantiation.png", "killer", ["extra"]);
+    singularity.addonLink = singularityAddons;
+    singularity.portrait = "K32_charPreview_portrait.png";
+    return singularity;
+}
+//ADD
+killers.push(selectSingularity());
 
 
 //end basic killer section - add new killers above here, plox
