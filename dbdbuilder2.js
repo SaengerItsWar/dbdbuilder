@@ -465,6 +465,16 @@ function selectGabriel() {
 //ADD
 survivors.push(selectGabriel());
 
+function selectNicolas() {
+	var nicolas = new selectSurvivor();
+	nicolas.name = "Nicolas Cage";
+	nicolas.portrait = "S38_charPreview_portrait.png";
+	return nicolas;
+}
+
+//ADD
+survivors.push(selectNicolas());
+
 //ADD ANY NEW SURVIVORS ABOVE HERE  AND THEN PUSH TO LIST -- P L O X
 //end base survivor section
 //begin loadout item section
@@ -7486,6 +7496,30 @@ function scavenger() {
 
 //ADD
 survivorPerks.push(scavenger());
+
+function dramaturgy() {
+    var perk = selectPerk("Dramaturgy", ["perk text"], ["extra"], "Very Rare", "perk text", "iconPerks_Dramaturgy.png", "survivor", "Nicolas Cage");
+    return perk;
+}
+
+//ADD
+survivorPerks.push(dramaturgy());
+
+function scenePartner() {
+    var perk = selectPerk("Scene Partner", ["perk text"], ["extra"], "Very Rare", "perk text", "iconPerks_ScenePartner.png", "survivor", "Nicolas Cage");
+    return perk;
+}
+
+//ADD
+survivorPerks.push(scenePartner());
+
+function plotTwist() {
+    var perk = selectPerk("Plot Twist", ["perk text"], ["extra"], "Very Rare", "perk text", "iconPerks_PlotTwist.png", "survivor", "Nicolas Cage");
+    return perk;
+}
+
+//ADD
+survivorPerks.push(plotTwist());
 
 //end specific survivor perk section
 
