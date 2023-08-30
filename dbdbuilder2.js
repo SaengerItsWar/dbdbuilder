@@ -45,6 +45,7 @@ var mastermindAddons = [];
 var knightAddons = [];
 var merchantAddons = [];
 var singularityAddons = [];
+var xenomorphAddons = [];
 
 //item addon lists
 var flashlightAddons = [];
@@ -474,6 +475,16 @@ function selectNicolas() {
 
 //ADD
 survivors.push(selectNicolas());
+
+function selectEllen() {
+	var ellen = new selectSurvivor();
+	ellen.name = "Ellen Ripley";
+	ellen.portrait = "S39_charPreview_portrait.png";
+	return ellen;
+}
+
+//ADD
+survivors.push(selectEllen());
 
 //ADD ANY NEW SURVIVORS ABOVE HERE  AND THEN PUSH TO LIST -- P L O X
 //end base survivor section
@@ -6445,6 +6456,171 @@ singularityAddons.push(iridiscentCrystalShard());
 
 //end Singularity Add-Ons
 
+//start Xenomorph Add-Ons
+
+function ripleysWatch() {
+    var addon = selectAddOn("Ripley's Watch", ["addon text"], "Common", "addon text", "iconAddon_ripleysWatch.png", "Xenomorph", ["extra"]);
+    return addon;
+}
+
+//ADD
+xenomorphAddons.push(ripleysWatch());
+
+function ovomorph() {
+    var addon = selectAddOn("Ovomorph", ["addon text"], "Common", "addon text", "iconAddon_ovomorph.png", "Xenomorph", ["extra"]);
+    return addon;
+}
+
+//ADD
+xenomorphAddons.push(ovomorph());
+
+function drinkingBird() {
+    var addon = selectAddOn("Drinking Bird", ["addon text"], "Common", "addon text", "iconAddon_drinkingBird.png", "Xenomorph", ["extra"]);
+    return addon;
+}
+
+//ADD
+xenomorphAddons.push(drinkingBird());
+
+function cerealRations() {
+    var addon = selectAddOn("Cereal Rations", ["addon text"], "Common", "addon text", "iconAddon_CerealRations.png", "Xenomorph", ["extra"]);
+    return addon;
+}
+
+//ADD
+xenomorphAddons.push(cerealRations());
+
+function lightWand() {
+    var addon = selectAddOn("Light Wand", ["addon text"], "Uncommon", "addon text", "iconAddon_lightWand.png", "Xenomorph", ["extra"]);
+    return addon;
+}
+
+//ADD
+xenomorphAddons.push(lightWand());
+
+function lambertsStarMap() {
+    var addon = selectAddOn("Lambert's Star Map", ["addon text"], "Uncommon", "addon text", "iconAddon_lambertsStarMap.png", "Xenomorph", ["extra"]);
+    return addon;
+}
+
+//ADD
+xenomorphAddons.push(lambertsStarMap());
+
+function brettsCap() {
+    var addon = selectAddOn("Brett's Cap", ["addon text"], "Uncommon", "addon text", "iconAddon_brettsCap.png", "Xenomorph", ["extra"]);
+    return addon;
+}
+
+//ADD
+xenomorphAddons.push(brettsCap());
+
+function crewHeadset() {
+    var addon = selectAddOn("Crew Headset", ["addon text"], "Uncommon", "addon text", "iconAddon_crewHeadset.png", "Xenomorph", ["extra"]);
+    return addon;
+}
+
+//ADD
+xenomorphAddons.push(crewHeadset());
+
+function ashsInnards() {
+    var addon = selectAddOn("Ash's Innards", ["addon text"], "Uncommon", "addon text", "iconAddon_ashsInnards.png", "Xenomorph", ["extra"]);
+    return addon;
+}
+
+//ADD
+xenomorphAddons.push(ashsInnards());
+
+function parkersHeadband() {
+    var addon = selectAddOn("Parker's Headband", ["addon text"], "Rare", "addon text", "iconAddon_parkersHeadband.png", "Xenomorph", ["extra"]);
+    return addon;
+}
+
+//ADD
+xenomorphAddons.push(parkersHeadband());
+
+function multipurposeHatchet() {
+    var addon = selectAddOn("Multipurpose Hatchet", ["addon text"], "Rare", "addon text", "iconAddon_multipurposeHatchet.png", "Xenomorph", ["extra"]);
+    return addon;
+}
+
+//ADD
+xenomorphAddons.push(multipurposeHatchet());
+
+function moltedSkin() {
+    var addon = selectAddOn("Molted Skin", ["addon text"], "Rare", "addon text", "iconAddon_moltedSkin.png", "Xenomorph", ["extra"]);
+    return addon;
+}
+
+//ADD
+xenomorphAddons.push(moltedSkin());
+
+function kanesHelmet() {
+    var addon = selectAddOn("Kane's Helmet", ["addon text"], "Rare", "addon text", "iconAddon_kanesHelmet.png", "Xenomorph", ["extra"]);
+    return addon;
+}
+
+//ADD
+xenomorphAddons.push(kanesHelmet());
+
+function emergencyHelmet() {
+    var addon = selectAddOn("Emergency Helmet", ["addon text"], "Rare", "addon text", "iconAddon_emergencyHelmet.png", "Xenomorph", ["extra"]);
+    return addon;
+}
+
+//ADD
+xenomorphAddons.push(emergencyHelmet());
+
+function semioticKeyboard() {
+    var addon = selectAddOn("Semiotic Keyboard", ["addon text"], "Very Rare", "addon text", "iconAddon_semioticKeyboard.png", "Xenomorph", ["extra"]);
+    return addon;
+}
+
+//ADD
+xenomorphAddons.push(semioticKeyboard());
+
+function selfDestructBolt() {
+    var addon = selectAddOn("Self-Destruct Bolt", ["addon text"], "Very Rare", "addon text", "iconAddon_selfDestructBolt.png", "Xenomorph", ["extra"]);
+    return addon;
+}
+
+//ADD
+xenomorphAddons.push(selfDestructBolt());
+
+function harpoonGun() {
+    var addon = selectAddOn("Harpoon Gun", ["addon text"], "Very Rare", "addon text", "iconAddon_harpoonGun.png", "Xenomorph", ["extra"]);
+    return addon;
+}
+
+//ADD
+xenomorphAddons.push(harpoonGun());
+
+function catCarrier() {
+    var addon = selectAddOn("Cat Carrier", ["addon text"], "Very Rare", "addon text", "iconAddon_catCarrier.png", "Xenomorph", ["extra"]);
+    return addon;
+}
+
+//ADD
+xenomorphAddons.push(catCarrier());
+
+function improvisedCattleProd() {
+    var addon = selectAddOn("Improvised Cattle Prod", ["addon text"], "Ultra Rare", "addon text", "iconAddon_improvisedCattleProd.png", "Xenomorph", ["extra"]);
+    return addon;
+}
+
+//ADD
+xenomorphAddons.push(improvisedCattleProd());
+
+function acidicBlood() {
+    var addon = selectAddOn("Acidic Blood", ["addon text"], "Ultra Rare", "addon text", "iconAddon_acidicBlood.png", "Xenomorph", ["extra"]);
+    return addon;
+}
+
+//ADD
+xenomorphAddons.push(acidicBlood());
+
+
+//end Xenomorph Add-Ons
+
 function blightSerum() {
     var addon = selectAddOn("Blight Serum", ["addon text"], "event", "addon text", "iconAddon_blightedSerum.png", "All", ["extra"]);
     return addon;
@@ -6481,6 +6657,7 @@ mastermindAddons.push(blightSerum());
 knightAddons.push(blightSerum());
 merchantAddons.push(blightSerum());
 singularityAddons.push(blightSerum());
+xenomorphAddons.push(blightSerum());
 //end specific add on Section
 
 //base perk Section (native to lets us know if it is teachable)
@@ -7521,6 +7698,30 @@ function plotTwist() {
 //ADD
 survivorPerks.push(plotTwist());
 
+function chemicalTrap() {
+    var perk = selectPerk("Chemical Trap", ["perk text"], ["extra"], "Very Rare", "perk text", "iconPerks_ChemicalTrap.png", "survivor", "Ellen Ripley");
+    return perk;
+}
+
+//ADD
+survivorPerks.push(chemicalTrap());
+
+function lightFooted() {
+    var perk = selectPerk("Light-Footed", ["perk text"], ["extra"], "Very Rare", "perk text", "iconPerks_LightFooted.png", "survivor", "Ellen Ripley");
+    return perk;
+}
+
+//ADD
+survivorPerks.push(lightFooted());
+
+function luckyStar() {
+    var perk = selectPerk("Lucky Star", ["perk text"], ["extra"], "Very Rare", "perk text", "iconPerks_LuckyStar.png", "survivor", "Ellen Ripley");
+    return perk;
+}
+
+//ADD
+survivorPerks.push(luckyStar());
+
 //end specific survivor perk section
 
 //begin specific killer perk section
@@ -8416,6 +8617,30 @@ function shatteredHope() {
 //ADD
 killerPerks.push(shatteredHope());
 
+function rapidBrutality() {
+    var perk = selectPerk("Rapid Brutality", ["perk text"], ["extra"], "Very Rare", "perk text", "iconPerks_RapidBrutality.png", "killer", "Xenomorph");
+    return perk;
+}
+
+//ADD
+killerPerks.push(rapidBrutality());
+
+function alienInstinct() {
+    var perk = selectPerk("Alien Instinct", ["perk text"], ["extra"], "Very Rare", "perk text", "iconPerks_AlienInstinct.png", "killer", "Xenomorph");
+    return perk;
+}
+
+//ADD
+killerPerks.push(alienInstinct());
+
+//All
+function ultimateWeapon() {
+    var perk = selectPerk("Ultimate Weapon", ["perk text"], ["extra"], "Very Rare", "perk text", "iconPerks_UltimateWeapon.png", "killer", "Xenomorph");
+    return perk;
+}
+
+//ADD
+killerPerks.push(ultimateWeapon());
 
 //end specific killer perk section
 
@@ -9423,6 +9648,16 @@ function alienFlora() {
 killerOfferings.push(alienFlora());
 survivorOfferings.push(alienFlora());
 
+function airlockDoors() {
+    var offering = selectOffering("Airlock Doors", "Offering Text", "rare", "Offering Text", "iconFavors_airlockDoors.png", "All");
+    offering.isRedacted = false;
+    return offering;
+}
+
+//ADD x 2
+killerOfferings.push(airlockDoors());
+survivorOfferings.push(airlockDoors());
+
 //end specific offering section
 
 //begin basic killer section
@@ -9791,13 +10026,24 @@ killers.push(selectMerchant());
 function selectSingularity() {
     var singularity = selectKiller();
     singularity.name = "The Singularity";
-    singularity.itemOrAbility = selectAddOn("The Skull Merchant", ["Quantum Instantiation"], "Common", "Quantum Instantiation", "iconPowers_quantumInstantiation.png", "killer", ["extra"]);
+    singularity.itemOrAbility = selectAddOn("HUX-A7-13", ["Quantum Instantiation"], "Common", "Quantum Instantiation", "iconPowers_quantumInstantiation.png", "killer", ["extra"]);
     singularity.addonLink = singularityAddons;
     singularity.portrait = "K32_charPreview_portrait.png";
     return singularity;
 }
 //ADD
 killers.push(selectSingularity());
+
+function selectXenomorph() {
+    var xenomorph = selectKiller();
+    xenomorph.name = "The Xenomorph";
+    xenomorph.itemOrAbility = selectAddOn("The Xenomorph", ["Hidden Pursuit"], "Common", "Hidden Pursuit", "iconPowers_hiddenPursuit_inactive.png", "killer", ["extra"]);
+    xenomorph.addonLink = xenomorphAddons;
+    xenomorph.portrait = "K33_charPreview_portrait.png";
+    return xenomorph;
+}
+//ADD
+killers.push(selectXenomorph());
 
 
 //end basic killer section - add new killers above here, plox
