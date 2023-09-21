@@ -1249,22 +1249,6 @@ mapAddons.push(crystalBead());
 
 //Specific killer Add-ons
 //Trapper Add-ons
-function serratedJaws() {
-    var addon = selectAddOn("Serrated Jaws", ["Traps infict heavy bleeding until the effects are healed."], "Uncommon", "Traps infict heavy bleeding until the effects are healed.", "IconAddon_serratedJaws.png", "Trapper", ["extra"]);
-    return addon;
-}
-
-//ADD
-trapperAddons.push(serratedJaws());
-
-function strongCoilSpring() {
-    var addon = selectAddOn("Strong Coil Spring", ["Trap escape difficulty slightly increased.", "Trap rescue time slightly increased.", "Trap setting time slightly increased."], "Common", "Increase escape and rescue difficulty of traps.", "IconAddon_coilSpring.png", "Trapper", ["extra", "extra", "extra"]);
-    return addon;
-}
-
-//ADD
-trapperAddons.push(strongCoilSpring());
-
 function trapperGloves() {
     var addon = selectAddOn("Trapper Gloves", ["Trap setting time slightly decreased."], "Common", "Trap setting time slightly decreased.", "IconAddon_trapperGloves.png", "Trapper", ["extra"]);
     return addon;
@@ -1273,37 +1257,61 @@ function trapperGloves() {
 //ADD
 trapperAddons.push(trapperGloves());
 
-function logwoodDye() {
-    var addon = selectAddOn("Logwood Dye", ["Moderately darkens traps."], "Uncommon", "Moderately darkens traps.", "IconAddon_logwoodDye.png", "Trapper", ["extra"]);
+function paddedJaws() {
+    var addon = selectAddOn("Padded Jaws", ["text."], "Common", "text", "iconAddon_paddedJaws.png", "Trapper", ["extra"]);
     return addon;
 }
 
 //ADD
-trapperAddons.push(logwoodDye());
+trapperAddons.push(paddedJaws());
 
-function secondaryCoil() {
-    var addon = selectAddOn("Secondary Coil", ["Moderately increases trap sabotage time."], "Rare", "Moderately increases trap sabotage time.", "IconAddon_secondaryCoil.png", "Trapper", ["extra"]);
+function makeshiftWrap() {
+    var addon = selectAddOn("Makeshift Wrap", ["Trap escape difficulty slightly increased.", "Trap rescue time slightly increased.", "Trap setting time slightly increased."], "Common", "Increase escape and rescue difficulty of traps.", "iconAddon_makeshiftWrap.png", "Trapper", ["extra", "extra", "extra"]);
     return addon;
 }
 
 //ADD
-trapperAddons.push(secondaryCoil());
+trapperAddons.push(makeshiftWrap());
 
-function trapperBag() {
-    var addon = selectAddOn("Trapper Bag", ["Start with and carry 1 extra trap."], "Uncommon", "Start with and carry 1 extra trap.", "IconAddon_trapperBag.png", "Trapper", ["extra"]);
+function bearOil() {
+    var addon = selectAddOn("Bear Oil", ["Moderately darkens traps."], "Common", "Moderately darkens traps.", "iconAddon_bearOil.png", "Trapper", ["extra"]);
     return addon;
 }
 
 //ADD
-trapperAddons.push(trapperBag());
+trapperAddons.push(bearOil());
 
 function waxBrick() {
-    var addon = selectAddOn("Wax Brick", ["Trap sabotage skill check success zones are moderately decreased."], "Rare", "Trap sabotage skill check success zones are moderately decreased.", "IconAddon_waxBrick.png", "Trapper", ["extra"]);
+    var addon = selectAddOn("Wax Brick", ["Trap sabotage skill check success zones are moderately decreased."], "Uncommon", "Trap sabotage skill check success zones are moderately decreased.", "IconAddon_waxBrick.png", "Trapper", ["extra"]);
     return addon;
 }
 
 //ADD
 trapperAddons.push(waxBrick());
+
+function serratedJaws() {
+    var addon = selectAddOn("Serrated Jaws", ["Traps infict heavy bleeding until the effects are healed."], "Uncommon", "Traps infict heavy bleeding until the effects are healed.", "IconAddon_serratedJaws.png", "Trapper", ["extra"]);
+    return addon;
+}
+
+//ADD
+trapperAddons.push(serratedJaws());
+
+function lengthenedJaws() {
+    var addon = selectAddOn("Lengthened Jaws", ["Moderately darkens traps."], "Uncommon", "Jaws with long teeth that dig further into the flesh than a conventional Bear Trap.", "iconAddon_lengthenedJaws.png", "Trapper", ["extra"]);
+    return addon;
+}
+
+//ADD
+trapperAddons.push(lengthenedJaws());
+
+function coffeeGrinds() {
+    var addon = selectAddOn("Coffee Grounds", ["Trap setting time moderately decreased."], "Uncommon", "Trap setting time moderately decreased.", "iconAddon_coffeeGrinds.png", "Trapper", ["extra"]);
+    return addon;
+}
+
+//ADD
+trapperAddons.push(coffeeGrinds());
 
 function fourCoilSpringKit() {
     var addon = selectAddOn("4-Coil Spring Kit", ["Trap escape difficulty moderately increased.", "Trap rescue time moderately increased.", "Trap setting time slightly increased."], "Uncommon", "Increase escape and rescue difficulty of traps.", "IconAddon_coilsKit4.png", "Trapper", ["extra", "extra", "extra"]);
@@ -1313,29 +1321,13 @@ function fourCoilSpringKit() {
 //ADD
 trapperAddons.push(fourCoilSpringKit());
 
-function trapSetters() {
-    var addon = selectAddOn("Trap Setters", ["Trap setting time moderately decreased."], "Uncommon", "Trap setting time moderately decreased.", "IconAddon_tapSetters.png", "Trapper", ["extra"]);
+function trapperBag() {
+    var addon = selectAddOn("Trapper Bag", ["Start with and carry 1 extra trap."], "Rare", "Start with and carry 1 extra trap.", "IconAddon_trapperBag.png", "Trapper", ["extra"]);
     return addon;
 }
 
 //ADD
-trapperAddons.push(trapSetters());
-
-function fasteningTools() {
-    var addon = selectAddOn("Fastening Tools", ["Trap sabotage time moderately increased.", "Trap disable time moderately increased.", "Trap setting time slightly increased.", "Trap sabotage skill check success zones slightly decreased."], "Very Rare", "Increase disable and sabotage difficulty of traps.", "IconAddon_fasteningTools.png", "Trapper", ["extra", "extra", "extra", "extra"]);
-    return addon;
-}
-
-//ADD
-trapperAddons.push(fasteningTools());
-
-function settingTools() {
-    var addon = selectAddOn("Setting Tools", ["Trap setting time considerably decreased."], "Rare", "Trap setting time considerably decreased.", "IconAddon_settingTools.png", "Trapper", ["extra"]);
-    return addon;
-}
-
-//ADD
-trapperAddons.push(settingTools());
+trapperAddons.push(trapperBag());
 
 function tarBottle() {
     var addon = selectAddOn("Tar Bottle", ["Considerably darkens traps."], "Rare", "Considerably darkens traps.", "IconAddon_tarBottle.png", "Trapper", ["extra"]);
@@ -1345,13 +1337,13 @@ function tarBottle() {
 //ADD
 trapperAddons.push(tarBottle());
 
-function oilyCoil() {
-    var addon = selectAddOn("Oily Coil", ["Moderately increases trap sabotage time.", "slightly decreased trap sabotage skill check success zones."], "Very Rare", "Moderately increases trap sabotage time.", "IconAddon_oilyCoil.png", "Trapper", ["extra", "extra"]);
+function secondaryCoil() {
+    var addon = selectAddOn("Secondary Coil", ["Moderately increases trap sabotage time."], "Rare", "Moderately increases trap sabotage time.", "IconAddon_secondaryCoil.png", "Trapper", ["extra"]);
     return addon;
 }
 
 //ADD
-trapperAddons.push(oilyCoil());
+trapperAddons.push(secondaryCoil());
 
 function rustedJaws() {
     var addon = selectAddOn("Rusted Jaws", ["Moderately increases the healing time of trapped survivors.", "slightly decreased trap sabotage time."], "Rare", "Moderately increases the healing time of trapped survivors.", "IconAddon_rustedJaws.png", "Trapper", ["extra", "extra"]);
@@ -1361,6 +1353,38 @@ function rustedJaws() {
 //ADD
 trapperAddons.push(rustedJaws());
 
+function fasteningTools() {
+    var addon = selectAddOn("Fastening Tools", ["Trap sabotage time moderately increased.", "Trap disable time moderately increased.", "Trap setting time slightly increased.", "Trap sabotage skill check success zones slightly decreased."], "Rare", "Increase disable and sabotage difficulty of traps.", "IconAddon_fasteningTools.png", "Trapper", ["extra", "extra", "extra", "extra"]);
+    return addon;
+}
+
+//ADD
+trapperAddons.push(fasteningTools());
+
+function trapperSack() {
+    var addon = selectAddOn("Trapper Sack", ["text."], "Very Rare", "text", "iconAddon_trapperSack.png", "Trapper", ["extra"]);
+    return addon;
+}
+
+//ADD
+trapperAddons.push(trapperSack());
+
+function tensionSpring() {
+    var addon = selectAddOn("Tension Spring", ["A high tension spring that snaps back into place after being stretched."], "Very Rare", "Trap setting time considerably decreased.", "iconAddon_tensionSpring.png", "Trapper", ["extra"]);
+    return addon;
+}
+
+//ADD
+trapperAddons.push(tensionSpring());
+
+function oilyCoil() {
+    var addon = selectAddOn("Oily Coil", ["Moderately increases trap sabotage time.", "slightly decreased trap sabotage skill check success zones."], "Very Rare", "Moderately increases trap sabotage time.", "IconAddon_oilyCoil.png", "Trapper", ["extra", "extra"]);
+    return addon;
+}
+
+//ADD
+trapperAddons.push(oilyCoil());
+
 function honingStone() {
     var addon = selectAddOn("Honing Stone", ["50% to trigger a dying state."], "Very Rare", "50% to trigger a dying state.", "IconAddon_honingStone.png", "Trapper", ["extra"]);
     return addon;
@@ -1369,21 +1393,6 @@ function honingStone() {
 //ADD
 trapperAddons.push(honingStone());
 
-function bloodyCoil() {
-    var addon = selectAddOn("Bloody Coil", ["Tremendously increases trap sabotage time.", "Moderately decreased trap sabotage skill check success zones.", "Slightly increased trap setting time."], "Ultra Rare", "Moderately increases trap sabotage time.", "IconAddon_bloodyCoil.png", "Trapper", ["extra", "extra", "extra"]);
-    return addon;
-}
-
-//ADD
-trapperAddons.push(bloodyCoil());
-
-function stitchedBag() {
-    var addon = selectAddOn("Stitched Bag", ["Start with and carry 2 extra traps."], "Very Rare", "Start with and carry 2 extra traps.", "IconAddon_stichedBag.png", "Trapper", ["extra"]);
-    return addon;
-}
-
-//ADD
-trapperAddons.push(stitchedBag());
 
 function diamondStone() {
     var addon = selectAddOn("Iridescent Stone", ["Traps trigger a dying state."], "Ultra Rare", "Traps trigger a dying state.", "IconAddon_diamondStone.png", "Trapper", ["extra"]);
@@ -1393,21 +1402,13 @@ function diamondStone() {
 //ADD
 trapperAddons.push(diamondStone());
 
-function trapperSack() {
-    var addon = selectAddOn("Trapper Sack", ["text."], "Common", "text", "iconAddon_trapperSack.png", "Trapper", ["extra"]);
+function bloodyCoil() {
+    var addon = selectAddOn("Bloody Coil", ["Tremendously increases trap sabotage time.", "Moderately decreased trap sabotage skill check success zones.", "Slightly increased trap setting time."], "Ultra Rare", "Moderately increases trap sabotage time.", "IconAddon_bloodyCoil.png", "Trapper", ["extra", "extra", "extra"]);
     return addon;
 }
 
 //ADD
-trapperAddons.push(trapperSack());
-
-function paddedJaws() {
-    var addon = selectAddOn("Padded Jaws", ["text."], "Common", "text", "iconAddon_paddedJaws.png", "Trapper", ["extra"]);
-    return addon;
-}
-
-//ADD
-trapperAddons.push(paddedJaws());
+trapperAddons.push(bloodyCoil());
 
 //Wraith Addons
 
@@ -1572,16 +1573,16 @@ function blinkWhite() {
 wraithAddons.push(blinkWhite());
 
 //Billy Add-ons
-function chainsawFile() {
-    var addon = selectAddOn("Steel Toe Boots", ["text"], "Common", "text", "IconAddon_steelToeBoots.png", "Hillbilly", ["extra"]);
+function steelToeBoots1() {
+    var addon = selectAddOn("Steel Toe Boots", ["text"], "Common", "text", "iconAddon_steelToeBoots.png", "Hillbilly", ["extra"]);
     return addon;
 }
 
 //ADD
-billyAddons.push(chainsawFile());
+billyAddons.push(steelToeBoots1());
 
 function junkyardAirFilter() {
-    var addon = selectAddOn("Junkyard Air Filter", ["text"], "Common", "text", "IconAddon_junkyardAirFilter.png", "Hillbilly", ["extra"]);
+    var addon = selectAddOn("Junkyard Air Filter", ["text"], "Common", "text", "iconAddon_junkyardAirFilter.png", "Hillbilly", ["extra"]);
     return addon;
 }
 
@@ -1589,7 +1590,7 @@ function junkyardAirFilter() {
 billyAddons.push(junkyardAirFilter());
 
 function heavyClutch() {
-    var addon = selectAddOn("Heavy Clutch", ["text"], "Common", "text", "IconAddon_heavyClutch.png", "Hillbilly", ["extra"]);
+    var addon = selectAddOn("Heavy Clutch", ["text"], "Common", "text", "iconAddon_heavyClutch.png", "Hillbilly", ["extra"]);
     return addon;
 }
 
@@ -1597,7 +1598,7 @@ function heavyClutch() {
 billyAddons.push(heavyClutch());
 
 function speedLimiter() {
-    var addon = selectAddOn("Speed Limiter", ["text"], "Common", "text", "IconAddon_speedLimiter.png", "Hillbilly", ["extra"]);
+    var addon = selectAddOn("Speed Limiter", ["text"], "Common", "text", "iconAddon_speedLimiter.png", "Hillbilly", ["extra"]);
     return addon;
 }
 
@@ -1606,7 +1607,7 @@ billyAddons.push(speedLimiter());
 cannibalAddons.push(speedLimiter());
 
 function dadsBoots() {
-    var addon = selectAddOn("Dad's Boots", ["text"], "Uncommon", "text", "IconAddon_dadsBoots.png", "Hillbilly", ["extra"]);
+    var addon = selectAddOn("Dad's Boots", ["text"], "Uncommon", "text", "iconAddon_dadsBoots.png", "Hillbilly", ["extra"]);
     return addon;
 }
 
@@ -1615,7 +1616,7 @@ billyAddons.push(dadsBoots());
 
 
 function puncturedMuffler() {
-    var addon = selectAddOn("Punctured Muffler", ["text"], "Uncommon", "text", "IconAddon_puncturedMuffler.png", "Hillbilly", ["extra"]);
+    var addon = selectAddOn("Punctured Muffler", ["text"], "Uncommon", "text", "iconAddon_puncturedMuffler.png", "Hillbilly", ["extra"]);
     return addon;
 }
 
@@ -1623,7 +1624,7 @@ function puncturedMuffler() {
 billyAddons.push(puncturedMuffler());
 
 function offBrandMotorOil() {
-    var addon = selectAddOn("Off-Brand Motor Oil", ["text"], "Uncommon", "text", "IconAddon_offBrandMotorOil.png", "Hillbilly", ["extra"]);
+    var addon = selectAddOn("Off-Brand Motor Oil", ["text"], "Uncommon", "text", "iconAddon_offBrandMotorOil.png", "Hillbilly", ["extra"]);
     return addon;
 }
 
@@ -1639,7 +1640,7 @@ function deathEngravings() {
 billyAddons.push(deathEngravings());
 
 function bigBuckle() {
-    var addon = selectAddOn("Big Buckle", ["text"], "Uncommon", "text", "IconAddon_bigBuckle.png", "Hillbilly", ["extra"]);
+    var addon = selectAddOn("Big Buckle", ["text"], "Uncommon", "text", "iconAddon_bigBuckle.png", "Hillbilly", ["extra"]);
     return addon;
 }
 
@@ -1647,7 +1648,7 @@ function bigBuckle() {
 billyAddons.push(bigBuckle());
 
 function mothersHelpers() {
-    var addon = selectAddOn("Mother's Helpers", ["text", "text"], "Rare", "text", "IconAddon_mothersHelpers.png", "Hillbilly", ["extra", "extra"]);
+    var addon = selectAddOn("Mother's Helpers", ["text", "text"], "Rare", "text", "iconAddon_mothersHelpers.png", "Hillbilly", ["extra", "extra"]);
     return addon;
 }
 
@@ -1655,7 +1656,7 @@ function mothersHelpers() {
 billyAddons.push(mothersHelpers());
 
 function lowKickbackChains() {
-    var addon = selectAddOn("Low Kickback Chains", ["text"], "Rare", "text", "IconAddon_lowKickbackChains.png", "Hillbilly", ["extra"]);
+    var addon = selectAddOn("Low Kickback Chains", ["text"], "Rare", "text", "iconAddon_lowKickbackChains.png", "Hillbilly", ["extra"]);
     return addon;
 }
 
@@ -1663,7 +1664,7 @@ function lowKickbackChains() {
 billyAddons.push(lowKickbackChains());
 
 function leafyMash() {
-    var addon = selectAddOn("Leafy Mash", ["text", "text"], "Rare", "text", "IconAddon_leafyMash.png", "Hillbilly", ["extra", "extra"]);
+    var addon = selectAddOn("Leafy Mash", ["text", "text"], "Rare", "text", "iconAddon_leafyMash.png", "Hillbilly", ["extra", "extra"]);
     return addon;
 }
 
@@ -1671,7 +1672,7 @@ function leafyMash() {
 billyAddons.push(leafyMash());
 
 function doomEngravings() {
-    var addon = selectAddOn("Grisly Chain", ["text"], "Rare", "text", "IconAddon_doomEngravings.png", "Hillbilly", ["extra"]);
+    var addon = selectAddOn("Doom Engravings", ["text"], "Rare", "text", "IconAddon_doomEngravings.png", "Hillbilly", ["extra"]);
     return addon;
 }
 
@@ -1679,7 +1680,7 @@ function doomEngravings() {
 billyAddons.push(doomEngravings());
 
 function blackGrease() {
-    var addon = selectAddOn("Black Grease", ["Text"], "Rare", "Text", "IconAddon_blackGrease.png", "Hillbilly", ["extra"]);
+    var addon = selectAddOn("Black Grease", ["Text"], "Rare", "Text", "iconAddon_blackGrease.png", "Hillbilly", ["extra"]);
     return addon;
 }
 
@@ -1687,7 +1688,7 @@ function blackGrease() {
 billyAddons.push(blackGrease());
 
 function tunedCarburetor() {
-    var addon = selectAddOn("Tuned Carburettor", ["Text", "Text"], "Very Rare", "Text", "IconAddon_tunedCarburetor.png", "Hillbilly", ["extra", "extra"]);
+    var addon = selectAddOn("Tuned Carburettor", ["Text", "Text"], "Very Rare", "Text", "iconAddon_tunedCarburetor.png", "Hillbilly", ["extra", "extra"]);
     return addon;
 }
 
@@ -1711,7 +1712,7 @@ function pighouseGloves() {
 billyAddons.push(pighouseGloves());
 
 function lowProChains() {
-    var addon = selectAddOn("LoPro Chains", ["Text", "Text"], "Very Rare", "Text", "IconAddon_lowProChains.png", "Hillbilly", ["extra", "extra"]);
+    var addon = selectAddOn("LoPro Chains", ["Text", "Text"], "Very Rare", "Text", "iconAddon_lowProChains.png", "Hillbilly", ["extra", "extra"]);
     return addon;
 }
 
@@ -1719,7 +1720,7 @@ function lowProChains() {
 billyAddons.push(lowProChains());
 
 function apexMuffler() {
-    var addon = selectAddOn("Apex Muffler", ["Text", "text"], "Ultra Rare", "Text", "IconAddon_apexMuffler.png", "Hillbilly", ["extra", "extra"]);
+    var addon = selectAddOn("Apex Muffler", ["Text", "text"], "Ultra Rare", "Text", "iconAddon_apexMuffler.png", "Hillbilly", ["extra", "extra"]);
     return addon;
 }
 
@@ -1727,7 +1728,7 @@ function apexMuffler() {
 billyAddons.push(apexMuffler());
 
 function iridescentBrick() {
-    var addon = selectAddOn("Iridescent Brick", ["Text", "Text"], "Ultra Rare", "Text", "IconAddon_iridescentBrick.png", "Hillbilly", ["extra", "extra"]);
+    var addon = selectAddOn("Iridescent Brick", ["Text", "Text"], "Ultra Rare", "Text", "iconAddon_iridescentBrick.png", "Hillbilly", ["extra", "extra"]);
     return addon;
 }
 
@@ -1939,7 +1940,7 @@ function memorialFlower() {
 mikeAddons.push(memorialFlower());
 
 function deadRabbit() {
-    var addon = selectAddOn("Dead Rabbit", ["Moderately reduces terror radius of EWII.", "Moderately increases terror radius EWIII."], "Uncommon", "Changes terror radius. Moderate decrease of EWII, increase of EWIII.", "IconAddon_deadRabbit.png", "Michael Myers", ["extra", "extra"]);
+    var addon = selectAddOn("Dead Rabbit", ["Moderately reduces terror radius of EWII.", "Moderately increases terror radius EWIII."], "Common", "Changes terror radius. Moderate decrease of EWII, increase of EWIII.", "IconAddon_deadRabbit.png", "Michael Myers", ["extra", "extra"]);
     return addon;
 }
 
@@ -2252,14 +2253,6 @@ function calmClass1() {
 //ADD
 doctorAddons.push(calmClass1());
 
-function scrappedTape() {
-    var addon = selectAddOn("Scrapped Tape", ["Shock Therapy becomes a ring 8m in front of the Doctor."], "Uncommon", "Shock Therapy becomes a ring 8m in front of the Doctor.", "IconAddon_scrappedTape.png", "Doctor", ["extra", "extra"]);
-    return addon;
-}
-
-//ADD
-doctorAddons.push(scrappedTape());
-
 function polishedElectrode() {
     var addon = selectAddOn("Polished Electrode", ["50% increased shock range.", "Considerably increased charge time."], "Uncommon", "Increased shock range with increase charge time.", "IconAddon_polishedElectrode.png", "Doctor", ["extra", "extra"]);
     return addon;
@@ -2267,14 +2260,6 @@ function polishedElectrode() {
 
 //ADD
 doctorAddons.push(polishedElectrode());
-
-function interviewTape() {
-    var addon = selectAddOn("Interview Tape", ["Shock Therapy becomes a beam with a range of 20m and width of 2m"], "Uncommon", "Shock Therapy becomes a beam with a range of 20m and width of 2m", "IconAddon_interviewTape.png", "Doctor", ["extra", "extra"]);
-    return addon;
-}
-
-//ADD
-doctorAddons.push(interviewTape());
 
 function restraintClass2() {
     var addon = selectAddOn("Restraint - Class 2", ["Reveals survivor auras for 1s on madness tier up.", "increased duration for doctor illusions", "auras of illusions are visible."], "Uncommon", "Doctor auras are visible. Survivors are revealed on madness up.", "IconAddon_restraintClassII.png", "Doctor", ["extra", "extra"]);
@@ -2307,6 +2292,22 @@ function calmClass2() {
 
 //ADD
 doctorAddons.push(calmClass2());
+
+function scrappedTape() {
+    var addon = selectAddOn("Scrapped Tape", ["Shock Therapy becomes a ring 8m in front of the Doctor."], "Rare", "Shock Therapy becomes a ring 8m in front of the Doctor.", "IconAddon_scrappedTape.png", "Doctor", ["extra", "extra"]);
+    return addon;
+}
+
+//ADD
+doctorAddons.push(scrappedTape());
+
+function interviewTape() {
+    var addon = selectAddOn("Interview Tape", ["Shock Therapy becomes a beam with a range of 20m and width of 2m"], "Rare", "Shock Therapy becomes a beam with a range of 20m and width of 2m", "IconAddon_interviewTape.png", "Doctor", ["extra", "extra"]);
+    return addon;
+}
+
+//ADD
+doctorAddons.push(interviewTape());
 
 function highStimElectrode() {
     var addon = selectAddOn("High Stimulus Electrode", ["75% increase to shock range", "Tremendously increased charge time."], "Rare", "75% increased range. Increased charge time.", "IconAddon_highStimulusElectrode.png", "Doctor", ["extra", "extra"]);
@@ -2348,14 +2349,6 @@ function orderNotes() {
 //ADD
 doctorAddons.push(orderNotes());
 
-function obedienceNotes() {
-    var addon = selectAddOn("Obedience - Carter's Notes", ["2s increase to snap out of it.", "Madness III causes exhaustion."], "Very Rare", "2s increase to snap out of it. Mad survivors are exhausted at T3.", "IconAddon_obedienceCartersNotes.png", "Doctor", ["extra", "extra"]);
-    return addon;
-}
-
-//ADD
-doctorAddons.push(obedienceNotes());
-
 function disciplineNotes() {
     var addon = selectAddOn("Discipline - Carter's Notes", ["25% extra madness from shock therapy", "A moderate chance that survivors will see the stain for 5s."], "Very Rare", "Increase in madness from shock therapy. Chance for stain illusion.", "IconAddon_diciplineCartersNotes.png", "Doctor", ["extra", "extra"]);
     return addon;
@@ -2371,6 +2364,14 @@ function calmNotes() {
 
 //ADD
 doctorAddons.push(calmNotes());
+
+function iridescentQueen() {
+    var addon = selectAddOn("Iridescent Queen", [""], "Ultra Rare", "", "iconAddon_iridescentQueen.png", "Doctor", ["extra", "extra"]);
+    return addon;
+}
+
+//ADD
+doctorAddons.push(iridescentQueen());
 
 function iridescentKing() {
     var addon = selectAddOn("Iridescent King", ["Random afflictions are given to survivors based on madness tier."], "Ultra Rare", "Random afflictions are given to survivors based on madness tier.", "IconAddon_iridescentKing.png", "Doctor", ["extra", "extra"]);
@@ -3018,13 +3019,13 @@ function videoTape() {
 pigAddons.push(videoTape());
 
 //Clown adds section
-function smellySoles() {
-    var addon = selectAddOn("Smelly Inner Soles", ["addon text"], "Common", "addon text", "iconAddon_smellyInnerSoles.png", "Clown", ["extra"]);
+function vhsPorn() {
+    var addon = selectAddOn("VHS Porn", ["addon text"], "Common", "addon text", "iconAddon_vhsPorn.png", "Clown", ["extra"]);
     return addon;
 }
 
 //ADD
-clownAddons.push(smellySoles());
+clownAddons.push(vhsPorn());
 
 function robinFeather() {
     var addon = selectAddOn("Robin Feather", ["addon text"], "Common", "addon text", "iconAddon_robinFeather.png", "Clown", ["extra"]);
@@ -3042,13 +3043,13 @@ function pGloves() {
 //ADD
 clownAddons.push(pGloves());
 
-function ether5() {
-    var addon = selectAddOn("Ether 5 Vol%", ["addon text"], "Common", "addon text", "iconAddon_ether5.png", "Clown", ["extra"]);
+function partyBottle() {
+    var addon = selectAddOn("Party Bottle", ["addon text"], "Common", "addon text", "iconAddon_partyBottle.png", "Clown", ["extra"]);
     return addon;
 }
 
 //ADD
-clownAddons.push(ether5());
+clownAddons.push(partyBottle());
 
 function tCStopper() {
     var addon = selectAddOn("Thick Cork Stopper", ["addon text"], "Uncommon", "addon text", "iconAddon_thickCorkStopper.png", "Clown", ["extra"]);
@@ -3090,13 +3091,13 @@ function keroCan() {
 //ADD
 clownAddons.push(keroCan());
 
-function VHS() {
-    var addon = selectAddOn("VHS Porn", ["addon text"], "Rare", "addon text", "iconAddon_vhsPorn.png", "Clown", ["extra"]);
+function smellyInnerSoles() {
+    var addon = selectAddOn("Smelly Inner Soles", ["addon text"], "Rare", "addon text", "iconAddon_smellyInnerSoles.png", "Clown", ["extra"]);
     return addon;
 }
 
 //ADD
-clownAddons.push(VHS());
+clownAddons.push(smellyInnerSoles());
 
 function SAVial() {
     var addon = selectAddOn("Sulphuric Acid Vial", ["addon text"], "Rare", "addon text", "iconAddon_sulfuricAcidVial.png", "Clown", ["extra"]);
@@ -3114,13 +3115,13 @@ function FoBleach() {
 //ADD
 clownAddons.push(FoBleach());
 
-function ether10() {
-    var addon = selectAddOn("Ether 10 Vol%", ["addon text"], "Rare", "addon text", "iconAddon_ether10.png", "Clown", ["extra"]);
+function spiritOfHartshorn() {
+    var addon = selectAddOn("Spirit of Hartshorn", ["addon text"], "Rare", "addon text", "iconAddon_spiritOfHartshorn.png", "Clown", ["extra"]);
     return addon;
 }
 
 //ADD
-clownAddons.push(ether10());
+clownAddons.push(spiritOfHartshorn());
 
 function BoChlor() {
     var addon = selectAddOn("Bottle Of Chloroform", ["addon text"], "Rare", "addon text", "iconAddon_bottleOfChloroform.png", "Clown", ["extra"]);
@@ -3263,13 +3264,13 @@ function rustyFlute() {
 //ADD
 spiritAddons.push(rustyFlute());
 
-function kTalisman() {
-    var addon = selectAddOn("Katsumori Talisman", ["addon text"], "Rare", "addon text", "iconAddon_katsumoriTalisman.png", "Spirit", ["extra"]);
+function senkoHanabi() {
+    var addon = selectAddOn("Senko Hanabi", ["addon text"], "Rare", "addon text", "iconAddon_senkoHanabi.png", "Spirit", ["extra"]);
     return addon;
 }
 
 //ADD
-spiritAddons.push(kTalisman());
+spiritAddons.push(senkoHanabi());
 
 function katanaTsuba() {
     var addon = selectAddOn("Katana Tsuba", ["addon text"], "Rare", "addon text", "iconAddon_katanaTsuba.png", "Spirit", ["extra"]);
@@ -3279,21 +3280,21 @@ function katanaTsuba() {
 //ADD
 spiritAddons.push(katanaTsuba());
 
-function dirtyUwabaki() {
-    var addon = selectAddOn("Dirty Uwabaki", ["addon text"], "Rare", "addon text", "iconAddon_dirtyUwabaki.png", "Spirit", ["extra"]);
+function uchiwa() {
+    var addon = selectAddOn("Uchiwa", ["addon text"], "Rare", "addon text", "iconAddon_uchiwa.png", "Spirit", ["extra"]);
     return addon;
 }
 
 //ADD
-spiritAddons.push(dirtyUwabaki());
+spiritAddons.push(uchiwa());
 
-function bHairBrooch() {
-    var addon = selectAddOn("Bloody Hair Brooch", ["addon text"], "Rare", "addon text", "iconAddon_bloodyHairBroochi.png", "Spirit", ["extra"]);
+function mothersGlasses() {
+    var addon = selectAddOn("Mother's Glasses", ["addon text"], "Rare", "addon text", "iconAddon_mothersGlasses.png", "Spirit", ["extra"]);
     return addon;
 }
 
 //ADD
-spiritAddons.push(bHairBrooch());
+spiritAddons.push(mothersGlasses());
 
 function yakAmulet() {
     var addon = selectAddOn("Yakuyoke Amulet", ["addon text"], "Very Rare", "addon text", "iconAddon_yakuyokeAmulet.png", "Spirit", ["extra"]);
@@ -3311,13 +3312,13 @@ function wazSaya() {
 //ADD
 spiritAddons.push(wazSaya());
 
-function pbBracelet() {
-    var addon = selectAddOn("Prayer Beads Bracelet", ["addon text"], "Very Rare", "addon text", "iconAddon_prayersBeads.png", "Spirit", ["extra"]);
+function furin() {
+    var addon = selectAddOn("Furin", ["addon text"], "Very Rare", "addon text", "iconAddon_furin.png", "Spirit", ["extra"]);
     return addon;
 }
 
 //ADD
-spiritAddons.push(pbBracelet());
+spiritAddons.push(furin());
 
 function dcBlossom() {
     var addon = selectAddOn("Dried Cherry Blossom", ["addon text"], "Very Rare", "addon text", "iconAddon_driedCherryBlossom.png", "Spirit", ["extra"]);
@@ -3335,13 +3336,13 @@ function mdRing() {
 //ADD
 spiritAddons.push(mdRing());
 
-function fGlasses() {
-    var addon = selectAddOn("Father's Glasses", ["addon text"], "Ultra Rare", "addon text", "iconAddon_fathersGlasses.png", "Spirit", ["extra"]);
+function kintsugiTeacup() {
+    var addon = selectAddOn("Kintsugi Teacup", ["addon text"], "Ultra Rare", "addon text", "iconAddon_kintsugiTeacup.png", "Spirit", ["extra"]);
     return addon;
 }
 
 //ADD
-spiritAddons.push(fGlasses());
+spiritAddons.push(kintsugiTeacup());
 
 //END SPIRIT ADDONS
 
@@ -3444,7 +3445,7 @@ function sSBook() {
 legionAddons.push(sSBook());
 
 function nBlade() {
-    var addon = selectAddOn("Nasty Blade", ["addon text"], "Rare", "addon text", "iconAddon_nastyBlade.png", "Legion", ["extra"]);
+    var addon = selectAddOn("Stylish Sunglasses", ["addon text"], "Rare", "addon text", "iconAddon_nastyBlade.png", "Legion", ["extra"]);
     return addon;
 }
 
@@ -3484,7 +3485,7 @@ function flBlade() {
 legionAddons.push(flBlade());
 
 function clDirt() {
-    var addon = selectAddOn("Cold Dirt", ["addon text"], "Very Rare", "addon text", "iconAddon_coldDirt.png", "Legion", ["extra"]);
+    var addon = selectAddOn("BFFs", ["addon text"], "Very Rare", "addon text", "iconAddon_coldDirt.png", "Legion", ["extra"]);
     return addon;
 }
 
@@ -3697,14 +3698,6 @@ function hlCutouts() {
 //ADD
 ghostfaceAddons.push(hlCutouts());
 
-function olsJournal() {
-    var addon = selectAddOn("Olsen's Journal", ["addon text"], "Uncommon", "addon text", "iconAddon_olsensJournal.png", "Ghost Face", ["extra"]);
-    return addon;
-}
-
-//ADD
-ghostfaceAddons.push(olsJournal());
-
 function cheapC() {
     var addon = selectAddOn("Cheap Cologne", ["addon text"], "Common", "addon text", "iconAddon_cheapCologne.png", "Ghost Face", ["extra"]);
     return addon;
@@ -3712,6 +3705,14 @@ function cheapC() {
 
 //ADD
 ghostfaceAddons.push(cheapC());
+
+function olsJournal() {
+    var addon = selectAddOn("Olsen's Journal", ["addon text"], "Uncommon", "addon text", "iconAddon_olsensJournal.png", "Ghost Face", ["extra"]);
+    return addon;
+}
+
+//ADD
+ghostfaceAddons.push(olsJournal());
 
 function teleLens() {
     var addon = selectAddOn("Telephoto Lens", ["addon text"], "Uncommon", "addon text", "iconAddon_telephotoLens.png", "Ghost Face", ["extra"]);
@@ -3722,7 +3723,7 @@ function teleLens() {
 ghostfaceAddons.push(teleLens());
 
 function cStraps() {
-    var addon = selectAddOn("Reusable Cinch Straps", ["addon text"], "Uncommon", "addon text", "iconAddon_reusuableCinchStraps.png", "Ghost Face", ["extra"]);
+    var addon = selectAddOn("Cinch Straps", ["addon text"], "Uncommon", "addon text", "iconAddon_reusuableCinchStraps.png", "Ghost Face", ["extra"]);
     return addon;
 }
 
@@ -3862,7 +3863,7 @@ function ratLiver() {
 demogorgonAddons.push(ratLiver());
 
 function ratTail() {
-    var addon = selectAddOn("Rat Tail", ["addon text"], "Common", "addon text", "iconAddon_ratLiver.png", "Demogorgon", ["extra"]);
+    var addon = selectAddOn("Rat Tail", ["addon text"], "Common", "addon text", "iconAddon_ratTail.png", "Demogorgon", ["extra"]);
     return addon;
 }
 
