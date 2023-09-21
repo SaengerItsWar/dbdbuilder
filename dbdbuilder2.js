@@ -1598,7 +1598,7 @@ function heavyClutch() {
 billyAddons.push(heavyClutch());
 
 function speedLimiter() {
-    var addon = selectAddOn("Speed Limiter", ["text"], "Common", "text", "iconAddon_speedLimiter.png", "Hillbilly", ["extra"]);
+    var addon = selectAddOn("Speed Limiter", ["text"], "Common", "text", "IconAddon_speedLimiter.png", "Hillbilly", ["extra"]);
     return addon;
 }
 
