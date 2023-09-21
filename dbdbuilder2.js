@@ -2544,7 +2544,7 @@ huntressAddons.push(iridescentHead());
 
 //Leatherface addons
 function vegetableOil() {
-    var addon = selectAddOn("Vegetable Oil", ["addon text"], "Common", "addon text", "iconAddon_vegetableOil.png", "Leatherface", ["extra"]);
+    var addon = selectAddOn("Vegetable Oil", ["addon text"], "Common", "addon text", "IconAddon_vegetableOil.png", "Leatherface", ["extra"]);
     return addon;
 }
 
@@ -2552,7 +2552,7 @@ function vegetableOil() {
 cannibalAddons.push(vegetableOil());
 
 function sparkPlug() {
-    var addon = selectAddOn("Spark Plug", ["addon text"], "Common", "addon text", "iconAddon_sparkPlug.png", "Leatherface", ["extra"]);
+    var addon = selectAddOn("Spark Plug", ["addon text"], "Common", "addon text", "IconAddon_sparkPlug.png", "Leatherface", ["extra"]);
     return addon;
 }
 
@@ -2560,7 +2560,7 @@ function sparkPlug() {
 cannibalAddons.push(sparkPlug());
 
 function chainsawFile() {
-    var addon = selectAddOn("Chainsaw File", ["addon text"], "Common", "addon text", "iconAddon_chainsawFile.png", "Leatherface", ["extra"]);
+    var addon = selectAddOn("Chainsaw File", ["addon text"], "Common", "addon text", "IconAddon_chainsawFile.png", "Leatherface", ["extra"]);
     return addon;
 }
 
@@ -2568,7 +2568,7 @@ function chainsawFile() {
 cannibalAddons.push(chainsawFile());
 
 function longGuideBar() {
-    var addon = selectAddOn("Long Guide Bar", ["addon text"], "Uncommon", "addon text", "iconAddon_longGuideBar.png", "Leatherface", ["extra"]);
+    var addon = selectAddOn("Long Guide Bar", ["addon text"], "Uncommon", "addon text", "IconAddon_longGuideBar.png", "Leatherface", ["extra"]);
     return addon;
 }
 
@@ -2576,7 +2576,7 @@ function longGuideBar() {
 cannibalAddons.push(longGuideBar());
 
 function primerBulb() {
-    var addon = selectAddOn("Primer Bulb", ["addon text"], "Uncommon", "addon text", "iconAddon_primerBulb.png", "Leatherface", ["extra"]);
+    var addon = selectAddOn("Primer Bulb", ["addon text"], "Uncommon", "addon text", "IconAddon_primerBulb.png", "Leatherface", ["extra"]);
     return addon;
 }
 
@@ -2592,7 +2592,7 @@ function knifeScratches() {
 cannibalAddons.push(knifeScratches());
 
 function homemadeMuffler() {
-    var addon = selectAddOn("Homemade Muffler", ["addon text"], "Uncommon", "addon text", "iconAddon_homemadeMuffler.png", "Leatherface", ["extra"]);
+    var addon = selectAddOn("Homemade Muffler", ["addon text"], "Uncommon", "addon text", "IconAddon_homemadeMuffler.png", "Leatherface", ["extra"]);
     return addon;
 }
 
@@ -2624,7 +2624,7 @@ function theBeastsMark() {
 cannibalAddons.push(theBeastsMark());
 
 function shopLubricant() {
-    var addon = selectAddOn("Shop Lubricant", ["addon text"], "Rare", "addon text", "iconAddon_shopLubricant.png", "Leatherface", ["extra"]);
+    var addon = selectAddOn("Shop Lubricant", ["addon text"], "Rare", "addon text", "IconAddon_shopLubricant.png", "Leatherface", ["extra"]);
     return addon;
 }
 
@@ -2632,7 +2632,7 @@ function shopLubricant() {
 cannibalAddons.push(shopLubricant());
 
 function grislyChains() {
-    var addon = selectAddOn("Grisly Chains", ["addon text"], "Rare", "addon text", "iconAddon_chainsGrisly.png", "Leatherface", ["extra"]);
+    var addon = selectAddOn("Grisly Chains", ["addon text"], "Rare", "addon text", "IconAddon_chainsGrisly.png", "Leatherface", ["extra"]);
     return addon;
 }
 
@@ -2648,7 +2648,7 @@ function begrimedChains() {
 cannibalAddons.push(begrimedChains());
 
 function rustedChains() {
-    var addon = selectAddOn("Rusted Chains", ["addon text"], "Very Rare", "addon text", "iconAddon_chainsRusted.png", "Leatherface", ["extra"]);
+    var addon = selectAddOn("Rusted Chains", ["addon text"], "Very Rare", "addon text", "IconAddon_chainsRusted.png", "Leatherface", ["extra"]);
     return addon;
 }
 
@@ -2656,7 +2656,7 @@ function rustedChains() {
 cannibalAddons.push(rustedChains());
 
 function lightChassis() {
-    var addon = selectAddOn("Light Chassis", ["addon text"], "Very Rare", "addon text", "iconAddon_lightChassis.png", "Leatherface", ["extra"]);
+    var addon = selectAddOn("Light Chassis", ["addon text"], "Very Rare", "addon text", "IconAddon_lightChassis.png", "Leatherface", ["extra"]);
     return addon;
 }
 
@@ -2664,7 +2664,7 @@ function lightChassis() {
 cannibalAddons.push(lightChassis());
 
 function depthGaugeRake() {
-    var addon = selectAddOn("Depth Gauge Rake", ["addon text"], "Very Rare", "addon text", "iconAddon_depthGaugeRake.png", "Leatherface", ["extra"]);
+    var addon = selectAddOn("Depth Gauge Rake", ["addon text"], "Very Rare", "addon text", "IconAddon_depthGaugeRake.png", "Leatherface", ["extra"]);
     return addon;
 }
 
@@ -2688,7 +2688,7 @@ function iridescentFlesh() {
 cannibalAddons.push(iridescentFlesh());
 
 function carburetorTuningGuide() {
-    var addon = selectAddOn("Carburettor Tuning Guide", ["addon text"], "Ultra Rare", "addon text", "iconAddon_carburetorTuningGuide.png", "Leatherface", ["extra"]);
+    var addon = selectAddOn("Carburettor Tuning Guide", ["addon text"], "Ultra Rare", "addon text", "IconAddon_carburetorTuningGuide.png", "Leatherface", ["extra"]);
     return addon;
 }
 
