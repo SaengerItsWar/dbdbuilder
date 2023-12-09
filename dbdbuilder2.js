@@ -46,6 +46,7 @@ var knightAddons = [];
 var merchantAddons = [];
 var singularityAddons = [];
 var xenomorphAddons = [];
+var goodGuyAddons = [];
 
 //item addon lists
 var flashlightAddons = [];
@@ -6622,6 +6623,171 @@ xenomorphAddons.push(acidicBlood());
 
 //end Xenomorph Add-Ons
 
+//start Good Guy Add-Ons
+
+function dollEyes() {
+    var addon = selectAddOn("Doll Eyes", ["addon text"], "Common", "addon text", "iconAddon_dollEyes.png", "Good Guy", ["extra"]);
+    return addon;
+}
+
+//ADD
+goodGuyAddons.push(dollEyes());
+
+function goodGuyBox() {
+    var addon = selectAddOn("Good Guy Box", ["addon text"], "Common", "addon text", "iconAddon_goodGuyBox.png", "Good Guy", ["extra"]);
+    return addon;
+}
+
+//ADD
+goodGuyAddons.push(goodGuyBox());
+
+function strobingLight() {
+    var addon = selectAddOn("Strobing Light", ["addon text"], "Common", "addon text", "iconAddon_strobingLight.png", "Good Guy", ["extra"]);
+    return addon;
+}
+
+//ADD
+goodGuyAddons.push(strobingLight());
+
+function tinyScalpel() {
+    var addon = selectAddOn("Tiny Scalpel", ["addon text"], "Common", "addon text", "iconAddon_tinyScalpel.png", "Good Guy", ["extra"]);
+    return addon;
+}
+
+//ADD
+goodGuyAddons.push(tinyScalpel());
+
+function automaticScrewdriver() {
+    var addon = selectAddOn("Automatic Screwdriver", ["addon text"], "Uncommon", "addon text", "iconAddon_automaticScrewdriver.png", "Good Guy", ["extra"]);
+    return addon;
+}
+
+//ADD
+goodGuyAddons.push(automaticScrewdriver());
+
+function electricCarvingKnife() {
+    var addon = selectAddOn("Electric Carving Knife", ["addon text"], "Uncommon", "addon text", "iconAddon_electricCarvingKnife.png", "Good Guy", ["extra"]);
+    return addon;
+}
+
+//ADD
+goodGuyAddons.push(electricCarvingKnife());
+
+function flamingHairSpray() {
+    var addon = selectAddOn("Hair Spray & Candle", ["addon text"], "Uncommon", "addon text", "iconAddon_flamingHairSpray.png", "Good Guy", ["extra"]);
+    return addon;
+}
+
+//ADD
+goodGuyAddons.push(flamingHairSpray());
+
+function jumpRope() {
+    var addon = selectAddOn("Jump Rope", ["addon text"], "Uncommon", "addon text", "iconAddon_jumpRope1.png", "Good Guy", ["extra"]);
+    return addon;
+}
+
+//ADD
+goodGuyAddons.push(jumpRope());
+
+function powerDrill() {
+    var addon = selectAddOn("Power Drill", ["addon text"], "Uncommon", "addon text", "iconAddon_powerDrill.png", "Good Guy", ["extra"]);
+    return addon;
+}
+
+//ADD
+goodGuyAddons.push(powerDrill());
+
+function portableTV() {
+    var addon = selectAddOn("Portable TV", ["addon text"], "Rare", "addon text", "iconAddon_portableTV.png", "Good Guy", ["extra"]);
+    return addon;
+}
+
+//ADD
+goodGuyAddons.push(portableTV());
+
+function ratPoison() {
+    var addon = selectAddOn("Rat Poison", ["addon text"], "Rare", "addon text", "iconAddon_ratPoison.png", "Good Guy", ["extra"]);
+    return addon;
+}
+
+//ADD
+goodGuyAddons.push(ratPoison());
+
+function runningShoes() {
+    var addon = selectAddOn("Running Shoes", ["addon text"], "Rare", "addon text", "iconAddon_runningShoes.png", "Good Guy", ["extra"]);
+    return addon;
+}
+
+//ADD
+goodGuyAddons.push(runningShoes());
+
+function silkPillow() {
+    var addon = selectAddOn("Silk Pillow", ["addon text"], "Rare", "addon text", "iconAddon_silkPillow.png", "Good Guy", ["extra"]);
+    return addon;
+}
+
+//ADD
+goodGuyAddons.push(silkPillow());
+
+function yardstick() {
+    var addon = selectAddOn("Yardstick", ["addon text"], "Rare", "addon text", "iconAddon_yardstick.png", "Good Guy", ["extra"]);
+    return addon;
+}
+
+//ADD
+goodGuyAddons.push(yardstick());
+
+function mirrorShards() {
+    var addon = selectAddOn("Mirror Shards", ["addon text"], "Very Rare", "addon text", "iconAddon_mirrorShards.png", "Good Guy", ["extra"]);
+    return addon;
+}
+
+//ADD
+goodGuyAddons.push(mirrorShards());
+
+function pileOfNails() {
+    var addon = selectAddOn("Pile of Nails", ["addon text"], "Very Rare", "addon text", "iconAddon_pileOfNails.png", "Good Guy", ["extra"]);
+    return addon;
+}
+
+//ADD
+goodGuyAddons.push(pileOfNails());
+
+function plasticBag() {
+    var addon = selectAddOn("Plastic Bag", ["addon text"], "Very Rare", "addon text", "iconAddon_plasticBag.png", "Good Guy", ["extra"]);
+    return addon;
+}
+
+//ADD
+goodGuyAddons.push(plasticBag());
+
+function straightRazor() {
+    var addon = selectAddOn("Straight Razor", ["addon text"], "Very Rare", "addon text", "iconAddon_straightRazor.png", "Good Guy", ["extra"]);
+    return addon;
+}
+
+//ADD
+goodGuyAddons.push(straightRazor());
+
+function hardHat() {
+    var addon = selectAddOn("Hard Hat", ["addon text"], "Ultra Rare", "addon text", "iconAddon_hardHat.png", "Good Guy", ["extra"]);
+    return addon;
+}
+
+//ADD
+goodGuyAddons.push(hardHat());
+
+function iridescentAmulet() {
+    var addon = selectAddOn("Iridescent Amulet", ["addon text"], "Ultra Rare", "addon text", "iconAddon_iridescentAmulet.png", "Good Guy", ["extra"]);
+    return addon;
+}
+
+//ADD
+goodGuyAddons.push(iridescentAmulet());
+
+
+//end Good Guy Add-Ons
+
 function blightSerum() {
     var addon = selectAddOn("Blight Serum", ["addon text"], "event", "addon text", "iconAddon_blightedSerum.png", "All", ["extra"]);
     return addon;
@@ -6659,6 +6825,7 @@ knightAddons.push(blightSerum());
 merchantAddons.push(blightSerum());
 singularityAddons.push(blightSerum());
 xenomorphAddons.push(blightSerum());
+goodGuyAddons.push(blightSerum());
 //end specific add on Section
 
 //base perk Section (native to lets us know if it is teachable)
@@ -8643,6 +8810,31 @@ function ultimateWeapon() {
 //ADD
 killerPerks.push(ultimateWeapon());
 
+function twoCanPlay() {
+    var perk = selectPerk("Hex: Two Can Play", ["perk text"], ["extra"], "Very Rare", "perk text", "iconPerks_twoCanPlay.png", "killer", "Xenomorph");
+    return perk;
+}
+
+//ADD
+killerPerks.push(twoCanPlay());
+
+function friendsTillTheEnd() {
+    var perk = selectPerk("Friends 'til the End", ["perk text"], ["extra"], "Very Rare", "perk text", "iconPerks_friendsTillTheEnd.png", "killer", "Xenomorph");
+    return perk;
+}
+
+//ADD
+killerPerks.push(friendsTillTheEnd());
+
+//All
+function batteriesIncluded() {
+    var perk = selectPerk("Batteries Included", ["perk text"], ["extra"], "Very Rare", "perk text", "iconPerks_batteriesIncluded.png", "killer", "Xenomorph");
+    return perk;
+}
+
+//ADD
+killerPerks.push(batteriesIncluded());
+
 //end specific killer perk section
 
 //end specific perk section
@@ -10045,6 +10237,17 @@ function selectXenomorph() {
 }
 //ADD
 killers.push(selectXenomorph());
+
+function selectGoodGuy() {
+    var goodGuy = selectKiller();
+    goodGuy.name = "The Good Guy";
+    goodGuy.itemOrAbility = selectAddOn("The Good Guy", ["Playtime's Over"], "Common", "Playtime's Over", "iconPowers_K34.png", "killer", ["extra"]);
+    goodGuy.addonLink = goodGuyAddons;
+    goodGuy.portrait = "K34_charPreview_portrait.png";
+    return goodGuy;
+}
+//ADD
+killers.push(selectGoodGuy());
 
 
 //end basic killer section - add new killers above here, plox
