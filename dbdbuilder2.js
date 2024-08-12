@@ -47,6 +47,9 @@ var merchantAddons = [];
 var singularityAddons = [];
 var xenomorphAddons = [];
 var goodGuyAddons = [];
+var unknownAddons = [];
+var lichAddons = [];
+var darkLordAddons = [];
 
 //item addon lists
 var flashlightAddons = [];
@@ -486,6 +489,56 @@ function selectEllen() {
 
 //ADD
 survivors.push(selectEllen());
+
+function selectAlan() {
+	var alen = new selectSurvivor();
+	alen.name = "Alan Wake";
+	alen.portrait = "S40_charPreview_portrait.png";
+	return alen;
+}
+
+//ADD
+survivors.push(selectAlan());
+
+function selectSable() {
+	var sable = new selectSurvivor();
+	sable.name = "Sable Ward";
+	sable.portrait = "S41_charPreview_portrait.png";
+	return sable;
+}
+
+//ADD
+survivors.push(selectSable());
+
+function selectTroupe() {
+    var troupe = new selectSurvivor();
+	troupe.name = "The Troupe";
+	troupe.portrait = "S42_charPreview_portrait.png";
+	return troupe;
+}
+
+//ADD
+survivors.push(selectTroupe());
+
+function selectLaraCroft() {
+    var lara = new selectSurvivor();
+	lara.name = "Lara Croft";
+	lara.portrait = "S43_charPreview_portrait.png";
+	return lara;
+}
+
+//ADD
+survivors.push(selectLaraCroft());
+
+function selectTrevor() {
+    var trevor = new selectSurvivor();
+	trevor.name = "Trevor Belmont";
+	trevor.portrait = "S44_charPreview_portrait.png";
+	return trevor;
+}
+
+//ADD
+survivors.push(selectTrevor());
 
 //ADD ANY NEW SURVIVORS ABOVE HERE  AND THEN PUSH TO LIST -- P L O X
 //end base survivor section
@@ -6788,6 +6841,501 @@ goodGuyAddons.push(iridescentAmulet());
 
 //end Good Guy Add-Ons
 
+//start Unknown Add-Ons
+
+function blurryPhoto() {
+    var addon = selectAddOn("Blurry Photo", ["addon text"], "Common", "addon text", "iconAddon_blurryPhoto.png", "Unknown", ["extra"]);
+    return addon;
+}
+
+//ADD
+unknownAddons.push(blurryPhoto());
+
+function puncturedEyeball() {
+    var addon = selectAddOn("Punctured Eyeball", ["addon text"], "Common", "addon text", "iconAddon_puncturedEyeball.png", "Unknown", ["extra"]);
+    return addon;
+}
+
+//ADD
+unknownAddons.push(puncturedEyeball());
+
+function rabbitsFoot() {
+    var addon = selectAddOn("Rabbit's Foot", ["addon text"], "Common", "addon text", "iconAddon_rabbitsFoot.png", "Unknown", ["extra"]);
+    return addon;
+}
+
+//ADD
+unknownAddons.push(rabbitsFoot());
+
+function sketchAttempt() {
+    var addon = selectAddOn("Sketch Attempt", ["addon text"], "Common", "addon text", "iconAddon_sketchAttempt.png", "Unknown", ["extra"]);
+    return addon;
+}
+
+//ADD
+unknownAddons.push(sketchAttempt());
+
+function deviceOfUndisclosedOrigin() {
+    var addon = selectAddOn("Device of Undisclosed Origin", ["addon text"], "Uncommon", "addon text", "iconAddon_deviceOfUndisclosedOrigin.png", "Unknown", ["extra"]);
+    return addon;
+}
+
+//ADD
+unknownAddons.push(deviceOfUndisclosedOrigin());
+
+function lastKnownRecording() {
+    var addon = selectAddOn("Last Known Recording", ["addon text"], "Uncommon", "addon text", "iconAddon_lastKnownRecording.png", "Unknown", ["extra"]);
+    return addon;
+}
+
+//ADD
+unknownAddons.push(lastKnownRecording());
+
+function notebookOfTheories() {
+    var addon = selectAddOn("Notebook of Theories", ["addon text"], "Uncommon", "addon text", "iconAddon_notebookOfTheories.png", "Unknown", ["extra"]);
+    return addon;
+}
+
+//ADD
+unknownAddons.push(notebookOfTheories());
+
+function slashedBackpack() {
+    var addon = selectAddOn("Slashed Backpack", ["addon text"], "Uncommon", "addon text", "iconAddon_slashedBackpack.png", "Unknown", ["extra"]);
+    return addon;
+}
+
+//ADD
+unknownAddons.push(slashedBackpack());
+
+function victimsMap() {
+    var addon = selectAddOn("Victim's Map", ["addon text"], "Uncommon", "addon text", "iconAddon_victimsMap.png", "Unknown", ["extra"]);
+    return addon;
+}
+
+//ADD
+unknownAddons.push(victimsMap());
+
+function bMoviePoster() {
+    var addon = selectAddOn("B-Movie Poster", ["addon text"], "Rare", "addon text", "iconAddon_b-moviePoster.png", "Unknown", ["extra"]);
+    return addon;
+}
+
+//ADD
+unknownAddons.push(bMoviePoster());
+
+function footprintCast() {
+    var addon = selectAddOn("Footprint Cast", ["addon text"], "Rare", "addon text", "iconAddon_footprintCast.png", "Unknown", ["extra"]);
+    return addon;
+}
+
+//ADD
+unknownAddons.push(footprintCast());
+
+function frontPageArticle() {
+    var addon = selectAddOn("Front-Page Article", ["addon text"], "Rare", "addon text", "iconAddon_frontPageArticle.png", "Unknown", ["extra"]);
+    return addon;
+}
+
+//ADD
+unknownAddons.push(frontPageArticle());
+
+function hypnotistsWatch() {
+    var addon = selectAddOn("Hypnotist's Watch", ["addon text"], "Rare", "addon text", "iconAddon_hypnotistsWatch.png", "Unknown", ["extra"]);
+    return addon;
+}
+
+//ADD
+unknownAddons.push(hypnotistsWatch());
+
+function vanishingBox() {
+    var addon = selectAddOn("Vanishing Box", ["addon text"], "Rare", "addon text", "iconAddon_vanishingBox.png", "Unknown", ["extra"]);
+    return addon;
+}
+
+//ADD
+unknownAddons.push(vanishingBox());
+
+function discardedMilkCarton() {
+    var addon = selectAddOn("Discarded Milk Carton", ["addon text"], "Very Rare", "addon text", "iconAddon_discardedMilkCarton.png", "Unknown", ["extra"]);
+    return addon;
+}
+
+//ADD
+unknownAddons.push(discardedMilkCarton());
+
+function homemadeMask() {
+    var addon = selectAddOn("Homemade Mask", ["addon text"], "Very Rare", "addon text", "iconAddon_homemadeMask.png", "Unknown", ["extra"]);
+    return addon;
+}
+
+//ADD
+unknownAddons.push(homemadeMask());
+
+function obscureGameCartridge() {
+    var addon = selectAddOn("Obscure Game Cartridge", ["addon text"], "Very Rare", "addon text", "iconAddon_obscureGameCartridge.png", "Unknown", ["extra"]);
+    return addon;
+}
+
+//ADD
+unknownAddons.push(obscureGameCartridge());
+
+function serumVial() {
+    var addon = selectAddOn("Serum Vial", ["addon text"], "Very Rare", "addon text", "iconAddon_serumVial.png", "Unknown", ["extra"]);
+    return addon;
+}
+
+//ADD
+unknownAddons.push(serumVial());
+
+function capturedByTheDark() {
+    var addon = selectAddOn("Captured by the Dark", ["addon text"], "Ultra Rare", "addon text", "iconAddon_capturedByTheDark.png", "Unknown", ["extra"]);
+    return addon;
+}
+
+//ADD
+unknownAddons.push(capturedByTheDark());
+
+function iridescentOSSReport() {
+    var addon = selectAddOn("Iridescent OSS Report", ["addon text"], "Ultra Rare", "addon text", "iconAddon_iridescentOSSReport.png", "Unknown", ["extra"]);
+    return addon;
+}
+
+//ADD
+unknownAddons.push(iridescentOSSReport());
+
+
+//end Unknown Add-Ons
+
+//start Lich Add-Ons
+
+function crystalBall() {
+    var addon = selectAddOn("Crystal Ball", ["addon text"], "Common", "addon text", "iconAddon_crystalBall.png", "Lich", ["extra"]);
+    return addon;
+}
+
+//ADD
+lichAddons.push(crystalBall());
+
+function ravensFeather() {
+    var addon = selectAddOn("Raven's Feather", ["addon text"], "Common", "addon text", "iconAddon_ravensFeather.png", "Lich", ["extra"]);
+    return addon;
+}
+
+//ADD
+lichAddons.push(ravensFeather());
+
+function tatteredHeadband() {
+    var addon = selectAddOn("Tattered Headband", ["addon text"], "Common", "addon text", "iconAddon_tatteredHeadband.png", "Lich", ["extra"]);
+    return addon;
+}
+
+//ADD
+lichAddons.push(tatteredHeadband());
+
+function trickstersGlove() {
+    var addon = selectAddOn("Trickster's Glove", ["addon text"], "Common", "addon text", "iconAddon_trickstersGlove.png", "Lich", ["extra"]);
+    return addon;
+}
+
+//ADD
+lichAddons.push(trickstersGlove());
+
+function glassEye() {
+    var addon = selectAddOn("Glass Eye", ["addon text"], "Uncommon", "addon text", "iconAddon_glassEye.png", "Lich", ["extra"]);
+    return addon;
+}
+
+//ADD
+lichAddons.push(glassEye());
+
+function lanternOfRevealing() {
+    var addon = selectAddOn("Lantern of Revealing", ["addon text"], "Uncommon", "addon text", "iconAddon_lanternOfRevealing.png", "Lich", ["extra"]);
+    return addon;
+}
+
+//ADD
+lichAddons.push(lanternOfRevealing());
+
+function potionOfSpeed() {
+    var addon = selectAddOn("Potion of Speed", ["addon text"], "Uncommon", "addon text", "iconAddon_potionOfSpeed.png", "Lich", ["extra"]);
+    return addon;
+}
+
+//ADD
+lichAddons.push(potionOfSpeed());
+
+function ringOfSpellStoring() {
+    var addon = selectAddOn("Ring of Spell Storing", ["addon text"], "Uncommon", "addon text", "iconAddon_ringOfSpellStoring.png", "Lich", ["extra"]);
+    return addon;
+}
+
+//ADD
+lichAddons.push(ringOfSpellStoring());
+
+function ringOfTelekinesis() {
+    var addon = selectAddOn("Ring of Telekinesis", ["addon text"], "Uncommon", "addon text", "iconAddon_ringOfTelekinesis.png", "Lich", ["extra"]);
+    return addon;
+}
+
+//ADD
+lichAddons.push(ringOfTelekinesis());
+
+function bootsOfSpeed() {
+    var addon = selectAddOn("Boots of Speed", ["addon text"], "Rare", "addon text", "iconAddon_bootsOfSpeed.png", "Lich", ["extra"]);
+    return addon;
+}
+
+//ADD
+lichAddons.push(bootsOfSpeed());
+
+function cloakOfElvenkind() {
+    var addon = selectAddOn("Cloak of Elvenkind", ["addon text"], "Rare", "addon text", "iconAddon_cloakOfElvenkind.png", "Lich", ["extra"]);
+    return addon;
+}
+
+//ADD
+lichAddons.push(cloakOfElvenkind());
+
+function ornateHorn() {
+    var addon = selectAddOn("Ornate Horn", ["addon text"], "Rare", "addon text", "iconAddon_ornateHorn.png", "Lich", ["extra"]);
+    return addon;
+}
+
+//ADD
+lichAddons.push(ornateHorn());
+
+function pearlOfPower() {
+    var addon = selectAddOn("Pearl of Power", ["addon text"], "Rare", "addon text", "iconAddon_pearlOfPower.png", "Lich", ["extra"]);
+    return addon;
+}
+
+//ADD
+lichAddons.push(pearlOfPower());
+
+function staffOfWithering() {
+    var addon = selectAddOn("Staff of Withering", ["addon text"], "Rare", "addon text", "iconAddon_staffOfWithering.png", "Lich", ["extra"]);
+    return addon;
+}
+
+//ADD
+lichAddons.push(staffOfWithering());
+
+function discardedMilkCarton() {
+    var addon = selectAddOn("Bag of Holding", ["addon text"], "Very Rare", "addon text", "iconAddon_discardedMilkCarton.png", "Lich", ["extra"]);
+    return addon;
+}
+
+//ADD
+lichAddons.push(discardedMilkCarton());
+
+function bagOfHolding() {
+    var addon = selectAddOn("Cloak of Invisibility", ["addon text"], "Very Rare", "addon text", "iconAddon_bagOfHolding.png", "Lich", ["extra"]);
+    return addon;
+}
+
+//ADD
+lichAddons.push(bagOfHolding());
+
+function dragontoothDagger() {
+    var addon = selectAddOn("Dragontooth Dagger", ["addon text"], "Very Rare", "addon text", "iconAddon_dragontoothDagger.png", "Lich", ["extra"]);
+    return addon;
+}
+
+//ADD
+lichAddons.push(dragontoothDagger());
+
+function robeOfEyes() {
+    var addon = selectAddOn("Robe of Eyes", ["addon text"], "Very Rare", "addon text", "iconAddon_robeOfEyes.png", "Lich", ["extra"]);
+    return addon;
+}
+
+//ADD
+lichAddons.push(robeOfEyes());
+
+function iridescentBookOfVileDarkness() {
+    var addon = selectAddOn("Iridescent Book of Vile Darkness", ["addon text"], "Ultra Rare", "addon text", "iconAddon_iridescentBookOfVileDarkness.png", "Lich", ["extra"]);
+    return addon;
+}
+
+//ADD
+lichAddons.push(iridescentBookOfVileDarkness());
+
+function vorpalSword() {
+    var addon = selectAddOn("Vorpal Sword", ["addon text"], "Ultra Rare", "addon text", "iconAddon_swordOfKass.png", "Lich", ["extra"]);
+    return addon;
+}
+
+//ADD
+lichAddons.push(vorpalSword());
+
+
+//end Lich Add-Ons
+
+//start Dark Lord Add-Ons
+
+function cerberusTalon() {
+    var addon = selectAddOn("Cerberus Talon", ["addon text"], "Common", "addon text", "iconAddon_cerberusTalon.png", "Dark Lord", ["extra"]);
+    return addon;
+}
+
+//ADD
+darkLordAddons.push(cerberusTalon());
+
+function clockTowerGear() {
+    var addon = selectAddOn("Clock Tower Gear", ["addon text"], "Common", "addon text", "iconAddon_clockTowerGear.png", "Dark Lord", ["extra"]);
+    return addon;
+}
+
+//ADD
+darkLordAddons.push(clockTowerGear());
+
+function rubyCirclet() {
+    var addon = selectAddOn("Ruby Circlet", ["addon text"], "Common", "addon text", "iconAddon_rubyCirclet.png", "Dark Lord", ["extra"]);
+    return addon;
+}
+
+//ADD
+darkLordAddons.push(rubyCirclet());
+
+function sylphFeather() {
+    var addon = selectAddOn("Sylph Feather", ["addon text"], "Common", "addon text", "iconAddon_sylphFeather.png", "Dark Lord", ["extra"]);
+    return addon;
+}
+
+//ADD
+darkLordAddons.push(sylphFeather());
+
+function bloodFilledGoblet() {
+    var addon = selectAddOn("Blood-Filled Goblet", ["addon text"], "Uncommon", "addon text", "iconAddon_bloodFilledGoblet.png", "Dark Lord", ["extra"]);
+    return addon;
+}
+
+//ADD
+darkLordAddons.push(bloodFilledGoblet());
+
+function magicalTicket() {
+    var addon = selectAddOn("Magical Ticket", ["addon text"], "Uncommon", "addon text", "iconAddon_magicalTicket.png", "Dark Lord", ["extra"]);
+    return addon;
+}
+
+//ADD
+darkLordAddons.push(magicalTicket());
+
+function moonstoneNecklace() {
+    var addon = selectAddOn("Moonstone Necklace", ["addon text"], "Uncommon", "addon text", "iconAddon_moonstoneNecklace.png", "Dark Lord", ["extra"]);
+    return addon;
+}
+
+//ADD
+darkLordAddons.push(moonstoneNecklace());
+
+function travelersHat() {
+    var addon = selectAddOn("Traveler's Hat", ["addon text"], "Uncommon", "addon text", "iconAddon_travelersHat.png", "Dark Lord", ["extra"]);
+    return addon;
+}
+
+//ADD
+darkLordAddons.push(travelersHat());
+
+function wingedBoots() {
+    var addon = selectAddOn("Winged Boots", ["addon text"], "Uncommon", "addon text", "iconAddon_wingedBoots.png", "Dark Lord", ["extra"]);
+    return addon;
+}
+
+//ADD
+darkLordAddons.push(wingedBoots());
+
+function forceOfEcho() {
+    var addon = selectAddOn("Force of Echo", ["addon text"], "Rare", "addon text", "iconAddon_forceOfEcho.png", "Dark Lord", ["extra"]);
+    return addon;
+}
+
+//ADD
+darkLordAddons.push(forceOfEcho());
+
+function killerDoll() {
+    var addon = selectAddOn("Killer Doll", ["addon text"], "Rare", "addon text", "iconAddon_killerDoll.png", "Dark Lord", ["extra"]);
+    return addon;
+}
+
+//ADD
+darkLordAddons.push(killerDoll());
+
+function pocketWatch() {
+    var addon = selectAddOn("Pocket Watch", ["addon text"], "Rare", "addon text", "iconAddon_pocketWatch1.png", "Dark Lord", ["extra"]);
+    return addon;
+}
+
+//ADD
+darkLordAddons.push(pocketWatch());
+
+function sunglasses() {
+    var addon = selectAddOn("Sunglasses", ["addon text"], "Rare", "addon text", "iconAddon_sunglasses.png", "Dark Lord", ["extra"]);
+    return addon;
+}
+
+//ADD
+darkLordAddons.push(sunglasses());
+
+function whiteWolfMedallion() {
+    var addon = selectAddOn("White Wolf Medallion", ["addon text"], "Rare", "addon text", "iconAddon_whiteWolfMedallion.png", "Dark Lord", ["extra"]);
+    return addon;
+}
+
+//ADD
+darkLordAddons.push(whiteWolfMedallion());
+
+function cubeOfZoe() {
+    var addon = selectAddOn("Cube of Zoe", ["addon text"], "Very Rare", "addon text", "iconAddon_cubeOfZoe.png", "Dark Lord", ["extra"]);
+    return addon;
+}
+
+//ADD
+darkLordAddons.push(cubeOfZoe());
+
+function lapisLazuli() {
+    var addon = selectAddOn("Lapis Lazuli", ["addon text"], "Very Rare", "addon text", "iconAddon_lapisLazuli.png", "Dark Lord", ["extra"]);
+    return addon;
+}
+
+//ADD
+darkLordAddons.push(lapisLazuli());
+
+function medusasHair() {
+    var addon = selectAddOn("Medusa's Hair", ["addon text"], "Very Rare", "addon text", "iconAddon_medusasHair.png", "Dark Lord", ["extra"]);
+    return addon;
+}
+
+//ADD
+darkLordAddons.push(medusasHair());
+
+function wargsFang() {
+    var addon = selectAddOn("Warg's Fang", ["addon text"], "Very Rare", "addon text", "iconAddon_wargsFang.png", "Dark Lord", ["extra"]);
+    return addon;
+}
+
+//ADD
+darkLordAddons.push(wargsFang());
+
+function alucardsShield() {
+    var addon = selectAddOn("Alucard's Shield", ["addon text"], "Ultra Rare", "addon text", "iconAddon_alucardsShield.png", "Dark Lord", ["extra"]);
+    return addon;
+}
+
+//ADD
+darkLordAddons.push(alucardsShield());
+
+function iridescentRingOfVlad() {
+    var addon = selectAddOn("Iridescent Ring of Vlad", ["addon text"], "Ultra Rare", "addon text", "iconAddon_iridescentRingOfVlad.png", "Dark Lord", ["extra"]);
+    return addon;
+}
+
+//ADD
+darkLordAddons.push(iridescentRingOfVlad());
+
+
+//end Dark Lord Add-Ons
+
 function blightSerum() {
     var addon = selectAddOn("Blight Serum", ["addon text"], "event", "addon text", "iconAddon_blightedSerum.png", "All", ["extra"]);
     return addon;
@@ -6826,6 +7374,9 @@ merchantAddons.push(blightSerum());
 singularityAddons.push(blightSerum());
 xenomorphAddons.push(blightSerum());
 goodGuyAddons.push(blightSerum());
+unknownAddons.push(blightSerum());
+lichAddons.push(blightSerum());
+darkLordAddons.push(blightSerum());
 //end specific add on Section
 
 //base perk Section (native to lets us know if it is teachable)
@@ -7890,6 +8441,126 @@ function luckyStar() {
 //ADD
 survivorPerks.push(luckyStar());
 
+function illumination() {
+    var perk = selectPerk("Boon: Illumination", ["perk text"], ["extra"], "Very Rare", "perk text", "iconsPerks_illumination.png", "survivor", "Alan Wake");
+    return perk;
+}
+
+//ADD
+survivorPerks.push(illumination());
+
+function championOfLight() {
+    var perk = selectPerk("Champion of Light", ["perk text"], ["extra"], "Very Rare", "perk text", "iconsPerks_championOfLight.png", "survivor", "Alen Wake");
+    return perk;
+}
+
+//ADD
+survivorPerks.push(championOfLight());
+
+function deadline() {
+    var perk = selectPerk("deadline", ["perk text"], ["extra"], "Very Rare", "perk text", "iconsPerks_deadline.png", "survivor", "Alan Wake");
+    return perk;
+}
+
+//ADD
+survivorPerks.push(deadline());
+
+function invocationWeavingSpiders() {
+    var perk = selectPerk("Invocation: Weaving Spiders", ["perk text"], ["extra"], "Very Rare", "perk text", "iconsPerks_invocationWeavingSpiders.png", "survivor", "Sable Ward");
+    return perk;
+}
+
+//ADD
+survivorPerks.push(invocationWeavingSpiders());
+
+function strengthInShadows() {
+    var perk = selectPerk("Strength in Shadows", ["perk text"], ["extra"], "Very Rare", "perk text", "iconsPerks_strengthInShadows.png", "survivor", "Sable Ward");
+    return perk;
+}
+
+//ADD
+survivorPerks.push(strengthInShadows());
+
+function wicked() {
+    var perk = selectPerk("Wicked", ["perk text"], ["extra"], "Very Rare", "perk text", "iconsPerks_wicked.png", "survivor", "Sable Ward");
+    return perk;
+}
+
+//ADD
+survivorPerks.push(wicked());
+
+function bardicInspiration() {
+    var perk = selectPerk("Bardic Inspiration", ["perk text"], ["extra"], "Very Rare", "perk text", "iconPerks_bardicInspiration.png", "survivor", "Troupe");
+    return perk;
+}
+
+//ADD
+survivorPerks.push(bardicInspiration());
+
+function mirroredIllusion() {
+    var perk = selectPerk("Mirrored Illusion", ["perk text"], ["extra"], "Very Rare", "perk text", "iconPerks_mirroredIllusion.png", "survivor", "Troupe");
+    return perk;
+}
+
+//ADD
+survivorPerks.push(mirroredIllusion());
+
+function stillSight() {
+    var perk = selectPerk("Still Sight", ["perk text"], ["extra"], "Very Rare", "perk text", "iconPerks_stillSight.png", "survivor", "Troupe");
+    return perk;
+}
+
+//ADD
+survivorPerks.push(stillSight());
+
+function finesse() {
+    var perk = selectPerk("Finesse", ["perk text"], ["extra"], "Very Rare", "perk text", "iconPerks_finesse.png", "survivor", "Lara Croft");
+    return perk;
+}
+
+//ADD
+survivorPerks.push(finesse());
+
+function hardened() {
+    var perk = selectPerk("Hardened", ["perk text"], ["extra"], "Very Rare", "perk text", "iconPerks_hardened.png", "survivor", "Lara Croft");
+    return perk;
+}
+
+//ADD
+survivorPerks.push(hardened());
+
+function specialist() {
+    var perk = selectPerk("Specialist", ["perk text"], ["extra"], "Very Rare", "perk text", "iconPerks_specialist.png", "survivor", "Lara Croft");
+    return perk;
+}
+
+//ADD
+survivorPerks.push(specialist());
+
+function exultation() {
+    var perk = selectPerk("Exultation", ["perk text"], ["extra"], "Very Rare", "perk text", "iconPerks_exultation.png", "survivor", "Trevor Belmont");
+    return perk;
+}
+
+//ADD
+survivorPerks.push(exultation());
+
+function eyesOfBelmont() {
+    var perk = selectPerk("Eyes of Belmont", ["perk text"], ["extra"], "Very Rare", "perk text", "iconPerks_eyesOfBelmont.png", "survivor", "Trevor Belmont");
+    return perk;
+}
+
+//ADD
+survivorPerks.push(eyesOfBelmont());
+
+function momentOfGlory() {
+    var perk = selectPerk("Moment of Glory", ["perk text"], ["extra"], "Very Rare", "perk text", "iconPerks_momentOfGlory.png", "survivor", "Trevor Belmont");
+    return perk;
+}
+
+//ADD
+survivorPerks.push(momentOfGlory());
+
 //end specific survivor perk section
 
 //begin specific killer perk section
@@ -8826,9 +9497,84 @@ function friendsTillTheEnd() {
 //ADD
 killerPerks.push(friendsTillTheEnd());
 
+//Unknown
+function unbound() {
+    var perk = selectPerk("Unbound", ["perk text"], ["extra"], "Very Rare", "perk text", "iconPerks_unbound.png", "killer", "Unknown");
+    return perk;
+}
+
+//ADD
+killerPerks.push(unbound());
+
+function undone() {
+    var perk = selectPerk("Undone", ["perk text"], ["extra"], "Very Rare", "perk text", "iconPerks_undone.png", "killer", "Unknown");
+    return perk;
+}
+
+//ADD
+killerPerks.push(undone());
+
+function unforeseen() {
+    var perk = selectPerk("Unforeseen", ["perk text"], ["extra"], "Very Rare", "perk text", "iconPerks_unforeseen.png", "killer", "Unknown");
+    return perk;
+}
+
+//ADD
+killerPerks.push(unforeseen());
+
+//Lich
+function darkArrogance() {
+    var perk = selectPerk("Dark Arrogance", ["perk text"], ["extra"], "Very Rare", "perk text", "iconPerks_darkArrogance.png", "killer", "Lich");
+    return perk;
+}
+
+//ADD
+killerPerks.push(darkArrogance());
+
+function undone() {
+    var perk = selectPerk("Languid Touch", ["perk text"], ["extra"], "Very Rare", "perk text", "iconPerks_undone.png", "killer", "Lich");
+    return perk;
+}
+
+//ADD
+killerPerks.push(undone());
+
+function weaveAttunement() {
+    var perk = selectPerk("Weave Attunement", ["perk text"], ["extra"], "Very Rare", "perk text", "iconPerks_weaveAttunement.png", "killer", "Lich");
+    return perk;
+}
+
+//ADD
+killerPerks.push(weaveAttunement());
+
+//Lich
+function dominance() {
+    var perk = selectPerk("Dominance", ["perk text"], ["extra"], "Very Rare", "perk text", "iconPerks_dominance.png", "killer", "Lich");
+    return perk;
+}
+
+//ADD
+killerPerks.push(dominance());
+
+function hexWretchedFate() {
+    var perk = selectPerk("Hex: Wretched Fate", ["perk text"], ["extra"], "Very Rare", "perk text", "iconPerks_hexWretchedFate.png", "killer", "Lich");
+    return perk;
+}
+
+//ADD
+killerPerks.push(hexWretchedFate());
+
+function humanGreed() {
+    var perk = selectPerk("Human Greed", ["perk text"], ["extra"], "Very Rare", "perk text", "iconPerks_humanGreed.png", "killer", "Lich");
+    return perk;
+}
+
+//ADD
+killerPerks.push(humanGreed());
+
 //All
 function batteriesIncluded() {
-    var perk = selectPerk("Batteries Included", ["perk text"], ["extra"], "Very Rare", "perk text", "iconPerks_batteriesIncluded.png", "killer", "Xenomorph");
+    var perk = selectPerk("Batteries Included", ["perk text"], ["extra"], "Very Rare", "perk text", "iconPerks_batteriesIncluded.png", "killer", "All");
     return perk;
 }
 
@@ -10248,6 +10994,40 @@ function selectGoodGuy() {
 }
 //ADD
 killers.push(selectGoodGuy());
+
+function selectUnknown() {
+    var unknown = selectKiller();
+    unknown.name = "The Unknow";
+    unknown.itemOrAbility = selectAddOn("The Unknown", ["UVX"], "Common", "UVX", "iconPowers_K35.png", "killer", ["extra"]);
+    unknown.addonLink = unknownAddons;
+    unknown.portrait = "K35_charPreview_portrait.png";
+    return unknown;
+}
+//ADD
+killers.push(selectUnknown());
+
+function selectLich() {
+    var unknown = selectKiller();
+    unknown.name = "The Lich";
+    unknown.itemOrAbility = selectAddOn("The Lich", ["Vile Darkness"], "Common", "Vile Darkness", "iconPowers_K36.png", "killer", ["extra"]);
+    unknown.addonLink = lichAddons;
+    unknown.portrait = "K36_charPreview_portrait.png";
+    return unknown;
+}
+//ADD
+killers.push(selectLich());
+
+function selectDarkLord() {
+    var unknown = selectKiller();
+    unknown.name = "The Dark Lord";
+    unknown.itemOrAbility = selectAddOn("The Dark Lord", ["Vampiric Shift"], "Common", "Vampiric Shift", "iconPowers_K37.png", "killer", ["extra"]);
+    unknown.addonLink = darkLordAddons;
+    unknown.portrait = "K37_charPreview_portrait.png";
+    return unknown;
+}
+//ADD
+killers.push(selectDarkLord());
+
 
 
 //end basic killer section - add new killers above here, plox
