@@ -50,6 +50,7 @@ var goodGuyAddons = [];
 var unknownAddons = [];
 var lichAddons = [];
 var darkLordAddons = [];
+var houndmasterAddons = [];
 
 //item addon lists
 var flashlightAddons = [];
@@ -539,6 +540,16 @@ function selectTrevor() {
 
 //ADD
 survivors.push(selectTrevor());
+
+function selectTaurie() {
+    var trevor = new selectSurvivor();
+	trevor.name = "Taurie Cain";
+	trevor.portrait = "S45_charPreview_portrait.png";
+	return trevor;
+}
+
+//ADD
+survivors.push(selectTaurie());
 
 //ADD ANY NEW SURVIVORS ABOVE HERE  AND THEN PUSH TO LIST -- P L O X
 //end base survivor section
@@ -7336,6 +7347,171 @@ darkLordAddons.push(iridescentRingOfVlad());
 
 //end Dark Lord Add-Ons
 
+//start Houndmaster Add-Ons
+
+function creaturesBone() {
+    var addon = selectAddOn("Creature's Bone", ["addon text"], "Common", "addon text", "iconAddon_CreaturesBone.png", "The Houndmaster", ["extra"]);
+    return addon;
+}
+
+//ADD
+houndmasterAddons.push(creaturesBone());
+
+function stickyPitch() {
+    var addon = selectAddOn("Sticky Pitch", ["addon text"], "Common", "addon text", "iconAddon_StickyPitch.png", "The Houndmaster", ["extra"]);
+    return addon;
+}
+
+//ADD
+houndmasterAddons.push(stickyPitch());
+
+function trainersBook() {
+    var addon = selectAddOn("Trainer's Book", ["addon text"], "Common", "addon text", "iconAddon_TrainersBook.png", "The Houndmaster", ["extra"]);
+    return addon;
+}
+
+//ADD
+houndmasterAddons.push(trainersBook());
+
+function youngCoconut() {
+    var addon = selectAddOn("Young Coconut", ["addon text"], "Common", "addon text", "iconAddon_YoungCoconut.png", "The Houndmaster", ["extra"]);
+    return addon;
+}
+
+//ADD
+houndmasterAddons.push(youngCoconut());
+
+function barleyMeal() {
+    var addon = selectAddOn("Barley Meal", ["addon text"], "Uncommon", "addon text", "iconAddon_BarleyMeal.png", "The Houndmaster", ["extra"]);
+    return addon;
+}
+
+//ADD
+houndmasterAddons.push(barleyMeal());
+
+function belayingPins() {
+    var addon = selectAddOn("Belaying Pins", ["addon text"], "Uncommon", "addon text", "iconAddon_BelayingPins.png", "The Houndmaster", ["extra"]);
+    return addon;
+}
+
+//ADD
+houndmasterAddons.push(belayingPins());
+
+function knottedRope() {
+    var addon = selectAddOn("Knotted Rope", ["addon text"], "Uncommon", "addon text", "iconAddon_KnottedRope.png", "The Houndmaster", ["extra"]);
+    return addon;
+}
+
+//ADD
+houndmasterAddons.push(knottedRope());
+
+function smokedSnapper() {
+    var addon = selectAddOn("Smoked Snapper", ["addon text"], "Uncommon", "addon text", "iconAddon_SmokedSnapper.png", "The Houndmaster", ["extra"]);
+    return addon;
+}
+
+//ADD
+houndmasterAddons.push(smokedSnapper());
+
+function spyglass() {
+    var addon = selectAddOn("Spyglass", ["addon text"], "Uncommon", "addon text", "iconAddon_Spyglass.png", "The Houndmaster", ["extra"]);
+    return addon;
+}
+
+//ADD
+houndmasterAddons.push(spyglass());
+
+function fattyMeat() {
+    var addon = selectAddOn("Fatty Meat", ["addon text"], "Rare", "addon text", "iconAddon_FattyMeat.png", "The Houndmaster", ["extra"]);
+    return addon;
+}
+
+//ADD
+houndmasterAddons.push(fattyMeat());
+
+function spikedCollar() {
+    var addon = selectAddOn("Spiked Collar", ["addon text"], "Rare", "addon text", "iconAddon_SpikedCollar.png", "The Houndmaster", ["extra"]);
+    return addon;
+}
+
+//ADD
+houndmasterAddons.push(spikedCollar());
+
+function trainingBell() {
+    var addon = selectAddOn("Training Bell", ["addon text"], "Rare", "addon text", "iconAddon_TrainingBell.png", "The Houndmaster", ["extra"]);
+    return addon;
+}
+
+//ADD
+houndmasterAddons.push(trainingBell());
+
+function unfinishedMap() {
+    var addon = selectAddOn("Unfinished Map", ["addon text"], "Rare", "addon text", "iconAddon_UnfinishedMap.png", "The Houndmaster", ["extra"]);
+    return addon;
+}
+
+//ADD
+houndmasterAddons.push(unfinishedMap());
+
+function waterskin() {
+    var addon = selectAddOn("Waterskin", ["addon text"], "Rare", "addon text", "iconAddon_Waterskin.png", "The Houndmaster", ["extra"]);
+    return addon;
+}
+
+//ADD
+houndmasterAddons.push(waterskin());
+
+function gunpowderTin() {
+    var addon = selectAddOn("Gunpowder Tin", ["addon text"], "Very Rare", "addon text", "iconAddon_GunpowderTin.png", "The Houndmaster", ["extra"]);
+    return addon;
+}
+
+//ADD
+houndmasterAddons.push(gunpowderTin());
+
+function leatherHarness() {
+    var addon = selectAddOn("Leather Harness", ["addon text"], "Very Rare", "addon text", "iconAddon_LeatherHarness.png", "The Houndmaster", ["extra"]);
+    return addon;
+}
+
+//ADD
+houndmasterAddons.push(leatherHarness());
+
+function marlinspike() {
+    var addon = selectAddOn("Marlinspike", ["addon text"], "Very Rare", "addon text", "iconAddon_Marlinspike.png", "The Houndmaster", ["extra"]);
+    return addon;
+}
+
+//ADD
+houndmasterAddons.push(marlinspike());
+
+function shipFigurehead() {
+    var addon = selectAddOn("Ship Figurehead", ["addon text"], "Very Rare", "addon text", "iconAddon_ShipFigurehead.png", "The Houndmaster", ["extra"]);
+    return addon;
+}
+
+//ADD
+houndmasterAddons.push(shipFigurehead());
+
+function iridescentWheelHandle() {
+    var addon = selectAddOn("Iridescent Wheel Handle", ["addon text"], "Ultra Rare", "addon text", "iconAddon_IridescentWheelHandle.png", "The Houndmaster", ["extra"]);
+    return addon;
+}
+
+//ADD
+houndmasterAddons.push(iridescentWheelHandle());
+
+function tornNovel() {
+    var addon = selectAddOn("Torn Novel", ["addon text"], "Ultra Rare", "addon text", "iconAddon_tornNovel.png", "The Houndmaster", ["extra"]);
+    return addon;
+}
+
+//ADD
+houndmasterAddons.push(tornNovel());
+
+
+//end Houndmaster Add-Ons
+
 function blightSerum() {
     var addon = selectAddOn("Blight Serum", ["addon text"], "event", "addon text", "iconAddon_blightedSerum.png", "All", ["extra"]);
     return addon;
@@ -7377,6 +7553,8 @@ goodGuyAddons.push(blightSerum());
 unknownAddons.push(blightSerum());
 lichAddons.push(blightSerum());
 darkLordAddons.push(blightSerum());
+houndmasterAddons.push(blightSerum());
+
 //end specific add on Section
 
 //base perk Section (native to lets us know if it is teachable)
@@ -8561,6 +8739,30 @@ function momentOfGlory() {
 //ADD
 survivorPerks.push(momentOfGlory());
 
+function cleanBreak() {
+    var perk = selectPerk("Clean Break", ["perk text"], ["extra"], "Very Rare", "perk text", "iconsPerks_CleanBreak.png", "survivor", "Taurie Cain");
+    return perk;
+}
+
+//ADD
+survivorPerks.push(cleanBreak());
+
+function invocationTreacherousCrows() {
+    var perk = selectPerk("Invocation: Treacherous Crows", ["perk text"], ["extra"], "Very Rare", "perk text", "iconsPerks_InvocationTreacherousCrows.png", "survivor", "Taurie Cain");
+    return perk;
+}
+
+//ADD
+survivorPerks.push(invocationTreacherousCrows());
+
+function shouldertheBurden() {
+    var perk = selectPerk("Shoulder the Burden", ["perk text"], ["extra"], "Very Rare", "perk text", "iconsPerks_ShoulderTheBurden.png", "survivor", "Taurie Cain");
+    return perk;
+}
+
+//ADD
+survivorPerks.push(shouldertheBurden());
+
 //end specific survivor perk section
 
 //begin specific killer perk section
@@ -9531,13 +9733,13 @@ function darkArrogance() {
 //ADD
 killerPerks.push(darkArrogance());
 
-function undone() {
+function undone1() {
     var perk = selectPerk("Languid Touch", ["perk text"], ["extra"], "Very Rare", "perk text", "iconPerks_undone.png", "killer", "Lich");
     return perk;
 }
 
 //ADD
-killerPerks.push(undone());
+killerPerks.push(undone1());
 
 function weaveAttunement() {
     var perk = selectPerk("Weave Attunement", ["perk text"], ["extra"], "Very Rare", "perk text", "iconPerks_weaveAttunement.png", "killer", "Lich");
@@ -9580,6 +9782,30 @@ function batteriesIncluded() {
 
 //ADD
 killerPerks.push(batteriesIncluded());
+
+function allShakingThunder() {
+    var perk = selectPerk("All-Shaking Thunder", ["perk text"], ["extra"], "Very Rare", "perk text", "iconPerks_AllShakingThunder.png", "killer", "Houndmaster");
+    return perk;
+}
+
+//ADD
+killerPerks.push(allShakingThunder());
+
+function noQuarter() {
+    var perk = selectPerk("No Quarter", ["perk text"], ["extra"], "Very Rare", "perk text", "iconPerks_NoQuarter.png", "killer", "Houndmaster");
+    return perk;
+}
+
+//ADD
+killerPerks.push(noQuarter());
+
+function jaggedCompass() {
+    var perk = selectPerk("Scourge Hook: Jagged Compass", ["perk text"], ["extra"], "Very Rare", "perk text", "iconPerks_ScourgeHookJaggedCompass.png", "killer", "Houndmaster");
+    return perk;
+}
+
+//ADD
+killerPerks.push(jaggedCompass());
 
 //end specific killer perk section
 
@@ -11027,6 +11253,17 @@ function selectDarkLord() {
 }
 //ADD
 killers.push(selectDarkLord());
+
+function selectHoundmaster() {
+    var unknown = selectKiller();
+    unknown.name = "The Houndmaster";
+    unknown.itemOrAbility = selectAddOn("The Houndmaster", ["Scent of Blood"], "Common", "Scent of Blood", "iconPowers_DashCommand_K38.png", "killer", ["extra"]);
+    unknown.addonLink = houndmasterAddons;
+    unknown.portrait = "K38_charPreview_portrait.png";
+    return unknown;
+}
+//ADD
+killers.push(selectHoundmaster());
 
 
 
